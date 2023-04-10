@@ -1,0 +1,168 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    background: #86C232;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    /*max-width: 1430px;*/
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_container {
+    height: 100%;
+    display: flex;
+    width: 350px;
+}
+
+.logo {
+    margin: auto;
+    height: 50px !important;
+    width: 340px;
+    background-color: #a0a5a8;
+} 
+
+.menu_bar {
+    min-width: 800px;
+    width: 1430px;
+    height: 100%;
+    margin: auto;
+}
+
+.menu {
+    font-size: 44px !important;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_button {
+    background-color: #61892F;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: auto 10px;
+    display: flex;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+    margin: auto;
+}
+
+.login_button {
+    background-color: #61892F;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin: auto 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.button_text {
+    margin: auto;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.profile_button {
+    background-color: #61892F;
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    margin: auto 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.notification_button {
+    background-color: #61892F;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    position: relative;
+    margin: auto 10px;
+    display: flex;
+}
+
+.notification_number {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #61892F;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 0.5px solid #474B4F;
+    box-shadow: 0 0 10px #474B4F;
+    text-align: center;
+    color: #FF3C31;
+    font-size: 12px;
+}
+
+.settings_button {
+    background-color: #61892F;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: auto 10px;
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .logo_container{
+        width: 250px;
+    }
+
+    .logo {
+        width: 240px;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        height: 110px;
+    }
+
+    .container{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_container{
+        width: 100%;
+        height: 50%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        width: 240px;
+        margin: auto;
+    }
+
+    .buttons {
+        margin: 0 auto;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+}

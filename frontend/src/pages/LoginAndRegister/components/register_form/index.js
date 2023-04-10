@@ -1,0 +1,1 @@
+export {RegisterFormContainer as default} from "./RegisterFormContainer";

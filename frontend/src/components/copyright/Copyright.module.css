@@ -1,0 +1,23 @@
+.copyright_section {
+    background: #000000;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.66);
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+}
+
+.copyright_content{
+    margin: auto;
+    display: flex !important;
+    flex-direction: row;
+}
+
+.light_green_text_color {
+    color: #86C232;
+}
+
+.icon {
+    color: #ffffff;
+    margin: 0.5rem 0.5rem;
+}
