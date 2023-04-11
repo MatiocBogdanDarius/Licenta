@@ -237,6 +237,10 @@
     justify-content: space-around;
 }
 
+.date_container:hover {
+    background: rgba(134, 194, 50, 0.4);
+}
+
 .next_date_arrow_container {
     margin: auto;
     height: 100%;

@@ -1,18 +1,29 @@
 import {sportEventAggregatorAxios} from "./axios";
 
-const getContests = (filters) => {
+const getContestsMatches = (filters) => {
     return sportEventAggregatorAxios
         .get(
             "football/fixtures?",
             {
                 params: {
-                    date: "2023-04-10",
-                    status: filters.status
+                  ...filters
                 }
             }
         )
 }
 
+const getCurrentContestsOptions = () => {
+    return sportEventAggregatorAxios.get(
+        "football/contests/",
+        {
+            params: {
+                current: true
+            }
+        })
+}
+
+
 export {
-    getContests
+    getContestsMatches,
+    getCurrentContestsOptions
 };

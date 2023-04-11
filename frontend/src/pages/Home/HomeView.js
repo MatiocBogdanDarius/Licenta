@@ -30,7 +30,7 @@ const HomeView = (props) => {
                                 <p>COUNTRIES</p>
                             </div>
                             {props.countries.map(country => {
-                                return (<div>
+                                return (<div  key={`contests-${country.name}`}>
                                     <div
                                         className={style.country_title}
                                         onClick={(e) => props.toggleCountryContestButtonsHandler(e, country.name)}
@@ -41,10 +41,15 @@ const HomeView = (props) => {
                                             className={style.icon}
                                         />
                                     </div>
-                                    {country.isVisibleContests && <div className={style.contests_list}>
+                                    {country.isVisibleContests && <div
+                                        className={style.contests_list}>
                                         {country.contests.map(contest => {
-                                            return <div className={style.contest_title}>
-                                                <p c>{contest.name}</p>
+                                            return <div
+                                                key={`contests-${country.name}-${contest.league.id}`}
+                                                className={style.contest_title}
+                                                onClick={() => props.selectContestButtonsHandle(contest.league.id, contest.seasons[0].year)}
+                                            >
+                                                <p>{contest.league.name}</p>
                                             </div>
                                         })}
                                     </div>}
@@ -54,8 +59,11 @@ const HomeView = (props) => {
                                 className={style.show_more_countries_button}
                                 onClick={props.showMoreCountriesButtonHandle}
                             >
-                                <p>Show more</p>
-                                <FontAwesomeIcon icon={faAngleDown} className={style.icon}/>
+                                <p>{`Show ${props.isVisibleAllCountries ? 'less' : 'more'}`}</p>
+                                <FontAwesomeIcon
+                                    icon={props.isVisibleAllCountries ? faAngleUp : faAngleDown}
+                                    className={style.icon}
+                                />
                             </div>
                         </div>
                     </div>
@@ -173,8 +181,8 @@ const HomeView = (props) => {
                                                 .map(x => parseInt(x))
                                                 .sort((x,y) => x - y)
                                                 .map(selectedDate => {
-                                                    console.log(selectedDate)
                                                     return <div
+                                                        key={`date-${selectedDate}`}
                                                         className={`${style.date_option_container} ${props.selectedDate === selectedDate ? style.active_date_option : ''}`}
                                                         onClick={(e) => props.selectDateOptionHandle(e, selectedDate)}
                                                     >
@@ -186,7 +194,10 @@ const HomeView = (props) => {
                                 </div>
                             </div>
                             {props.contests.map(contest => {
-                                return <div className={style.contest_container}>
+                                return <div
+                                    key={`contest-${contest.id}`}
+                                    className={style.contest_container}
+                                >
                                     <div className={style.contest_container_header}>
                                         <div className={style.contest_infos_container}>
                                             <div className={style.star_icon_container}>
@@ -219,7 +230,10 @@ const HomeView = (props) => {
                                     {props.visibleMatchesDictionary[contest.id] &&
                                         <>
                                             {contest.games.map(game => {
-                                                return <div className={style.game_container}>
+                                                return <div
+                                                    key={`game-${game.fixture.id}`}
+                                                    className={style.game_container}
+                                                >
                                                     <div className={style.fixture_date_and_teams_container}>
                                                         <div className={style.fixture_date_container}>
                                                             <p className={props.checkIfGameIsLive(game) ? style.red_font : ''}>

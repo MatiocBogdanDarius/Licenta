@@ -1,13 +1,11 @@
-import axios, {axiosPrivate} from '../api/axios';
+import {userAccountAxiosPrivate} from 'services/api/axios';
 
 const useRefreshToken = () => {
 
     const refresh = async () => {
         const refreshToken = JSON.parse(localStorage.getItem('refreshToken'));
-        const response = await axios.post('/auth/jwt/refresh/',
-            {refresh: refreshToken},
-            {withCredentials: true}
-        );
+        const response = await userAccountAxiosPrivate
+            .post('/auth/jwt/refresh/', {refresh: refreshToken});
 
         localStorage.setItem('accessToken', JSON.stringify(response.data.access))
 

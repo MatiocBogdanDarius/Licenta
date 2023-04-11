@@ -689,213 +689,213 @@ export const COUNTRIES = [
             }
         ]
     },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
-    {
-        name: "Albania",
-        contests: [
-            {
-                name: "1st Division"
-            },
-            {
-                name: "2st Division - Group A"
-            },
-            {
-                name: "2st Division - Group B"
-            },
-            {
-                name: "Cup"
-            },
-            {
-                name: "Super Cup"
-            },
-            {
-                name: "Superliga"
-            }
-        ]
-    },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
+    // {
+    //     name: "Albania",
+    //     contests: [
+    //         {
+    //             name: "1st Division"
+    //         },
+    //         {
+    //             name: "2st Division - Group A"
+    //         },
+    //         {
+    //             name: "2st Division - Group B"
+    //         },
+    //         {
+    //             name: "Cup"
+    //         },
+    //         {
+    //             name: "Super Cup"
+    //         },
+    //         {
+    //             name: "Superliga"
+    //         }
+    //     ]
+    // },
 ]
 
 export const GAME_STATUS_FILTERS_VALUES = {

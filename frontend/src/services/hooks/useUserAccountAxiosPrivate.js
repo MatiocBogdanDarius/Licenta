@@ -1,8 +1,8 @@
-import { axiosPrivate } from "../api/axios";
+import { userAccountAxiosPrivate } from "services/api/axios";
 import { useEffect } from "react";
 import useRefreshToken from "./useRefreshToken";
 
-const useAxiosPrivate = () => {
+const useUserAccountAxiosPrivate = () => {
     const refreshToken = useRefreshToken();
     const accessToken = localStorage.getItem('accessToken') ?
         JSON.parse(localStorage.getItem('accessToken'))
@@ -10,7 +10,7 @@ const useAxiosPrivate = () => {
 
     useEffect(() => {
 
-        const requestIntercept = axiosPrivate.interceptors.request.use(
+        const requestIntercept = userAccountAxiosPrivate.interceptors.request.use(
             config => {
                 if (!config.headers['Authorization']) {
                     config.headers['Authorization'] = `JWT ${accessToken}`;
@@ -19,7 +19,7 @@ const useAxiosPrivate = () => {
             }, (error) => Promise.reject(error)
         );
 
-        const responseIntercept = axiosPrivate.interceptors.response.use(
+        const responseIntercept = userAccountAxiosPrivate.interceptors.response.use(
             response => response,
             async (error) => {
                 const prevRequest = error?.config;
@@ -27,19 +27,19 @@ const useAxiosPrivate = () => {
                     prevRequest.sent = true;
                     const newAccessToken = await refreshToken();
                     prevRequest.headers['Authorization'] = `JWT ${newAccessToken}`;
-                    return axiosPrivate(prevRequest);
+                    return userAccountAxiosPrivate(prevRequest);
                 }
                 return Promise.reject(error);
             }
         );
 
         return () => {
-            axiosPrivate.interceptors.request.eject(requestIntercept);
-            axiosPrivate.interceptors.response.eject(responseIntercept);
+            userAccountAxiosPrivate.interceptors.request.eject(requestIntercept);
+            userAccountAxiosPrivate.interceptors.response.eject(responseIntercept);
         }
     }, [accessToken, refreshToken])
 
-    return axiosPrivate;
+    return userAccountAxiosPrivate;
 }
 
-export default useAxiosPrivate;
+export default useUserAccountAxiosPrivate;

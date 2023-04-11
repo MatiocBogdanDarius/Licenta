@@ -14,6 +14,8 @@ const notifications = [
 ]
 
 export function NavbarContainer() {
+    const user = localStorage.getItem('userDetails')
+
     const searchButtonHandle = () => {
         console.log("Search Button Handle")
     }
