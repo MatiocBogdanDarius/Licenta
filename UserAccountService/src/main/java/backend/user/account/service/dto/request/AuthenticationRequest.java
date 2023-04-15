@@ -1,4 +1,4 @@
-package backend.user.account.service.dto;
+package backend.user.account.service.dto.request;
 
 
 import lombok.AllArgsConstructor;

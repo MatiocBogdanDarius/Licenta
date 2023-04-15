@@ -1,27 +1,15 @@
-package online.energy.utility.platform.dtos;
+package backend.user.account.service.dto;
 
 import lombok.*;
-import online.energy.utility.platform.entities.Device;
-import online.energy.utility.platform.entities.Role;
 
-import java.util.*;
-
-@Getter
-@Setter
-@ToString
+@Data
+@Builder
+@AllArgsConstructor
 public class UserDetailsDTO {
-    private UUID id;
-    private String name;
-    private String username;
+    private long id;
+    private String email;
+    private String firstname;
+    private String lastname;
     private String password;
-    private Collection<Role> roles = new ArrayList<>();
-    private Set<Device> devices = new TreeSet<>();
-    public UserDetailsDTO(UUID id, String name, String username, String password, Collection<Role> roles, Set<Device> devices) {
-        this.id = id;
-        this.name = name;
-        this.username = username;
-        this.password = password;
-        this.roles = roles;
-        this.devices = devices;
-    }
+    private String role;
 }

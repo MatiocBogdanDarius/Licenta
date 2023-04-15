@@ -1,15 +1,14 @@
-package backend.user.account.service.dto;
+package backend.user.account.service.dto.response;
 
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import backend.user.account.service.dto.UserDetailsDTO;
+import lombok.*;
 
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthenticationResponse {
-    private String token;
+    private String accessToken;
+    private String refreshToken;
+    private UserDetailsDTO user;
 }

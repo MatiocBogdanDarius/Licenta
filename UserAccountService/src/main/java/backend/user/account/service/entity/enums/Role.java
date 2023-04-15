@@ -1,5 +1,5 @@
 package backend.user.account.service.entity.enums;
 
-public enum RoleName {
+public enum Role {
     SIMPLE_USER
 }
