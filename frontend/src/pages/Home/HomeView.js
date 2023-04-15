@@ -16,7 +16,7 @@ import {
     faSoccerBall,
     faStar
 } from "@fortawesome/free-solid-svg-icons";
-import {SPORTS} from "../../assets/constants/Data";
+import {SPORTS} from "assets/constants/Data";
 
 const HomeView = (props) => {
     return (<div className={style.home}>
@@ -246,6 +246,7 @@ const HomeView = (props) => {
                                                                     <img
                                                                         src={game.teams.home.logo}
                                                                         className={style.team_logo}
+                                                                        alt =""
                                                                     />
                                                                 </div>
                                                                 <div className={style.team_info_container}>
@@ -257,6 +258,7 @@ const HomeView = (props) => {
                                                                     <img
                                                                         src={game.teams.away.logo}
                                                                         className={style.team_logo}
+                                                                        alt=""
                                                                     />
                                                                 </div>
                                                                 <div className={style.team_info_container}>

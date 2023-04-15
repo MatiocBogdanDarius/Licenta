@@ -2,11 +2,11 @@ import {userAccountAxios} from "./axios";
 import useUserAccountAxiosPrivate from "services/hooks/useUserAccountAxiosPrivate";
 
 const register = (user) => {
-    return userAccountAxios.post("register/",user)
+    return userAccountAxios.post("auth/register",user)
 }
 
 const login = async (credentials) => {
-    return await userAccountAxios.post("login/", JSON.stringify(credentials));
+    return await userAccountAxios.post("auth/authenticate", credentials);
 }
 
 const getUserDetails = async () => {

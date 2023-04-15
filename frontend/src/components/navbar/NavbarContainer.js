@@ -1,10 +1,6 @@
 import React from "react";
 import NavbarView from "./NavbarView";
-
-const user = {
-    lastname: "Bogdan",
-    firstname: "Matioc"
-}
+import {useNavigate} from "react-router-dom";
 
 const notifications = [
     {},
@@ -14,14 +10,16 @@ const notifications = [
 ]
 
 export function NavbarContainer() {
-    const user = localStorage.getItem('userDetails')
+    const navigate = useNavigate();
+    const userDetailsLocalStorage = localStorage.getItem('userDetails');
+    const user = JSON.parse(userDetailsLocalStorage);
 
     const searchButtonHandle = () => {
         console.log("Search Button Handle")
     }
 
     const loginButtonHandle = () => {
-        console.log("Login Button Handle")
+        navigate('/login');
     }
 
     const profileButtonHandle = () => {

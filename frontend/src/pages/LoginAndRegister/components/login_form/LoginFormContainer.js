@@ -6,7 +6,7 @@ import * as USER_ACCOUNT_SERVICE from "services/api/user_account_service";
 
 export function LoginFormContainer(props) {
     const navigate = useNavigate();
-    const location = useLocation ();
+    const location = useLocation();
     const from = location.state?.from?.pathname;
 
     const emailInputRef = useRef();
@@ -20,49 +20,28 @@ export function LoginFormContainer(props) {
         emailInputRef.current.focus();
     }, [])
 
-    useEffect(() => {
-        setErrorMessage('');
-    }, [email, password])
-
     const login = async (e) => {
         e.preventDefault();
 
         try {
-            const {data: tokens} = await USER_ACCOUNT_SERVICE
-                .login({ email: email, password: password })
+            const {data: {accessToken, refreshToken, user}} = await USER_ACCOUNT_SERVICE
+                .login({email: email, password: password})
 
-            localStorage.setItem('accessToken',  JSON.stringify(tokens.access))
-            localStorage.setItem('refreshToken',  JSON.stringify(tokens.refresh))
+            localStorage.setItem('accessToken', JSON.stringify(accessToken))
+            localStorage.setItem('refreshToken', JSON.stringify(refreshToken))
+            localStorage.setItem('userDetails', JSON.stringify(user))
 
-            const {data: userDetails} = await USER_ACCOUNT_SERVICE.getUserDetails();
-
-            localStorage.setItem('userDetails', JSON.stringify(userDetails))
-
-            setEmail('');
-            setPassword('');
             redirect();
-        } catch (err) {
-            if (!err?.response) {
-                setErrorMessage('No Server Response');
-            } else if (err.response?.status === 400) {
-                setErrorMessage('Missing Username or Password');
-            } else if (err.response?.status === 401) {
-                setErrorMessage(err.response.data.detail);
-            } else {
-                setErrorMessage('Login Failed');
-            }
-            console.log(setErrorMessage, err)
+        } catch ({response: error}) {
+            console.log(error)
+            setErrorMessage(error.data.message);
+
+            setPassword('');
+            setEmail('');
         }
     }
 
-    const redirect = () => {
-        console.log(from)
-        if (from) {
-            navigate(from, {replace: true});
-        } else {
-            navigate(HOMEPAGE, {replace: true});
-        }
-    }
+    const redirect = () => navigate(from ?? HOMEPAGE, {replace: true});
 
     return (
         <div>
@@ -72,6 +51,7 @@ export function LoginFormContainer(props) {
                 errorInputRef={errorInputRef}
                 email={email}
                 password={password}
+                errorMessage={errorMessage}
                 emailInputChangeHandle={setEmail}
                 passwordInputChangeHandle={setPassword}
                 loginFormSubmitHandle={login}
