@@ -1,0 +1,28 @@
+.profile_page {
+    background: #222629;
+    display: block;
+    min-height: calc(100vh - 80px);
+}
+
+.scrollable_area {
+    height: max-content;
+    margin-top: 80px;
+    position: relative;
+    padding: 10px 0;
+}
+
+.container {
+    /*min-width: 900px;*/
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    /*height: 100%;*/
+    height: auto;
+}
+
+.calendar_container {
+    /*height: 100%;*/
+    margin: 20px 0;
+}

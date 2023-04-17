@@ -7,10 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 import static jakarta.persistence.CascadeType.ALL;
 
@@ -35,7 +32,7 @@ public class User implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Role role;
     @OneToMany(cascade=ALL, mappedBy="user")
-    private Set<WishList> wishList = new HashSet<>();
+    private Set<Wishlist> wishlist = new HashSet<>();
     @OneToMany(cascade=ALL, mappedBy="user")
     private Set<Recommendation> recommendations = new HashSet<>();
 

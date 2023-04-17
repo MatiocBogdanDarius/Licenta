@@ -10,12 +10,11 @@ import {
 import {NotFound} from 'navigation/NotFound';
 import Home from 'pages/Home';
 import LoginAndRegister from 'pages/LoginAndRegister';
-// import Profile from 'pages/Profile';
+import Profile from 'pages/Profile';
 import RequireAuth from "./RequireAuth";
 
 const ROLES = {
-    'CLIENT': 1,
-    'REAL_ESTATE_AGENT': 2
+    SIMPLE_USER: 'SIMPLE_USER',
 }
 
 export const RouterConfig = () => {
@@ -29,8 +28,8 @@ export const RouterConfig = () => {
                     <Route path={REGISTER} element={<LoginAndRegister />} />
 
                     {/* private routes */}
-                    <Route element={<RequireAuth allowedRoles={[ROLES.CLIENT, ROLES.REAL_ESTATE_AGENT]} />}>
-                        {/*<Route path={PROFILE} element={<Profile />} />*/}
+                    <Route element={<RequireAuth allowedRoles={[ROLES.SIMPLE_USER]} />}>
+                        <Route path={PROFILE} element={<Profile />} />
                     </Route>
                     {/* catch all */}
                     <Route path="*" element={<NotFound />} />

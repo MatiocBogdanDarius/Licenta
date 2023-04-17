@@ -3,7 +3,7 @@ package backend.user.account.service.controller;
 import backend.user.account.service.dto.request.*;
 import backend.user.account.service.dto.response.*;
 import backend.user.account.service.exception.*;
-import backend.user.account.service.service.*;
+import backend.user.account.service.service.AuthenticationService;
 import jakarta.servlet.http.*;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

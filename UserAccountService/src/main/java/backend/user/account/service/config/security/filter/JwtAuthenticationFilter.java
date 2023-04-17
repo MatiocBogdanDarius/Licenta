@@ -1,4 +1,4 @@
-package backend.user.account.service.config;
+package backend.user.account.service.config.security.filter;
 
 import backend.user.account.service.service.JwtService;
 import jakarta.servlet.*;

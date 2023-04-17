@@ -1,4 +1,4 @@
-import {userAccountAxios} from "./axios";
+import {userAccountAxios, userAccountAxiosPrivate} from "./axios";
 import useUserAccountAxiosPrivate from "services/hooks/useUserAccountAxiosPrivate";
 
 const register = (user) => {
@@ -9,14 +9,45 @@ const login = async (credentials) => {
     return await userAccountAxios.post("auth/authenticate", credentials);
 }
 
-const getUserDetails = async () => {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const userAccountAxiosPrivate = useUserAccountAxiosPrivate();
-    return userAccountAxiosPrivate.get("/auth/users/me/")
+const addItemToWishlist = (itemId, type) => {
+    const item = {
+        itemId: itemId,
+        itemType: type,
+        sourceId: 1,
+        userId: JSON.parse(localStorage.getItem("userDetails"))?.id
+    }
+
+    userAccountAxiosPrivate.post("wishlist", item)
+        .catch(console.error)
+}
+
+const getUserWishlist = () => {
+    const userId = JSON.parse(localStorage.getItem("userDetails"))?.id;
+
+    return userAccountAxiosPrivate
+        .get("wishlist/by_user_id", {params:{userId: userId}})
+}
+
+const removeItemFromWishlist = (itemId, itemType) => {
+    userAccountAxiosPrivate.delete(
+        "wishlist",
+        {params:
+                {
+                    itemId: itemId,
+                    itemType: itemType,
+                    userId: JSON.parse(localStorage.getItem("userDetails"))?.id
+                }
+        })
+}
+
+const getUserCalendar = () => {
+    const userId = JSON.parse(localStorage.getItem("userDetails"))?.id;
+
+    return userAccountAxiosPrivate.get("schedule/by_user_id", {params:{userId}})
 }
 
 export {
-    register,
-    login,
-    getUserDetails
+    register, login,
+    addItemToWishlist, getUserWishlist, removeItemFromWishlist,
+    getUserCalendar,
 };

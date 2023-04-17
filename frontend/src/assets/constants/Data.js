@@ -923,3 +923,10 @@ export const SPORTS = {
     BASEBALL: "BASEBALL",
     RUGBY: "RUGBY",
 }
+
+export const WISHLIST_ITEM_TYPE = {
+    CONTEST: "CONTEST",
+    GAME: "EVENT",
+    TEAM: "TEAM",
+    PLAYER: "PLAYER"
+}

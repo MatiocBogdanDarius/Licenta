@@ -11,12 +11,12 @@ import {
     faAngleRight,
     faAngleUp,
     faBaseballBall,
-    faBasketballBall, faCalendar,
+    faBasketballBall, faCalendar, faCalendarPlus,
     faFootballBall,
     faSoccerBall,
     faStar
 } from "@fortawesome/free-solid-svg-icons";
-import {SPORTS} from "assets/constants/Data";
+import {SPORTS, WISHLIST_ITEM_TYPE} from "assets/constants/Data";
 
 const HomeView = (props) => {
     return (<div className={style.home}>
@@ -200,8 +200,14 @@ const HomeView = (props) => {
                                 >
                                     <div className={style.contest_container_header}>
                                         <div className={style.contest_infos_container}>
-                                            <div className={style.star_icon_container}>
-                                                <FontAwesomeIcon icon={faStar} className={style.star_icon}/>
+                                            <div
+                                                className={style.star_icon_container}
+                                                onClick={(event) => props.favoriteButtonHandle(event, contest.id, WISHLIST_ITEM_TYPE.CONTEST)}
+                                            >
+                                                <FontAwesomeIcon
+                                                    icon={faStar}
+                                                    className={`${style.star_icon} ${props.checkIfItemIsFavorite(contest.id, WISHLIST_ITEM_TYPE.CONTEST) ? style.is_favorite : ""}`}
+                                                />
                                             </div>
                                             <div className={style.contest_country_flag_container}>
                                                 <img src={contest.flag} className={style.flag_image} alt=""  />
@@ -235,6 +241,20 @@ const HomeView = (props) => {
                                                     className={style.game_container}
                                                 >
                                                     <div className={style.fixture_date_and_teams_container}>
+                                                        <div className={style.fixture_buttons_container}>
+                                                            <div
+                                                                className={[
+                                                                    style.fixture_button,
+                                                                    props.checkIfItemIsFavorite(game.fixture.id, WISHLIST_ITEM_TYPE.GAME) ? style.is_favorite : ""
+                                                                ].join(" ")}
+                                                                onClick={(event) => props.favoriteButtonHandle(event, game.fixture.id, WISHLIST_ITEM_TYPE.GAME)}
+                                                            >
+                                                                <FontAwesomeIcon
+                                                                    icon={faStar}
+                                                                    className={style.fixture_favorite_button_icon}
+                                                                />
+                                                            </div>
+                                                        </div>
                                                         <div className={style.fixture_date_container}>
                                                             <p className={props.checkIfGameIsLive(game) ? style.red_font : ''}>
                                                                 {props.formatDate(game)}

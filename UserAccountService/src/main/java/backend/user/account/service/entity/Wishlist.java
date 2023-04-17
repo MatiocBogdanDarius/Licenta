@@ -2,22 +2,18 @@ package backend.user.account.service.entity;
 
 import backend.user.account.service.entity.enums.ItemType;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 import static jakarta.persistence.CascadeType.ALL;
 
-@Getter
-@Setter
+@Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name="wish_list_table")
-public class WishList implements Serializable {
+@Entity(name="wishlist_table")
+public class Wishlist implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -26,11 +22,12 @@ public class WishList implements Serializable {
     @Column(name = "item_type", nullable = false)
     @Enumerated(EnumType.STRING)
     private ItemType itemType;
-    @ManyToOne()
+    @ManyToOne
     private User user;
-    @ManyToOne()
+    @ManyToOne
     @JoinColumn(name = "source", nullable = false)
     private Source source;
     @OneToMany(cascade=ALL, mappedBy="wishList")
     private Set<Notification> notifications = new HashSet<>();
+
 }

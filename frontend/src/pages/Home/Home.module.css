@@ -130,7 +130,7 @@
 }
 
 .active_sport_filter_button {
-    border-bottom: 2px solid#86C232;
+    border-bottom: 2px solid #86C232;
 }
 
 .sport_filter_button_icon {
@@ -304,6 +304,7 @@
     height: 50px;
     border-radius: 90%;
     display: flex;
+    cursor: pointer;
 }
 
 .star_icon_container:hover {
@@ -316,7 +317,7 @@
     margin: auto 10px;
 }
 
-.active_star_icon {
+.is_favorite {
     color: #FAFF00;
 }
 
@@ -378,6 +379,40 @@
 .fixture_date_and_teams_container {
     height: 100%;
     display: flex;
+}
+
+.fixture_buttons_container {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 0.3px solid rgba(107, 110, 112, 0.5);
+}
+
+.fixture_button {
+    margin: auto;
+    height: 50%;
+    width: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+.fixture_button:hover {
+    background: rgba(134, 194, 50, 0.4);
+    border-radius: 90%;
+}
+
+.fixture_favorite_button_icon{
+    margin: auto;
+    height: 25px;
+    width: 30px;
+}
+
+.fixture_add_to_calendar_button_icon{
+    margin: auto;
+    height: 25px;
+    width: 30px;
 }
 
 .fixture_date_container {
