@@ -1,0 +1,27 @@
+.game_status_filters_container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.game_status_button {
+    background: #a0a5a8;
+    padding: 0 10px;
+    margin: auto 0.5rem;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.game_status_button:hover {
+    background: rgba(34, 38, 41, 0.3);
+}
+
+.active_game_status_button {
+    background: #86C232;
+}
+
+.active_game_status_button:hover {
+    background: rgba(134, 194, 50, 0.7);
+}

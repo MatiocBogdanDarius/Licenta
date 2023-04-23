@@ -7,22 +7,22 @@ import {faBars, faBell, faMagnifyingGlass, faRightToBracket, faUser} from "@fort
 function NavbarView(props) {
 
     return (
-        <div position="static" className={style.navbar} >
+        <div position="static" className={style.navbar}>
             <Container sx="lg" className={style.container}>
-                <div className={style.logo_container} >
-                    <div className={style.logo} />
+                <div className={style.logo_container}>
+                    <div className={style.logo}/>
                 </div>
                 <div className={style.buttons}>
                     <div className={style.search_button} onClick={props.searchButtonHandle}>
-                        <FontAwesomeIcon icon={faMagnifyingGlass} className={style.icon} />
+                        <FontAwesomeIcon icon={faMagnifyingGlass} className={style.icon}/>
                     </div>
                     {props.user ?
-                        <div className={style.profile_button} onClick={props.profileButtonHandle} >
-                            <FontAwesomeIcon icon={faUser} className={style.icon} />
+                        <div className={style.profile_button} onClick={props.profileButtonHandle}>
+                            <FontAwesomeIcon icon={faUser} className={style.icon}/>
                             <p className={style.button_text}>{`${props.user.firstname} ${props.user.lastname}`}</p>
                         </div> :
                         <div className={style.login_button} onClick={props.loginButtonHandle}>
-                            <FontAwesomeIcon icon={faRightToBracket} className={style.icon} />
+                            <FontAwesomeIcon icon={faRightToBracket} className={style.icon}/>
                             <p className={style.button_text}>Login</p>
                         </div>
                     }
@@ -37,7 +37,7 @@ function NavbarView(props) {
                         </div>
                     }
                     <div className={style.settings_button} onClick={props.settingsButtonHandle}>
-                        <FontAwesomeIcon icon={faBars} className={style.icon} />
+                        <FontAwesomeIcon icon={faBars} className={style.icon}/>
                     </div>
                 </div>
             </Container>

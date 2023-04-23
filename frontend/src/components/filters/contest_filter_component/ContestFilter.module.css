@@ -1,0 +1,73 @@
+.container {
+    width: 100%;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.header {
+    height: 50px;
+    border-bottom: 1px solid #6B6E70;
+    display: flex;
+    align-items: flex-end;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.country_title {
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 13px;
+    width: 17px;
+    color: #ffffff;
+    margin: 5px 5px;
+}
+
+.country_title .icon {
+    display: none;
+}
+
+.country_title:hover {
+    background: rgba(97, 137, 47, 0.6);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.country_title:hover .icon {
+    display: unset;
+}
+
+.contests_list {
+    background: rgba(71, 75, 79, 0.3);
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+.contest_title {
+    min-height: 23px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(71, 75, 79, 0.3);
+}
+
+.contest_title:hover {
+    background: rgba(97, 137, 47, 0.6);
+    border-radius: 5px;
+    padding: 2px;;
+}
+
+.show_more_countries_button {
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+    margin: 20px 0;
+}
+

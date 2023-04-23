@@ -1,0 +1,91 @@
+.contest_container {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contest_container_header {
+    width: 100%;
+    height: 50px;
+    background: #a0a5a8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contest_infos_container {
+    display: flex;
+}
+
+.star_icon_container {
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+    display: flex;
+    cursor: pointer;
+}
+
+.star_icon_container:hover {
+    background: rgba(34, 38, 41, 0.2);
+}
+
+.star_icon {
+    width: 30px;
+    height: 25px;
+    margin: auto 10px;
+}
+
+.is_favorite {
+    color: #FAFF00;
+}
+
+.contest_country_flag_container {
+    margin: auto;
+    width: 40px;
+    height: 25px;
+}
+
+.flag_image {
+    width: 100%;
+    height: 100%;
+}
+
+.contest_title_container {
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contest_header_buttons_container {
+    margin: auto 10px;
+    display: flex;
+}
+
+.standings_button:hover {
+    text-decoration: underline;
+}
+
+.display_all_contest_matches_button {
+    margin: auto 2px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.display_all_contest_matches_button:hover {
+    text-decoration: underline;
+}
+
+.toggle_matches_list_icon_container {
+    display: flex;
+}
+
+.toggle_matches_list_icon {
+    margin: auto 2px;
+    width: 30px;
+    height: 20px;
+}
+
+.game_container {
+    width: 100%;
+    height: 80px;
+}

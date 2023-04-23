@@ -11,9 +11,8 @@ import currencies from 'cldr-numbers-full/main/es/currencies.json';
 import caGregorian from 'cldr-dates-full/main/es/ca-gregorian.json';
 import timeZoneNames from 'cldr-dates-full/main/es/timeZoneNames.json';
 import {timezoneNames} from "@progress/kendo-date-math";
-import {displayDate} from "./components/events-utc";
+import {displayDate} from "./resources/events-utc";
 import {guid} from "@progress/kendo-react-common";
-import { DropDownList } from '@progress/kendo-react-dropdowns';
 
 load(likelySubtags, currencyData, weekData, numbers, currencies, caGregorian, dateFields, timeZoneNames);
 

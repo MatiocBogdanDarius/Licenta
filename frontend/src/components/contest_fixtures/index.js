@@ -1,0 +1,1 @@
+export {ContestFixturesContainer as default} from "./ContestFixturesContainer";

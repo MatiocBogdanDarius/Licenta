@@ -5,13 +5,14 @@ import {
     HOMEPAGE,
     LOGIN,
     REGISTER,
-    PROFILE,
+    PROFILE, CONTEST_DETAILS,
 } from "navigation/CONSTANTS";
 import {NotFound} from 'navigation/NotFound';
+import RequireAuth from "navigation/RequireAuth";
 import Home from 'pages/Home';
 import LoginAndRegister from 'pages/LoginAndRegister';
 import Profile from 'pages/Profile';
-import RequireAuth from "./RequireAuth";
+import ContestDetails from 'pages/ContestDetails';
 
 const ROLES = {
     SIMPLE_USER: 'SIMPLE_USER',
@@ -26,6 +27,7 @@ export const RouterConfig = () => {
                     <Route path={HOMEPAGE} element={<Home />} />
                     <Route path={LOGIN} element={<LoginAndRegister />} />
                     <Route path={REGISTER} element={<LoginAndRegister />} />
+                    <Route path={CONTEST_DETAILS} element={<ContestDetails />} />
 
                     {/* private routes */}
                     <Route element={<RequireAuth allowedRoles={[ROLES.SIMPLE_USER]} />}>

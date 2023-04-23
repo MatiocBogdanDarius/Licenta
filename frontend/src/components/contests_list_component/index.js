@@ -1,0 +1,1 @@
+export {ContestsListContainer as default} from "./ContestsListContainer";

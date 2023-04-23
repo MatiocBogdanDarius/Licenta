@@ -1,0 +1,84 @@
+.date_selector_container {
+    width: 100%;
+    border-radius: 10px;
+    background: #222629;
+    position: relative;
+}
+
+.selected_date_container {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.previous_date_arrow_container {
+    margin: auto;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.disable_previous_next_button {
+    height: 100%;
+    width: 30px;
+}
+
+.previous_date_arrow_container:hover {
+    background: rgba(134, 194, 50, 0.4);
+}
+
+.date_container {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.date_container:hover {
+    background: rgba(134, 194, 50, 0.4);
+}
+
+.next_date_arrow_container {
+    margin: auto;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.next_date_arrow_container:hover {
+    background: rgba(134, 194, 50, 0.4);
+}
+
+.date_options_list {
+    background: rgba(71, 75, 79, 0.9);
+    position: absolute;
+}
+
+.date_option_container {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date_option_container:hover {
+    background: rgba(134, 194, 50, 0.4);
+}
+
+.active_date_option {
+    background: rgba(134, 194, 50, 0.8);
+}
+
+.active_date_option:hover {
+    background: rgba(134, 194, 50, 0.8);
+}

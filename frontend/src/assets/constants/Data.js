@@ -1,3 +1,11 @@
+import {
+    faBaseballBall,
+    faBasketballBall,
+    faFootballBall,
+    faSoccerBall
+} from "@fortawesome/free-solid-svg-icons";
+
+
 export const COUNTRIES = [
     {
         name: "Albania",
@@ -918,10 +926,10 @@ export const GAME_STATUS_FILTERS_VALUES = {
 }
 
 export const SPORTS = {
-    FOOTBALL: "FOOTBALL",
-    BASKETBALL: "BASKETBALL",
-    BASEBALL: "BASEBALL",
-    RUGBY: "RUGBY",
+    FOOTBALL: {name: "FOOTBALL", icon: faSoccerBall},
+    BASKETBALL: {name: "BASKETBALL", icon: faBasketballBall},
+    BASEBALL: {name: "BASEBALL", icon: faBaseballBall},
+    RUGBY: {name: "RUGBY", icon: faFootballBall},
 }
 
 export const WISHLIST_ITEM_TYPE = {
@@ -929,4 +937,11 @@ export const WISHLIST_ITEM_TYPE = {
     GAME: "EVENT",
     TEAM: "TEAM",
     PLAYER: "PLAYER"
+}
+
+export const GAME_STATUS = {
+    ALL: 'ALL',
+    LIVE: 'LIVE',
+    FINISHED: 'FINISHED',
+    SCHEDULED: 'SCHEDULED',
 }

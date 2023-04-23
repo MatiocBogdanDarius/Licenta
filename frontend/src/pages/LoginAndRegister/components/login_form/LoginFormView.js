@@ -33,7 +33,7 @@ const LoginFormView = (props) => {
                     required
                 />
                 <label className={styles.text_red}>{props.errorMessage}</label>
-                <a className={styles.form__link}>Forgot your password?</a>
+                <p className={styles.form__link}>Forgot your password?</p>
                 <button className={["form__button", styles.button, "submit"].join(" ")}>SIGN IN</button>
             </form>
         </div>

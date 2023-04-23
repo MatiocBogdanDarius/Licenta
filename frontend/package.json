@@ -20,6 +20,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.5",
+    "bootstrap": "^5.2.3",
     "cldr-core": "^43.0.0",
     "cldr-dates-full": "^43.0.0",
     "cldr-numbers-full": "^43.0.0",
@@ -28,13 +29,15 @@
     "node-sass": "^7.0.3",
     "pm": "^2.2.6",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
+    "react-overlays": "^5.2.1",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-scrollbars-custom": "^4.1.1",
     "reactstrap": "^9.1.8",
-    "web-vitals": "^2.1.4",
-    "Sport-Events": "file:./Sport-Events"
+    "Sport-Events": "file:./Sport-Events",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

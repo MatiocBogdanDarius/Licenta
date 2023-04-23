@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
-import style from './Calendar.module.css';import {IntlProvider, LocalizationProvider} from "@progress/kendo-react-intl";
+import React from 'react';
+import style from './Calendar.module.css';
+import {IntlProvider, LocalizationProvider} from "@progress/kendo-react-intl";
 
-import { Scheduler, TimelineView, DayView, WeekView, MonthView, AgendaView } from '@progress/kendo-react-scheduler';
+import {AgendaView, DayView, MonthView, Scheduler, WeekView} from '@progress/kendo-react-scheduler';
 import '@progress/kendo-date-math/tz/Etc/UTC';
 import '@progress/kendo-date-math/tz/Europe/Sofia';
 import '@progress/kendo-date-math/tz/Europe/Madrid';
@@ -10,7 +11,7 @@ import '@progress/kendo-date-math/tz/Asia/Tokyo';
 import '@progress/kendo-date-math/tz/America/New_York';
 import '@progress/kendo-date-math/tz/America/Los_Angeles';
 import 'Sport-Events/dist/css/sport-events.css';
-import { customModelFields } from './components/events-utc';
+import {customModelFields} from './resources/events-utc';
 
 function CalendarView(props) {
     return (
@@ -38,12 +39,12 @@ function CalendarView(props) {
                             valueField: 'value',
                             textField: 'text',
                             colorField: 'color'
-                            }]}
+                        }]}
                     >
                         <DayView showWorkHours={false}/>
                         <WeekView showWorkHours={false}/>
-                        <MonthView />
-                        <AgendaView />
+                        <MonthView/>
+                        <AgendaView/>
                     </Scheduler>
                 </IntlProvider>
             </LocalizationProvider>

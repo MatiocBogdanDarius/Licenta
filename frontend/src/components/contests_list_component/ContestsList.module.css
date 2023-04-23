@@ -1,0 +1,198 @@
+.home {
+    display: block;
+    min-width: 900px;
+}
+
+.scrollable_area {
+    height: 100vh;
+    margin-top: 80px;
+    overflow: auto;
+}
+
+.scrollable_area::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.scrollable_area::-webkit-scrollbar-track {
+    background-color: #474B4F;
+    -webkit-box-shadow: inset 0 0 3px rgba(160, 165, 168, 0.5);
+}
+
+.scrollable_area::-webkit-scrollbar-thumb {
+    background-color: rgba(134, 194, 50, 0.4);
+    outline: 1px solid rgba(134, 194, 50, 0.4);
+    border-radius: 10px;
+}
+
+.content {
+    /*height: 2520px;*/
+    background-color: #222629;
+    color: #ffffff;
+}
+
+.container {
+    min-width: 900px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.filters_container {
+    width: 16%;
+    border-radius: 10px;
+}
+
+.countries_filter {
+    text-align: start;
+}
+
+.header {
+    height: 50px;
+    border-bottom: 1px solid #6B6E70;
+    display: flex;
+    align-items: flex-end;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.show_more_countries_button {
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+    margin: 20px 0;
+}
+
+.icon {
+    height: 13px;
+    width: 17px;
+    color: #ffffff;
+    margin: 5px 5px;
+}
+
+.country_title {
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.country_title .icon {
+    display: none;
+}
+
+.country_title:hover {
+    background: rgba(97, 137, 47, 0.6);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.country_title:hover .icon {
+    display: unset;
+}
+
+.contests_list {
+    background: rgba(71, 75, 79, 0.3);
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+.contest_title {
+    min-height: 23px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(71, 75, 79, 0.3);
+}
+
+.contest_title:hover {
+    background: rgba(97, 137, 47, 0.6);
+    border-radius: 5px;
+    padding: 2px;;
+}
+
+.schedules_and_sport_filter_container {
+    width: 83%;
+    border-radius: 10px;
+}
+
+.sport_filter_container {
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #6B6E70;
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedules_and_games_filters_container {
+    width: 100%;
+    background: #474B4F;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.games_filters_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game_status_filters_container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.date_selector_container {
+    width: 150px;
+    margin: auto 0.5rem;
+}
+
+.contest_container {
+     width: 95%;
+     margin: 20px auto 0;
+ }
+
+.modal_container {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 160;
+    width: 100% !important;
+    height: 100%;
+    background: rgba(134, 194, 50, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_header {
+    background: #ffffff;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #a0a5a8;
+    height: 50px;
+    width: 600px;
+}
+
+.modal_body {
+    background: #ffffff;
+    border: 2px solid #a0a5a8;
+    height: 100px;
+}
+
+.modal_footer {
+    background: #ffffff;
+    border: 2px solid #a0a5a8;
+    border-radius: 0 0 10px 10px;
+    height: 50px;
+}
+
+@media (max-width: 700px) {
+    .scrollable_area {
+        margin-top: 110px;
+    }
+}
