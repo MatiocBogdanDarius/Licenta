@@ -22,8 +22,20 @@ const getCurrentContestsOptions = () => {
         })
 }
 
+const getContestInfo = (contestId, country) => {
+    return sportEventAggregatorAxios.get(
+        "football/contest/",
+        {
+            params: {
+                country: country,
+                id: contestId
+            }
+        })
+}
+
 
 export {
     getContestsMatches,
-    getCurrentContestsOptions
+    getCurrentContestsOptions,
+    getContestInfo
 };

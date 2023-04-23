@@ -2,6 +2,8 @@ import React, {useEffect, useState} from "react";
 import ContestDetailsView from "./ContestDetailsView";
 import {GAME_STATUS, SPORTS, WISHLIST_ITEM_TYPE} from "assets/constants/Data";
 import * as USER_ACCOUNT_SERVICE from "services/api/user_account_service";
+import {getContestInfo} from "../../services/api/sport_event_aggregator";
+import * as SPORT_EVENT_AGGREGATOR_SERVICE from "../../services/api/sport_event_aggregator";
 
 const emptyWishlist = {
     CONTEST: [],
@@ -11,22 +13,21 @@ const emptyWishlist = {
 }
 
 export function ContestDetailsContainer() {
-    const [selectedSport, setSelectedSport] = useState(SPORTS.FOOTBALL)
-    const [selectedDate, setSelectedDate] = useState(0);
-    const [selectedContest, setSelectedContest] = useState();
-    const [selectedSeason, setSelectedSeason] = useState();
-    const [gameStatusFilterValue, setGameStatusFilterValue] = useState(GAME_STATUS.ALL);
+    const selectedSport = SPORTS.FOOTBALL;
+    const [contest, setContest] = useState();
     const [wishlist, setWishlist] = useState(emptyWishlist);
     const [isOpenAddFavoriteModal, setIsOpenAddFavoriteModal] = useState(false);
     const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME)
 
     useEffect(() => {
+        getContestInfo();
         getWishlist();
     }, [])
 
-    const selectContestButtonsHandle = (leagueId, seasonYear) => {
-        setSelectedContest(leagueId);
-        setSelectedSeason(seasonYear)
+    const getContestInfo = () => {
+        SPORT_EVENT_AGGREGATOR_SERVICE
+            .getContestInfo(283, "Romania")
+            .then(response => setContest(response.data))
     }
 
     const favoriteButtonHandle = (event, itemId, type) => {
@@ -72,17 +73,10 @@ export function ContestDetailsContainer() {
     return (<div>
             <ContestDetailsView
                 selectedSport={selectedSport}
-                gameStatusFilterValue={gameStatusFilterValue}
-                selectedDate={selectedDate}
-                selectedContest={selectedContest}
-                selectedSeason={selectedSeason}
+                contest={contest}
                 wishList={wishlist}
                 isOpenAddFavoriteModal={isOpenAddFavoriteModal}
                 addFavoriteModalContentType={addFavoriteModalContentType}
-                gameStatusFittersButtonsHandle={setGameStatusFilterValue}
-                selectSportButtonsHandler={setSelectedSport}
-                selectDateOptionHandle={setSelectedDate}
-                selectContestButtonsHandle={selectContestButtonsHandle}
                 favoriteButtonHandle={favoriteButtonHandle}
                 checkIfItemIsFavorite={checkIfItemIsFavorite}
                 toggleAddFavoriteModal={toggleAddFavoriteModal}
