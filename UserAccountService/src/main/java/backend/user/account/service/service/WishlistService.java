@@ -55,7 +55,7 @@ public class WishlistService {
                 .build();
 
         var userAlreadyHaveItemInWishlist = wishlistRepository
-                .findByItemIdAndAndItemTypeAndUser(request.getItemId(), itemType, user)
+                .findByItemIdAndItemTypeAndUser(request.getItemId(), itemType, user)
                 .isPresent();
 
         if(!userAlreadyHaveItemInWishlist){
@@ -69,7 +69,7 @@ public class WishlistService {
                 .orElseThrow(() -> new Exception("User not found"));
 
         var wishlistItem =  wishlistRepository
-                .findByItemIdAndAndItemTypeAndUser(itemId, itemType, user)
+                .findByItemIdAndItemTypeAndUser(itemId, itemType, user)
                 .orElseThrow(() -> new Exception("Wishlist not contains item"));
 
         wishlistRepository.deleteById(wishlistItem.getId());
