@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleDown, faAngleUp, faStar} from "@fortawesome/free-solid-svg-icons";
 import GameFixture from "components/game_fixture";
 import {WISHLIST_ITEM_TYPE} from "assets/constants/Data";
+import StandingsModal from "components/modals/standingsModal";
 
 const ContestFixturesView = (props) => {
     return (
@@ -30,8 +31,13 @@ const ContestFixturesView = (props) => {
                 </div>
                 <div className={style.contest_header_buttons_container}>
                     {props.isVisibleGamesFixture ?
-                        <div className={style.standings_button}>Standings</div> :
-                        <div className={style.display_all_contest_matches_button}
+                        <div
+                            className={style.standings_button}
+                            onClick={props.toggleStandingModal}
+                        >
+                            Standings
+                        </div>
+                        : <div className={style.display_all_contest_matches_button}
                              onClick={props.toggleMatchesListIconHandle}
                         >
                             {`display matches (${props.contest.games.length})`}
@@ -47,7 +53,7 @@ const ContestFixturesView = (props) => {
             </div>
             {props.isVisibleGamesFixture &&
                 <>
-                    {props.contest.games.map(game => {
+                    {props.contest.games.slice(0, props.numberOfVisibleMatches).map(game => {
                         return (
                             <div
                                 key={`game-fixture-${game.fixture.id}`}
@@ -56,6 +62,7 @@ const ContestFixturesView = (props) => {
                                 <GameFixture
                                     game={game}
                                     selectedSport={props.selectedSport}
+                                    showOnlyDateTime={props.showOnlyDateTime}
                                     checkIfItemIsFavorite={props.checkIfItemIsFavorite}
                                     favoriteButtonHandle={props.favoriteButtonHandle}
                                 />
@@ -64,6 +71,11 @@ const ContestFixturesView = (props) => {
                     })}
                 </>
             }
+            <StandingsModal
+                isOpen={props.isOpenStandingModal}
+                toggle={props.toggleStandingModal}
+                contest={props.contest}
+            />
         </div>
     )
 }

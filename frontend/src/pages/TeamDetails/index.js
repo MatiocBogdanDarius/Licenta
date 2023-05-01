@@ -1,0 +1,1 @@
+export {TeamDetailsContainer as default} from "./TeamDetailsContainer";

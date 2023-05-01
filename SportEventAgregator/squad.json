@@ -1,0 +1,5238 @@
+[
+  {
+    "player": {
+      "id": 3399,
+      "name": "J. Dawa",
+      "firstname": "Joyskim Aur\u00e9lien",
+      "lastname": "Dawa Tchakonte",
+      "age": 27,
+      "birth": {
+        "date": "1996-04-09",
+        "place": "Colombes",
+        "country": "France"
+      },
+      "nationality": "Cameroon",
+      "height": "194 cm",
+      "weight": "93 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/3399.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 29,
+          "lineups": 27,
+          "minutes": 2452,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 1,
+          "bench": 3
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 3,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 7,
+          "yellowred": 0,
+          "red": 1
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 14462,
+      "name": "I. Mamut",
+      "firstname": "Ivan",
+      "lastname": "Mamut",
+      "age": 26,
+      "birth": {
+        "date": "1997-04-30",
+        "place": "Split",
+        "country": "Croatia"
+      },
+      "nationality": "Croatia",
+      "height": "192 cm",
+      "weight": "82 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/14462.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 2,
+          "lineups": 0,
+          "minutes": 14,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 2
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 40204,
+      "name": "J. Tamm",
+      "firstname": "Joonas",
+      "lastname": "Tamm",
+      "age": 31,
+      "birth": {
+        "date": "1992-02-02",
+        "place": "Viljandi",
+        "country": "Estonia"
+      },
+      "nationality": "Estonia",
+      "height": "192 cm",
+      "weight": "97 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/40204.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 31,
+          "lineups": 28,
+          "minutes": 2613,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 0,
+          "bench": 4
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 3,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 42481,
+      "name": "Florin Vasile Achim",
+      "firstname": "Florin Vasile",
+      "lastname": "Achim",
+      "age": 32,
+      "birth": {
+        "date": "1991-07-16",
+        "place": "Baia Mare",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "180 cm",
+      "weight": "73 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/42481.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      },
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 848,
+          "name": "UEFA Europa Conference League",
+          "country": "World",
+          "logo": "https://media-2.api-sports.io/football/leagues/848.png",
+          "flag": null,
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 5
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 42589,
+      "name": "\u0218. T\u00e2rnovanu",
+      "firstname": "\u0218tefan",
+      "lastname": "T\u00e2rnovanu",
+      "age": 23,
+      "birth": {
+        "date": "2000-05-09",
+        "place": "Ia\u0219i",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "197 cm",
+      "weight": "81 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/42589.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 31,
+          "lineups": 31,
+          "minutes": 2790,
+          "number": null,
+          "position": "Goalkeeper",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 42988,
+      "name": "Paulo Vin\u00edcius de Souza Nascimento",
+      "firstname": "Paulo Vin\u00edcius",
+      "lastname": "de Souza Nascimento",
+      "age": 38,
+      "birth": {
+        "date": "1984-08-12",
+        "place": "Cuiab\u00e1",
+        "country": "Brazil"
+      },
+      "nationality": "Brazil",
+      "height": "187 cm",
+      "weight": "82 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/42988.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43009,
+      "name": "A. Vlad",
+      "firstname": "Andrei Daniel",
+      "lastname": "Vlad",
+      "age": 24,
+      "birth": {
+        "date": "1999-04-15",
+        "place": "T\u00e2rgovi\u015fte",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "190 cm",
+      "weight": "85 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/43009.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 3,
+          "lineups": 3,
+          "minutes": 270,
+          "number": null,
+          "position": "Goalkeeper",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 31
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43014,
+      "name": "I. Cristea",
+      "firstname": "Iulian Lucian",
+      "lastname": "Cristea",
+      "age": 29,
+      "birth": {
+        "date": "1994-07-17",
+        "place": "Media\u015f",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "184 cm",
+      "weight": "77 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/43014.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 9,
+          "lineups": 6,
+          "minutes": 519,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 2,
+          "bench": 8
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43038,
+      "name": "F. T\u0103nase",
+      "firstname": "Florin Lucian",
+      "lastname": "T\u0103nase",
+      "age": 29,
+      "birth": {
+        "date": "1994-12-30",
+        "place": "G\u0103e\u015fti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "186 cm",
+      "weight": "72 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/43038.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 2,
+          "lineups": 2,
+          "minutes": 180,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 1,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43072,
+      "name": "Radu \u0218tef\u0103ni\u021b\u0103 Boboc",
+      "firstname": "Radu \u0218tef\u0103ni\u021b\u0103",
+      "lastname": "Boboc",
+      "age": 24,
+      "birth": {
+        "date": "1999-04-24",
+        "place": "Craiova",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "180 cm",
+      "weight": "67 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/43072.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 5,
+          "lineups": 5,
+          "minutes": 409,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 5
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      },
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": null,
+          "name": "Cupa Rom\u00e2niei",
+          "country": null,
+          "logo": null,
+          "flag": null,
+          "season": "2022-2023"
+        },
+        "games": {
+          "appearences": 3,
+          "lineups": 3,
+          "minutes": 270,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      },
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 848,
+          "name": "UEFA Europa Conference League",
+          "country": "World",
+          "logo": "https://media-1.api-sports.io/football/leagues/848.png",
+          "flag": null,
+          "season": 2022
+        },
+        "games": {
+          "appearences": 2,
+          "lineups": 1,
+          "minutes": 134,
+          "number": null,
+          "position": "Defender",
+          "rating": "6.000000",
+          "captain": false
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 7
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": 48,
+          "key": null,
+          "accuracy": 40
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": null,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 1,
+          "won": 1
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": 0,
+          "missed": 0,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43109,
+      "name": "R. Radunovi\u0107",
+      "firstname": "Risto",
+      "lastname": "Radunovi\u0107",
+      "age": 31,
+      "birth": {
+        "date": "1992-05-04",
+        "place": "Podgorica",
+        "country": "Montenegro"
+      },
+      "nationality": "Montenegro",
+      "height": "184 cm",
+      "weight": "75 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/43109.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 25,
+          "lineups": 25,
+          "minutes": 2206,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 2
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 1,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43153,
+      "name": "V. Cre\u021bu",
+      "firstname": "Valentin Iulian",
+      "lastname": "Cre\u021bu",
+      "age": 34,
+      "birth": {
+        "date": "1989-01-02",
+        "place": "Buz\u0103u",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "176 cm",
+      "weight": "71 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/43153.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 16,
+          "lineups": 12,
+          "minutes": 1168,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 4,
+          "out": 1,
+          "bench": 16
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 4,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 96956,
+      "name": "D. Haru\u0163",
+      "firstname": "Denis Gra\u0163ian",
+      "lastname": "Haru\u0163",
+      "age": 24,
+      "birth": {
+        "date": "1999-02-25",
+        "place": "Timi\u015foara",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/96956.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 8,
+          "lineups": 4,
+          "minutes": 428,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 4,
+          "out": 1,
+          "bench": 21
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 104456,
+      "name": "I. Pan\u021b\u00eeru",
+      "firstname": "Ionu\u021b Constantin",
+      "lastname": "Pan\u021b\u00eeru",
+      "age": 27,
+      "birth": {
+        "date": "1996-03-22",
+        "place": "Ia\u0219i",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "179 cm",
+      "weight": "74 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/104456.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 134228,
+      "name": "S. \u0218erban",
+      "firstname": "Sorin D\u0103nu\u021b",
+      "lastname": "\u0218erban",
+      "age": 23,
+      "birth": {
+        "date": "2000-03-17",
+        "place": "Baia Mare",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "178 cm",
+      "weight": "65 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/134228.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 2,
+          "lineups": 2,
+          "minutes": 92,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 264408,
+      "name": "A. Pantea",
+      "firstname": "Alexandru",
+      "lastname": "Grigora\u0219 Pantea",
+      "age": 20,
+      "birth": {
+        "date": "2003-09-11",
+        "place": "Bucure\u0219ti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "172 cm",
+      "weight": "63 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/264408.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 13,
+          "lineups": 8,
+          "minutes": 874,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 5,
+          "out": 1,
+          "bench": 25
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 307497,
+      "name": "A. Musi",
+      "firstname": "Alexandru Marian",
+      "lastname": "Musi",
+      "age": 19,
+      "birth": {
+        "date": "2004-07-17",
+        "place": "Bucure\u0219ti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "180 cm",
+      "weight": "70 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/307497.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 3,
+          "lineups": 1,
+          "minutes": 113,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 1,
+          "bench": 4
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 401853,
+      "name": "G. Gogescu",
+      "firstname": "George",
+      "lastname": "Gogescu",
+      "age": 18,
+      "birth": {
+        "date": "2005-08-27",
+        "place": null,
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "176 cm",
+      "weight": "65 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/401853.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 401860,
+      "name": "A. Maxim",
+      "firstname": "Alexandru Gabriel",
+      "lastname": "Maxim",
+      "age": 16,
+      "birth": {
+        "date": "2007-01-23",
+        "place": "Craiova",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "199 cm",
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/401860.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Goalkeeper",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 401861,
+      "name": "M. Gean\u0103",
+      "firstname": "Mario",
+      "lastname": "Gean\u0103",
+      "age": 18,
+      "birth": {
+        "date": "2005-04-30",
+        "place": "Bucure\u0219ti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "174 cm",
+      "weight": "64 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/401861.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 2346,
+      "name": "B. Nikolov",
+      "firstname": "Boban",
+      "lastname": "Nikolov",
+      "age": 29,
+      "birth": {
+        "date": "1994-07-28",
+        "place": "Stip",
+        "country": "North Macedonia"
+      },
+      "nationality": "North Macedonia",
+      "height": "180 cm",
+      "weight": "75 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/2346.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 9,
+          "lineups": 0,
+          "minutes": 114,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 9,
+          "out": 0,
+          "bench": 19
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 21067,
+      "name": "M. Edjouma",
+      "firstname": "Malcom Sylas",
+      "lastname": "Edjouma Laouari",
+      "age": 27,
+      "birth": {
+        "date": "1996-10-08",
+        "place": "Toulouse",
+        "country": "France"
+      },
+      "nationality": "France",
+      "height": "189 cm",
+      "weight": "84 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/21067.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 28,
+          "lineups": 22,
+          "minutes": 1751,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 6,
+          "out": 15,
+          "bench": 6
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 9,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 4,
+          "yellowred": 1,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 30697,
+      "name": "A. Cordea",
+      "firstname": "Andrei Ioan",
+      "lastname": "Cordea",
+      "age": 24,
+      "birth": {
+        "date": "1999-06-24",
+        "place": "Aiud",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/30697.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 32,
+          "lineups": 26,
+          "minutes": 2280,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 6,
+          "out": 14,
+          "bench": 7
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 6,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 6,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 42500,
+      "name": "A. \u0218ut",
+      "firstname": "Adrian Gheorghe",
+      "lastname": "\u0218ut",
+      "age": 24,
+      "birth": {
+        "date": "1999-04-30",
+        "place": "Cociuba Mare",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/42500.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 26,
+          "lineups": 24,
+          "minutes": 2092,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 7,
+          "bench": 2
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 4,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43028,
+      "name": "Ovidiu Popescu",
+      "firstname": "Ovidiu Marian",
+      "lastname": "Popescu",
+      "age": 29,
+      "birth": {
+        "date": "1994-02-24",
+        "place": "Re\u015fi\u0163a",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "181 cm",
+      "weight": "77 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/43028.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 12,
+          "lineups": 4,
+          "minutes": 475,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 8,
+          "out": 1,
+          "bench": 8
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43033,
+      "name": "F. Coman",
+      "firstname": "Florinel Teodor",
+      "lastname": "Coman",
+      "age": 25,
+      "birth": {
+        "date": "1998-04-10",
+        "place": "Br\u0103ila",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "182 cm",
+      "weight": "72 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/43033.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 29,
+          "lineups": 22,
+          "minutes": 1756,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 7,
+          "out": 17,
+          "bench": 8
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 7,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43171,
+      "name": "D. Olaru",
+      "firstname": "Darius",
+      "lastname": "Dumitru Olaru",
+      "age": 25,
+      "birth": {
+        "date": "1998-03-03",
+        "place": "Media\u015f",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "177 cm",
+      "weight": "71 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/43171.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 31,
+          "lineups": 28,
+          "minutes": 2436,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 11,
+          "bench": 3
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 1,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43194,
+      "name": "D. Sorescu",
+      "firstname": "Deian Cristian",
+      "lastname": "Sorescu",
+      "age": 26,
+      "birth": {
+        "date": "1997-08-29",
+        "place": "Timi\u015foara",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "175 cm",
+      "weight": "70 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/43194.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 13,
+          "lineups": 13,
+          "minutes": 1044,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 4,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 1,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43216,
+      "name": "R. Oaid\u0103",
+      "firstname": "R\u0103zvan Constantin",
+      "lastname": "Oaid\u0103",
+      "age": 25,
+      "birth": {
+        "date": "1998-03-02",
+        "place": "Petro\u0219ani",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "182 cm",
+      "weight": "70 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/43216.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 22,
+          "lineups": 11,
+          "minutes": 1090,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 11,
+          "out": 8,
+          "bench": 22
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 271915,
+      "name": "Octavian Popescu",
+      "firstname": "Octavian George",
+      "lastname": "Popescu",
+      "age": 21,
+      "birth": {
+        "date": "2002-12-27",
+        "place": "T\u00e2rgovi\u0219te",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/271915.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 30,
+          "lineups": 21,
+          "minutes": 1913,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 9,
+          "out": 16,
+          "bench": 9
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 3,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 322177,
+      "name": "E. R\u0103d\u0103sl\u0103vescu",
+      "firstname": "Eduard Gabriel",
+      "lastname": "R\u0103d\u0103sl\u0103vescu",
+      "age": 19,
+      "birth": {
+        "date": "2004-07-30",
+        "place": null,
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/322177.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 13,
+          "lineups": 0,
+          "minutes": 191,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 13,
+          "out": 0,
+          "bench": 27
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 1,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 342287,
+      "name": "M. T\u0103nas\u0103",
+      "firstname": "Matei Adrian",
+      "lastname": "T\u0103nas\u0103",
+      "age": 18,
+      "birth": {
+        "date": "2005-10-08",
+        "place": "Ia\u0219i",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "180 cm",
+      "weight": "64 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/342287.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 363041,
+      "name": "L. Vl\u0103sceanu",
+      "firstname": "Lauren\u021biu Constantin",
+      "lastname": "Vl\u0103sceanu",
+      "age": 18,
+      "birth": {
+        "date": "2005-05-29",
+        "place": null,
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/363041.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 368231,
+      "name": "L. Manolache",
+      "firstname": "Luca Petru",
+      "lastname": "Manolache",
+      "age": 18,
+      "birth": {
+        "date": "2005-05-17",
+        "place": "T\u00e2rgovi\u0219te",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "170 cm",
+      "weight": "59 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/368231.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 400022,
+      "name": "L. Ciobanu",
+      "firstname": "Luca",
+      "lastname": "Ciobanu",
+      "age": 17,
+      "birth": {
+        "date": "2006-01-01",
+        "place": "Ia\u0219i",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/400022.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 401851,
+      "name": "M. Pruteanu",
+      "firstname": "Marian",
+      "lastname": "Pruteanu",
+      "age": 18,
+      "birth": {
+        "date": "2005-08-01",
+        "place": "Bac\u0103u",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "178 cm",
+      "weight": "66 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/401851.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 401852,
+      "name": "V. Stancovici",
+      "firstname": "Victor",
+      "lastname": "Stancovici",
+      "age": 18,
+      "birth": {
+        "date": "2005-10-26",
+        "place": "Ploie\u0219ti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/401852.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 401853,
+      "name": "G. Gogescu",
+      "firstname": "George",
+      "lastname": "Gogescu",
+      "age": 18,
+      "birth": {
+        "date": "2005-08-27",
+        "place": null,
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "176 cm",
+      "weight": "65 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/401853.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 401854,
+      "name": "S. Radu",
+      "firstname": "Sebastian",
+      "lastname": "Radu",
+      "age": 18,
+      "birth": {
+        "date": "2005-09-12",
+        "place": "Bucure\u0219ti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "180 cm",
+      "weight": "68 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/401854.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 401862,
+      "name": "M. Toma",
+      "firstname": "Mihai Vl\u0103du\u021b",
+      "lastname": "Toma",
+      "age": 16,
+      "birth": {
+        "date": "2007-02-17",
+        "place": "Bucure\u0219ti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "172 cm",
+      "weight": "64 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/401862.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 42524,
+      "name": "V. Ra\u0163\u0103",
+      "firstname": "Vadim",
+      "lastname": "Ra\u0163\u0103",
+      "age": 30,
+      "birth": {
+        "date": "1993-05-05",
+        "place": "Chi\u015fin\u0103u",
+        "country": "Moldova"
+      },
+      "nationality": "Moldova",
+      "height": "173 cm",
+      "weight": "64 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/42524.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 2,
+          "lineups": 2,
+          "minutes": 92,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 42585,
+      "name": "B. Rusu",
+      "firstname": "Bogdan Gheorghe",
+      "lastname": "Rusu",
+      "age": 33,
+      "birth": {
+        "date": "1990-04-09",
+        "place": "Bra\u0219ov",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "180 cm",
+      "weight": "70 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/42585.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 3,
+          "lineups": 2,
+          "minutes": 129,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 2,
+          "bench": 4
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 42660,
+      "name": "A. Dumiter",
+      "firstname": "Ioan Andrei Vasile",
+      "lastname": "Dumiter",
+      "age": 24,
+      "birth": {
+        "date": "1999-04-10",
+        "place": "Timi\u015foara",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/42660.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 1,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43005,
+      "name": "B. Omrani",
+      "firstname": "Abdel Slem Billel",
+      "lastname": "Omrani",
+      "age": 30,
+      "birth": {
+        "date": "1993-06-02",
+        "place": "Forbach",
+        "country": "France"
+      },
+      "nationality": "Algeria",
+      "height": "187 cm",
+      "weight": "92 kg",
+      "injured": false,
+      "photo": "https://media-1.api-sports.io/football/players/43005.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 18,
+          "lineups": 6,
+          "minutes": 605,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 12,
+          "out": 7,
+          "bench": 14
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 2,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43008,
+      "name": "R. Ducan",
+      "firstname": "R\u0103zvan Cristian",
+      "lastname": "Ducan",
+      "age": 22,
+      "birth": {
+        "date": "2001-02-09",
+        "place": "Videle",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "192 cm",
+      "weight": "82 kg",
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/43008.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Goalkeeper",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 3
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 43282,
+      "name": "I. Stoica",
+      "firstname": "Ianis",
+      "lastname": "Ilie Stoica",
+      "age": 21,
+      "birth": {
+        "date": "2002-12-08",
+        "place": "Bucure\u0219ti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "180 cm",
+      "weight": "68 kg",
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/43282.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 6,
+          "lineups": 3,
+          "minutes": 269,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 2,
+          "bench": 10
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 45085,
+      "name": "R. Bouhenna",
+      "firstname": "Rachid Ahmed",
+      "lastname": "Bouhenna",
+      "age": 32,
+      "birth": {
+        "date": "1991-06-29",
+        "place": "M\u00e9ru",
+        "country": "France"
+      },
+      "nationality": "France",
+      "height": "191 cm",
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/45085.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 4,
+          "lineups": 4,
+          "minutes": 250,
+          "number": null,
+          "position": "Defender",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 3,
+          "bench": 7
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 119025,
+      "name": "A. Compagno",
+      "firstname": "Andrea",
+      "lastname": "Compagno",
+      "age": 27,
+      "birth": {
+        "date": "1996-04-22",
+        "place": "Palermo",
+        "country": "Italy"
+      },
+      "nationality": "Italy",
+      "height": "194 cm",
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/119025.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 22,
+          "lineups": 22,
+          "minutes": 1660,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 13,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 13,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 125631,
+      "name": "M. Dulca",
+      "firstname": "Marco Alexandru",
+      "lastname": "Dulca",
+      "age": 24,
+      "birth": {
+        "date": "1999-05-11",
+        "place": "Pohang",
+        "country": "Korea Republic"
+      },
+      "nationality": "Romania",
+      "height": "184 cm",
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/125631.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 5,
+          "lineups": 3,
+          "minutes": 183,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 3,
+          "bench": 5
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 322179,
+      "name": "M. Lixandru",
+      "firstname": "Mihai Daniel",
+      "lastname": "Lixandru",
+      "age": 22,
+      "birth": {
+        "date": "2001-06-05",
+        "place": null,
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": "184 cm",
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/322179.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-2.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      },
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-3.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-1.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-2.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": 0,
+          "lineups": 0,
+          "minutes": 0,
+          "number": null,
+          "position": "Midfielder",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 4
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": 0,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 393936,
+      "name": "\u0218. Moraru",
+      "firstname": "\u0218tefan",
+      "lastname": "Moraru",
+      "age": 18,
+      "birth": {
+        "date": "2005-04-10",
+        "place": null,
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-2.api-sports.io/football/players/393936.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-1.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-1.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  },
+  {
+    "player": {
+      "id": 400023,
+      "name": "V. Tudor",
+      "firstname": "Vlad",
+      "lastname": "Tudor",
+      "age": 20,
+      "birth": {
+        "date": "2003-11-14",
+        "place": "Bucure\u0219ti",
+        "country": "Romania"
+      },
+      "nationality": "Romania",
+      "height": null,
+      "weight": null,
+      "injured": false,
+      "photo": "https://media-3.api-sports.io/football/players/400023.png"
+    },
+    "statistics": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media-2.api-sports.io/football/teams/559.png"
+        },
+        "league": {
+          "id": 283,
+          "name": "Liga I",
+          "country": "Romania",
+          "logo": "https://media-3.api-sports.io/football/leagues/283.png",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg",
+          "season": 2022
+        },
+        "games": {
+          "appearences": null,
+          "lineups": null,
+          "minutes": null,
+          "number": null,
+          "position": "Attacker",
+          "rating": null,
+          "captain": false
+        },
+        "substitutes": {
+          "in": null,
+          "out": null,
+          "bench": null
+        },
+        "shots": {
+          "total": null,
+          "on": null
+        },
+        "goals": {
+          "total": null,
+          "conceded": null,
+          "assists": null,
+          "saves": null
+        },
+        "passes": {
+          "total": null,
+          "key": null,
+          "accuracy": null
+        },
+        "tackles": {
+          "total": null,
+          "blocks": null,
+          "interceptions": null
+        },
+        "duels": {
+          "total": null,
+          "won": null
+        },
+        "dribbles": {
+          "attempts": null,
+          "success": null,
+          "past": null
+        },
+        "fouls": {
+          "drawn": null,
+          "committed": null
+        },
+        "cards": {
+          "yellow": null,
+          "yellowred": null,
+          "red": null
+        },
+        "penalty": {
+          "won": null,
+          "commited": null,
+          "scored": null,
+          "missed": null,
+          "saved": null
+        }
+      }
+    ]
+  }
+]

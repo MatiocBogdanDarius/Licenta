@@ -19,7 +19,7 @@ const HomeView = (props) => {
                 <div className={style.content}>
                     <Container sx="lg" className={style.container}>
                         <div className={style.filters_container}>
-                            <ContestFilter selectContestButtonsHandle={props.selectContestButtonsHandle} />
+                            <ContestFilter selectedSport={props.selectedSport} />
                         </div>
                         <div className={style.schedules_and_sport_filter_container}>
                             <div className={style.sport_filter_container}>
@@ -44,16 +44,18 @@ const HomeView = (props) => {
                                         />
                                     </div>
                                 </div>
-                                <ContestsList
-                                    selectedSport={props.selectedSport}
-                                    gameStatusFilterValue={props.gameStatusFilterValue}
-                                    selectedDate={props.selectedDate}
-                                    selectedContest={props.selectedContest}
-                                    selectedSeason={props.selectedSeason}
-                                    setSelectedDate={props.setSelectedDate}
-                                    favoriteButtonHandle={props.favoriteButtonHandle}
-                                    checkIfItemIsFavorite={props.checkIfItemIsFavorite}
-                                />
+                                <div className={style.contest_container}>
+                                    <ContestsList
+                                        selectedSport={props.selectedSport}
+                                        gameStatusFilterValue={props.gameStatusFilterValue}
+                                        selectedDate={props.selectedDate}
+                                        selectedContest={props.selectedContest}
+                                        selectedSeason={props.selectedSeason}
+                                        setSelectedDate={props.setSelectedDate}
+                                        favoriteButtonHandle={props.favoriteButtonHandle}
+                                        checkIfItemIsFavorite={props.checkIfItemIsFavorite}
+                                    />
+                                </div>
                             </div>
                         </div>
                     </Container>

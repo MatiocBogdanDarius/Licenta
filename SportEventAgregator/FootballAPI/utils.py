@@ -22,6 +22,66 @@ def group_fixtures_by_contestant(fixtures):
     return contests
 
 
+def group_fixtures_by_status_and_round(fixtures):
+    current_date = datetime.utcnow().date()
+    # contest = group_fixtures_by_contestant(fixtures)[0]
+    contest = fixtures[0]
+
+    before_today = contest.copy()
+    before_today['games'] = []
+    today = contest.copy()
+    today['games'] = []
+    after_today = contest.copy()
+    after_today['games'] = []
+
+    for game in contest['games']:
+        game_date = datetime.strptime(game["fixture"]["date"][:10], "%Y-%m-%d").date()
+
+        if game_date < current_date:
+            before_today['games'].append(game)
+        elif game_date > current_date:
+            after_today['games'].append(game)
+        else:
+            today['games'].append(game)
+
+    before_today["games"].sort(reverse=True, key=lambda x: x["fixture"]["timestamp"])
+    today["games"].sort(key=lambda x: x["fixture"]["timestamp"])
+    after_today["games"].sort(key=lambda x: x["fixture"]["timestamp"])
+    league = contest
+    league["games"] = None
+
+    result = {
+        "before_today": before_today,
+        "today": today,
+        "after_today": after_today,
+        "league": league
+    }
+
+    return result
+
+
+def get_team_transfers(team_players_transfers):
+    transfers = []
+
+    for player_transfers in team_players_transfers:
+        for player_transfer in player_transfers["transfers"]:
+            transfer = {
+                "player": player_transfers["player"],
+                "date":  player_transfer["date"],
+                "teams":  player_transfer["teams"],
+                "type":  player_transfer["type"],
+            }
+
+            if datetime.strptime(transfer["date"], "%Y-%m-%d") <= datetime.utcnow():
+                transfers.append(transfer)
+
+            # transfers.append(transfer)
+
+    transfers = sorted(transfers, key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d"), reverse=True)
+
+    return transfers
+
+
 def create_request_url(url, params):
     if len(params) == 0:
         return url

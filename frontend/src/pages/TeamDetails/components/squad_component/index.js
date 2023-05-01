@@ -1,0 +1,1 @@
+export {SquadContainer as default} from "./SquadContainer";

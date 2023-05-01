@@ -1,0 +1,1 @@
+export {StandingsModalContainer as default} from "./StandingsModalContainer";

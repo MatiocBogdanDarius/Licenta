@@ -1,0 +1,1 @@
+export {TransfersContainer as default} from "./TransfersContainer";

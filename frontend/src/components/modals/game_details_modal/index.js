@@ -1,0 +1,1 @@
+export {GameDetailsModalContainer as default} from "./GameDetailsModalContainer";

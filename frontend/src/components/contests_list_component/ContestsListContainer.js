@@ -19,11 +19,17 @@ export function ContestsListContainer(props) {
     }, [props.gameStatusFilterValue, props.selectedDate, props.selectedContest, props.selectedSeason])
 
     const getContests = () => {
+        setOnLoading(true);
+
+        if(props.fixtures){
+            setContests(props.fixtures);
+            setOnLoading(false);
+            return
+        }
+
         setContests(CONTESTS);
         setOnLoading(false);
 
-        // setOnLoading(true);
-        //
         // let filters = {
         //     status: GAME_STATUS_FILTERS_VALUES[props.gameStatusFilterValue]?.value,
         //     date: getFormattedDate(addDays((new Date()), props.selectedDate)),

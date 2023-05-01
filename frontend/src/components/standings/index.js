@@ -1,0 +1,1 @@
+export {StandingsComponentsContainer as default} from "./StandingsComponentsContainer";

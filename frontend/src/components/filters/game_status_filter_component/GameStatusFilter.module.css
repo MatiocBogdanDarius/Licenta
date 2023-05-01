@@ -12,6 +12,7 @@
     height: 30px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .game_status_button:hover {

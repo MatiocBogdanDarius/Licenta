@@ -1,0 +1,26 @@
+.summary {
+    padding-bottom: 30px;
+    width: 95%;
+    margin: auto;
+}
+
+.contests_container {
+    width: 100%;
+}
+
+.section_title {
+    text-align: left;
+    padding: 10px 30px;
+}
+
+.link {
+    margin: 10px auto;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.link:hover {
+    text-decoration: none;
+}

@@ -5,7 +5,6 @@ import {
     faSoccerBall
 } from "@fortawesome/free-solid-svg-icons";
 
-
 export const COUNTRIES = [
     {
         name: "Albania",
@@ -944,4 +943,27 @@ export const GAME_STATUS = {
     LIVE: 'LIVE',
     FINISHED: 'FINISHED',
     SCHEDULED: 'SCHEDULED',
+}
+
+export const CONTEST_MENU = {
+    SUMMARY: 'SUMMARY',
+    RESULTS: 'RESULTS',
+    FIXTURES: 'FIXTURES',
+    STANDINGS: 'STANDINGS',
+}
+
+export const TEAM_MENU = {
+    SUMMARY: 'SUMMARY',
+    RESULTS: 'RESULTS',
+    FIXTURES: 'FIXTURES',
+    STANDINGS: 'STANDINGS',
+    TRANSFERS: 'TRANSFERS',
+    SQUAD: 'SQUAD',
+}
+
+export const GAME_MENU = {
+    EVENTS: 'EVENTS',
+    STATISTICS: 'STATISTICS',
+    LINEUPS: 'LINEUPS',
+    PLAYERS: 'PLAYERS',
 }

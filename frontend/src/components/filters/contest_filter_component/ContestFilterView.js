@@ -27,7 +27,7 @@ function ContestFilterView(props) {
                                 return <div
                                     key={`contests-${country.name}-${contest.league.id}`}
                                     className={style.contest_title}
-                                    onClick={() => props.selectContestButtonsHandle(contest.league.id, contest.seasons[0].year)}
+                                    onClick={() => props.selectContestButtonsHandle(contest)}
                                 >
                                     <p>{contest.league.name}</p>
                                 </div>

@@ -1,9 +1,12 @@
 import React, {useEffect, useState} from "react";
 import ContestFilterView from "./ContestFilterView";
 import * as SPORT_EVENT_AGGREGATOR_SERVICE from "services/api/sport_event_aggregator";
+import {useNavigate} from "react-router-dom";
+import {CONTEST_DETAILS} from "../../../navigation/CONSTANTS";
 
 
 export function ContestFilterContainer(props) {
+    const navigate = useNavigate();
     const [contestsOptions, setContestsOptions] = useState([]);
     const [countries, setCountries] = useState([]);
     const [isVisibleAllCountries, setIsVisibleAllCountries] = useState(false);
@@ -39,12 +42,16 @@ export function ContestFilterContainer(props) {
         });
     }
 
+    const selectContestButtonsHandle = (contest) => {
+        navigate(`${CONTEST_DETAILS}/${props.selectedSport.name}/${contest.country.name}/${contest.league.id}`);
+    }
+
     return (
         <ContestFilterView
             countries={countries}
             isVisibleAllCountries={isVisibleAllCountries}
             toggleCountryContestButtonsHandler={toggleCountryContestButtonsHandler}
-            selectContestButtonsHandle={props.selectContestButtonsHandle}
+            selectContestButtonsHandle={selectContestButtonsHandle}
             showMoreCountriesButtonHandle={showMoreCountriesButtonHandle}
         />
     );

@@ -52,6 +52,7 @@
     border-right: 0.3px solid rgba(107, 110, 112, 0.5);
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .red_font {
@@ -89,6 +90,13 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+
+
+.team_info_container:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .fixture_score_container {

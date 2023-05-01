@@ -1,6 +1,7 @@
 .contest_container {
     width: 100%;
     border-radius: 10px;
+    border-bottom: 20px;
 }
 
 .contest_container_header {
@@ -55,11 +56,17 @@
     display: flex;
     align-items: center;
     margin: 10px;
+    cursor: pointer;
+}
+
+.contest_title_container:hover {
+    text-decoration: underline;
 }
 
 .contest_header_buttons_container {
     margin: auto 10px;
     display: flex;
+    cursor: pointer;
 }
 
 .standings_button:hover {

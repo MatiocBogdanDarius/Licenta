@@ -13,8 +13,6 @@ const emptyWishlist = {
 export function HomeContainer() {
     const [selectedSport, setSelectedSport] = useState(SPORTS.FOOTBALL)
     const [selectedDate, setSelectedDate] = useState(0);
-    const [selectedContest, setSelectedContest] = useState();
-    const [selectedSeason, setSelectedSeason] = useState();
     const [gameStatusFilterValue, setGameStatusFilterValue] = useState(GAME_STATUS.ALL);
     const [wishlist, setWishlist] = useState(emptyWishlist);
     const [isOpenAddFavoriteModal, setIsOpenAddFavoriteModal] = useState(false);
@@ -23,11 +21,6 @@ export function HomeContainer() {
     useEffect(() => {
         getWishlist();
     }, [])
-
-    const selectContestButtonsHandle = (leagueId, seasonYear) => {
-        setSelectedContest(leagueId);
-        setSelectedSeason(seasonYear)
-    }
 
     const favoriteButtonHandle = (event, itemId, type) => {
         event.preventDefault()
@@ -74,15 +67,12 @@ export function HomeContainer() {
                 selectedSport={selectedSport}
                 gameStatusFilterValue={gameStatusFilterValue}
                 selectedDate={selectedDate}
-                selectedContest={selectedContest}
-                selectedSeason={selectedSeason}
                 wishList={wishlist}
                 isOpenAddFavoriteModal={isOpenAddFavoriteModal}
                 addFavoriteModalContentType={addFavoriteModalContentType}
                 gameStatusFittersButtonsHandle={setGameStatusFilterValue}
                 selectSportButtonsHandler={setSelectedSport}
                 selectDateOptionHandle={setSelectedDate}
-                selectContestButtonsHandle={selectContestButtonsHandle}
                 favoriteButtonHandle={favoriteButtonHandle}
                 checkIfItemIsFavorite={checkIfItemIsFavorite}
                 toggleAddFavoriteModal={toggleAddFavoriteModal}

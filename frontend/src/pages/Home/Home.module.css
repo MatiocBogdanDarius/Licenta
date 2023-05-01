@@ -5,7 +5,7 @@
 
 .scrollable_area {
     height: 100vh;
-    margin-top: 80px;
+    margin-top: 80px !important;
     overflow: auto;
 }
 
@@ -99,7 +99,7 @@
     background: rgba(71, 75, 79, 0.3);
     font-size: 13px;
     border-radius: 5px;
-    margin: 2px 0;
+    margin-bottom: 20px;
 }
 
 .contest_title {
@@ -132,12 +132,14 @@
     width: 100%;
     background: #474B4F;
     margin: 20px auto;
+    padding: 10px;
     border-radius: 10px;
 }
 
 .games_filters_container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .game_status_filters_container {
@@ -153,7 +155,7 @@
 
 .contest_container {
      width: 95%;
-     margin: 20px auto 0;
+     margin: 0 auto 20px;
  }
 
 .modal_container {
