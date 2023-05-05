@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./Squad.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faRectangleAd, faSoccerBall, faTShirt} from "@fortawesome/free-solid-svg-icons";
+import {faSoccerBall, faTShirt} from "@fortawesome/free-solid-svg-icons";
 
 const SquadView = (props) => {
     return (

@@ -6,9 +6,9 @@ import {faArrowLeft, faArrowRight} from "@fortawesome/free-solid-svg-icons";
 const TransfersView = (props) => {
     return (
         <div className={style.container}>
-            {props.transfers.slice(0, props.numberOfVisibleTransfers).map(transfer => {
+            {props.transfers.slice(0, props.numberOfVisibleTransfers).map((transfer, index, _) => {
                 return (
-                    <div
+                    <div key={`transfer-${index}`}
                         className={style.transfer_container}
                     >
                         <div className={style.date_container}>

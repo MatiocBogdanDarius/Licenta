@@ -1,36 +1,21 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import styles from './LoginAndRegister.module.css';
 import LoginForm from "./components/login_form";
 import RegisterForm from "./components/register_form";
-import {useLocation} from "react-router-dom";
-import {LOGIN} from "../../navigation/CONSTANTS";
 
-const LoginAndRegisterView = () => {
-    const pathname = useLocation()?.pathname;
-    const [isGx, setIsGx] = useState(false)
-    const [isLoginFormActive, setIsLoginFormActive] = useState(pathname.includes(LOGIN))
-
-    const changeForm = () => {
-        setIsGx(true);
-        setTimeout(function(){
-            setIsGx(false)
-        }, 1500)
-
-        setIsLoginFormActive(!isLoginFormActive)
-    }
-
+const LoginAndRegisterView = (props) => {
     return (
         <div style={styles} className={styles.body}>
             <div className={styles.main}>
-                <RegisterForm isActive={!isLoginFormActive} setIsLoginFormActive={setIsLoginFormActive} />
-                <LoginForm isActive={isLoginFormActive} />
+                <RegisterForm isActive={!props.isLoginFormActive} changeForm={props.changeForm} />
+                <LoginForm isActive={props.isLoginFormActive} />
                 <div id="switch-cnt"
-                     className={[styles.switch, isGx ? styles.isGx: "", isLoginFormActive ? styles.isTxr : ""].join(" ")}
+                     className={[styles.switch, props.isGx ? styles.isGx: "", props.isLoginFormActive ? styles.isTxr : ""].join(" ")}
                 >
-                    <div className={[styles.switch__circle, isLoginFormActive ? styles.isTxr : ""].join(" ")} />
+                    <div className={[styles.switch__circle, props.isLoginFormActive ? styles.isTxr : ""].join(" ")} />
                     <div className={[styles.switch__circle, styles.switch__circleT].join()}  />
                     <div id="switch-c1"
-                         className={[styles.switch__container,  isLoginFormActive ? styles.isHidden : ""].join(" ")}
+                         className={[styles.switch__container,  props.isLoginFormActive ? styles.isHidden : ""].join(" ")}
                     >
                         <h2 className={["switch__title", styles.title].join(" ")}>Welcome Back !</h2>
                         <p className={["switch__description", styles.description].join(" ")}>
@@ -38,15 +23,15 @@ const LoginAndRegisterView = () => {
                         </p>
                         <button
                             className={[styles.switch__button, styles.button, "switch-btn"].join(" ")}
-                            onClick={changeForm}
+                            onClick={props.changeForm}
                             >
                             SIGN IN
                         </button>
                     </div>
                     <div  id="switch-c2"
-                          className={[styles.switch__container, isLoginFormActive ? "" : styles.isHidden].join(" ")}
+                          className={[styles.switch__container, props.isLoginFormActive ? "" : styles.isHidden].join(" ")}
                     >
-                        <h2 className={["switch__title", styles.title, isLoginFormActive ? styles.isTxr : ""].join(" ")}>
+                        <h2 className={["switch__title", styles.title, props.isLoginFormActive ? styles.isTxr : ""].join(" ")}>
                             Hello Friend !
                         </h2>
                         <p className={["switch__description", styles.description].join(" ")}>
@@ -54,7 +39,7 @@ const LoginAndRegisterView = () => {
                         </p>
                         <button
                             className={[styles.switch__button, styles.button, "switch-btn"].join(" ")}
-                            onClick={changeForm}
+                            onClick={props.changeForm}
                             >
                             SIGN UP
                         </button>

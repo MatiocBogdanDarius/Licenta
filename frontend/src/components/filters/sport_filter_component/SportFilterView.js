@@ -16,13 +16,20 @@ function SportFilterView(props) {
                     return (
                         <div
                             key={`sport-filter-${sport.name}`}
-                            className={getButtonClassName(sport)}
-                            onClick={() => props.selectSportButtonsHandler(sport)}
+                            className={getButtonClassName(sport.name)}
+                            onClick={() => props.selectSportButtonsHandler(sport.name)}
                         >
-                            <FontAwesomeIcon
-                                icon={sport.icon}
-                                className={style.sport_filter_button_icon}
-                            />
+                            {sport === SPORTS.HANDBALL ?
+                                <img
+                                    src={sport.icon}
+                                    className={style.sport_filter_button_icon}
+                                    alt=""
+                                />
+                                : <FontAwesomeIcon
+                                    icon={sport.icon}
+                                    className={style.sport_filter_button_icon}
+                                />
+                            }
                             <p>{sport.name}</p>
                         </div>
                     );

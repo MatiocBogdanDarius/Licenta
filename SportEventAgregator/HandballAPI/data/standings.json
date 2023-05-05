@@ -1,0 +1,333 @@
+[
+  [
+    {
+      "position": 1,
+      "stage": "Division 1",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 38,
+        "name": "SKA Minsk",
+        "logo": "https://media-2.api-sports.io/handball/teams/38.png"
+      },
+      "league": {
+        "id": 6,
+        "name": "Division 1",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/handball/leagues/6.png",
+        "season": 2022
+      },
+      "country": {
+        "id": 2,
+        "name": "Belarus",
+        "code": "BY",
+        "flag": "https://media-3.api-sports.io/flags/by.svg"
+      },
+      "games": {
+        "played": 24,
+        "win": {
+          "total": 22,
+          "percentage": "91.67"
+        },
+        "draw": {
+          "total": 2,
+          "percentage": "8.33"
+        },
+        "lose": {
+          "total": 0,
+          "percentage": "0.00"
+        }
+      },
+      "goals": {
+        "for": 873,
+        "against": 650
+      },
+      "points": 46,
+      "form": "WWWWW",
+      "description": null
+    },
+    {
+      "position": 2,
+      "stage": "Division 1",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 37,
+        "name": "Meshkov Brest",
+        "logo": "https://media-2.api-sports.io/handball/teams/37.png"
+      },
+      "league": {
+        "id": 6,
+        "name": "Division 1",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/handball/leagues/6.png",
+        "season": 2022
+      },
+      "country": {
+        "id": 2,
+        "name": "Belarus",
+        "code": "BY",
+        "flag": "https://media-3.api-sports.io/flags/by.svg"
+      },
+      "games": {
+        "played": 24,
+        "win": {
+          "total": 20,
+          "percentage": "83.33"
+        },
+        "draw": {
+          "total": 1,
+          "percentage": "4.17"
+        },
+        "lose": {
+          "total": 3,
+          "percentage": "12.50"
+        }
+      },
+      "goals": {
+        "for": 814,
+        "against": 639
+      },
+      "points": 41,
+      "form": "LWWWW",
+      "description": null
+    },
+    {
+      "position": 3,
+      "stage": "Division 1",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 34,
+        "name": "Gomel",
+        "logo": "https://media-1.api-sports.io/handball/teams/34.png"
+      },
+      "league": {
+        "id": 6,
+        "name": "Division 1",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/handball/leagues/6.png",
+        "season": 2022
+      },
+      "country": {
+        "id": 2,
+        "name": "Belarus",
+        "code": "BY",
+        "flag": "https://media-3.api-sports.io/flags/by.svg"
+      },
+      "games": {
+        "played": 23,
+        "win": {
+          "total": 11,
+          "percentage": "47.83"
+        },
+        "draw": {
+          "total": 2,
+          "percentage": "8.70"
+        },
+        "lose": {
+          "total": 10,
+          "percentage": "43.48"
+        }
+      },
+      "goals": {
+        "for": 707,
+        "against": 748
+      },
+      "points": 24,
+      "form": "WWLLW",
+      "description": null
+    },
+    {
+      "position": 4,
+      "stage": "Division 1",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 36,
+        "name": "Masheka",
+        "logo": "https://media-2.api-sports.io/handball/teams/36.png"
+      },
+      "league": {
+        "id": 6,
+        "name": "Division 1",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/handball/leagues/6.png",
+        "season": 2022
+      },
+      "country": {
+        "id": 2,
+        "name": "Belarus",
+        "code": "BY",
+        "flag": "https://media-2.api-sports.io/flags/by.svg"
+      },
+      "games": {
+        "played": 23,
+        "win": {
+          "total": 9,
+          "percentage": "39.13"
+        },
+        "draw": {
+          "total": 3,
+          "percentage": "13.04"
+        },
+        "lose": {
+          "total": 11,
+          "percentage": "47.83"
+        }
+      },
+      "goals": {
+        "for": 677,
+        "against": 696
+      },
+      "points": 21,
+      "form": "LLWL",
+      "description": null
+    },
+    {
+      "position": 5,
+      "stage": "Division 1",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 33,
+        "name": "BGUFK Minsk",
+        "logo": "https://media-2.api-sports.io/handball/teams/33.png"
+      },
+      "league": {
+        "id": 6,
+        "name": "Division 1",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/handball/leagues/6.png",
+        "season": 2022
+      },
+      "country": {
+        "id": 2,
+        "name": "Belarus",
+        "code": "BY",
+        "flag": "https://media-1.api-sports.io/flags/by.svg"
+      },
+      "games": {
+        "played": 23,
+        "win": {
+          "total": 6,
+          "percentage": "26.09"
+        },
+        "draw": {
+          "total": 3,
+          "percentage": "13.04"
+        },
+        "lose": {
+          "total": 14,
+          "percentage": "60.87"
+        }
+      },
+      "goals": {
+        "for": 669,
+        "against": 751
+      },
+      "points": 15,
+      "form": "LLWLL",
+      "description": null
+    },
+    {
+      "position": 6,
+      "stage": "Division 1",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 35,
+        "name": "Kronon",
+        "logo": "https://media-1.api-sports.io/handball/teams/35.png"
+      },
+      "league": {
+        "id": 6,
+        "name": "Division 1",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/handball/leagues/6.png",
+        "season": 2022
+      },
+      "country": {
+        "id": 2,
+        "name": "Belarus",
+        "code": "BY",
+        "flag": "https://media-2.api-sports.io/flags/by.svg"
+      },
+      "games": {
+        "played": 23,
+        "win": {
+          "total": 3,
+          "percentage": "13.04"
+        },
+        "draw": {
+          "total": 3,
+          "percentage": "13.04"
+        },
+        "lose": {
+          "total": 17,
+          "percentage": "73.91"
+        }
+      },
+      "goals": {
+        "for": 663,
+        "against": 789
+      },
+      "points": 9,
+      "form": "LLWL",
+      "description": null
+    },
+    {
+      "position": 7,
+      "stage": "Division 1",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 3516,
+        "name": "Aist Kitaya",
+        "logo": "https://media-2.api-sports.io/handball/teams/3516.png"
+      },
+      "league": {
+        "id": 6,
+        "name": "Division 1",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/handball/leagues/6.png",
+        "season": 2022
+      },
+      "country": {
+        "id": 2,
+        "name": "Belarus",
+        "code": "BY",
+        "flag": "https://media-2.api-sports.io/flags/by.svg"
+      },
+      "games": {
+        "played": 24,
+        "win": {
+          "total": 2,
+          "percentage": "8.33"
+        },
+        "draw": {
+          "total": 4,
+          "percentage": "16.67"
+        },
+        "lose": {
+          "total": 18,
+          "percentage": "75.00"
+        }
+      },
+      "goals": {
+        "for": 627,
+        "against": 757
+      },
+      "points": 8,
+      "form": "LWL",
+      "description": null
+    }
+  ]
+]

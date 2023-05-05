@@ -1,0 +1,461 @@
+[
+  {
+    "id": 141846,
+    "date": "2023-05-02T12:00:00+00:00",
+    "time": "12:00",
+    "timestamp": 1683028800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 38,
+      "name": "Ukraine",
+      "code": "UA",
+      "flag": "https://media-1.api-sports.io/flags/ua.svg"
+    },
+    "league": {
+      "id": 122,
+      "name": "Superleague",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/handball/leagues/122.png",
+      "season": 2022
+    },
+    "teams": {
+      "home": {
+        "id": 1149,
+        "name": "Donbas Mariupol",
+        "logo": "https://media-1.api-sports.io/handball/teams/1149.png"
+      },
+      "away": {
+        "id": 1151,
+        "name": "Motor Zaporozhye",
+        "logo": "https://media-2.api-sports.io/handball/teams/1151.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 141573,
+    "date": "2023-05-02T13:30:00+00:00",
+    "time": "13:30",
+    "timestamp": 1683034200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 29,
+      "name": "Russia",
+      "code": "RU",
+      "flag": "https://media-3.api-sports.io/flags/ru.svg"
+    },
+    "league": {
+      "id": 91,
+      "name": "Superleague",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/91.png",
+      "season": 2022
+    },
+    "teams": {
+      "home": {
+        "id": 855,
+        "name": "Akbuzat",
+        "logo": "https://media-1.api-sports.io/handball/teams/855.png"
+      },
+      "away": {
+        "id": 881,
+        "name": "Omsk",
+        "logo": "https://media-3.api-sports.io/handball/teams/881.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 141847,
+    "date": "2023-05-02T14:30:00+00:00",
+    "time": "14:30",
+    "timestamp": 1683037800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 38,
+      "name": "Ukraine",
+      "code": "UA",
+      "flag": "https://media-2.api-sports.io/flags/ua.svg"
+    },
+    "league": {
+      "id": 122,
+      "name": "Superleague",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/122.png",
+      "season": 2022
+    },
+    "teams": {
+      "home": {
+        "id": 2093,
+        "name": "Karpaty Uzhgorod",
+        "logo": "https://media-3.api-sports.io/handball/teams/2093.png"
+      },
+      "away": {
+        "id": 1155,
+        "name": "SKA Lviv",
+        "logo": "https://media-3.api-sports.io/handball/teams/1155.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 81921,
+    "date": "2023-05-02T16:00:00+00:00",
+    "time": "16:00",
+    "timestamp": 1683043200,
+    "timezone": "UTC",
+    "week": "23",
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 15,
+      "name": "Hungary",
+      "code": "HU",
+      "flag": "https://media-1.api-sports.io/flags/hu.svg"
+    },
+    "league": {
+      "id": 50,
+      "name": "NB I Women",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/50.png",
+      "season": 2022
+    },
+    "teams": {
+      "home": {
+        "id": 423,
+        "name": "DVSC Schaeffler W",
+        "logo": "https://media-3.api-sports.io/handball/teams/423.png"
+      },
+      "away": {
+        "id": 426,
+        "name": "Ferencvaros W",
+        "logo": "https://media-2.api-sports.io/handball/teams/426.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 141658,
+    "date": "2023-05-02T16:15:00+00:00",
+    "time": "16:15",
+    "timestamp": 1683044100,
+    "timezone": "UTC",
+    "week": "Semi-finals",
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 25,
+      "name": "Norway",
+      "code": "NO",
+      "flag": "https://media-2.api-sports.io/flags/no.svg"
+    },
+    "league": {
+      "id": 76,
+      "name": "REMA 1000-ligaen women",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/handball/leagues/76.png",
+      "season": 2022
+    },
+    "teams": {
+      "home": {
+        "id": 671,
+        "name": "Storhamar W",
+        "logo": "https://media-3.api-sports.io/handball/teams/671.png"
+      },
+      "away": {
+        "id": 669,
+        "name": "Sola W",
+        "logo": "https://media-3.api-sports.io/handball/teams/669.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 141589,
+    "date": "2023-05-02T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683046800,
+    "timezone": "UTC",
+    "week": "Semi-finals",
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 35,
+      "name": "Sweden",
+      "code": "SE",
+      "flag": "https://media-3.api-sports.io/flags/se.svg"
+    },
+    "league": {
+      "id": 114,
+      "name": "SHE Women",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/114.png",
+      "season": 2022
+    },
+    "teams": {
+      "home": {
+        "id": 1059,
+        "name": "Skuru W",
+        "logo": "https://media-3.api-sports.io/handball/teams/1059.png"
+      },
+      "away": {
+        "id": 1056,
+        "name": "Savehof W",
+        "logo": "https://media-3.api-sports.io/handball/teams/1056.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 141671,
+    "date": "2023-05-02T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683046800,
+    "timezone": "UTC",
+    "week": "Semi-finals",
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 40,
+      "name": "Europe",
+      "code": null,
+      "flag": null
+    },
+    "league": {
+      "id": 140,
+      "name": "MOL Liga Women",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/140.png",
+      "season": 2022
+    },
+    "teams": {
+      "home": {
+        "id": 2349,
+        "name": "Dunajska Streda W",
+        "logo": "https://media-1.api-sports.io/handball/teams/2349.png"
+      },
+      "away": {
+        "id": 2351,
+        "name": "Stupava W",
+        "logo": "https://media-3.api-sports.io/handball/teams/2351.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 140256,
+    "date": "2023-05-02T17:30:00+00:00",
+    "time": "17:30",
+    "timestamp": 1683048600,
+    "timezone": "UTC",
+    "week": "6",
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 12,
+      "name": "North-Macedonia",
+      "code": "MK",
+      "flag": "https://media-2.api-sports.io/flags/mk.svg"
+    },
+    "league": {
+      "id": 38,
+      "name": "Superleague Women",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/handball/leagues/38.png",
+      "season": 2022
+    },
+    "teams": {
+      "home": {
+        "id": 304,
+        "name": "Gevgelija W",
+        "logo": "https://media-3.api-sports.io/handball/teams/304.png"
+      },
+      "away": {
+        "id": 303,
+        "name": "Despina W",
+        "logo": "https://media-3.api-sports.io/handball/teams/303.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 136437,
+    "date": "2023-05-02T18:00:00+00:00",
+    "time": "18:00",
+    "timestamp": 1683050400,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-1.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-3.api-sports.io/handball/teams/604.png"
+      },
+      "away": {
+        "id": 601,
+        "name": "Bevo HC",
+        "logo": "https://media-2.api-sports.io/handball/teams/601.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

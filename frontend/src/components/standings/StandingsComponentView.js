@@ -1,5 +1,6 @@
 import * as React from 'react';
 import style from "./StandingsComponent.module.css";
+import {SPORTS} from "assets/constants/Data";
 
 function StandingsComponentView(props) {
     const getButtonClassName = (buttonTargetCompetition) => {
@@ -9,7 +10,8 @@ function StandingsComponentView(props) {
     const getFormViewColor = (status) => {
         if(status === 'W') return style.background_green;
         if(status === 'L') return style.background_red;
-        return style.background_yellow;
+        if(status === 'D') return style.background_yellow;
+        return style.background_gray;
     }
 
     return (
@@ -23,7 +25,7 @@ function StandingsComponentView(props) {
                                 className={getButtonClassName(index)}
                                 onClick={() => props.competitionButtonsHandle(index)}
                             >
-                                <p>{standing[0]?.group.slice(props.contest.name.length + 2)}</p>
+                                <p>{standing[0]?.group}</p>
                             </div>
                         );
                     })}
@@ -38,17 +40,25 @@ function StandingsComponentView(props) {
                     <div className={style.align_in_row}>
                         <div className={style.matches_played_container}><p>MP</p></div>
                         <div className={style.wins_container}><p>W</p></div>
-                        <div className={style.draws_container}><p>D</p></div>
+                        {props.sport !== SPORTS.BASKETBALL &&
+                            <div className={style.draws_container}><p>D</p></div>
+                        }
                         <div className={style.losses_container}><p>L</p></div>
-                        <div className={style.goals_container}><p>G</p></div>
-                        <div className={style.points_container}><p>PTS</p></div>
-                        <div className={style.form_container}><p>FORM</p></div>
+                        {props.sport !== SPORTS.BASKETBALL ?
+                            <>
+                                <div className={style.goals_container}><p>G</p></div>
+                                <div className={style.points_container}><p>PTS</p></div>
+                                <div className={style.form_container}><p>FORM</p></div>
+                            </>
+                            :
+                            <div className={style.basket_goals_container}><p>PTS</p></div>
+                        }
                     </div>
                 </div>
                 {props.contest?.standings[props.competition?? 0].map((team_standings, index, _) => {
                     return (
                         <div
-                            key={`team_standing_${team_standings.team.id}`}
+                            key={`group-${team_standings.group}-team_standing_${team_standings.team.id !== 0 ? team_standings.team.id : team_standings.team.name}`}
                             className={style.team_standings_container}
                         >
                             <div className={style.align_in_row}>
@@ -60,6 +70,7 @@ function StandingsComponentView(props) {
                                         className={style.team_logo}
                                         src={team_standings.team.logo}
                                         alt=""
+                                        onError={props.loadingImageErrorHandler}
                                     />
                                     <p  onClick={() => props.viewTeamDetails(team_standings.team, props.contest)}>
                                         {team_standings.team.name}
@@ -73,30 +84,43 @@ function StandingsComponentView(props) {
                                 <div className={style.wins_container}>
                                     <p>{team_standings.all.win}</p>
                                 </div>
-                                <div className={style.draws_container}>
-                                    <p>{team_standings.all.draw}</p>
-                                </div>
+                                {props.sport !== SPORTS.BASKETBALL &&
+                                    <div className={style.draws_container}>
+                                        <p>{team_standings.all.draw}</p>
+                                    </div>
+                                }
                                 <div className={style.losses_container}>
                                     <p>{team_standings.all.lose}</p>
                                 </div>
-                                <div className={style.goals_container}>
-                                    <p>{`${team_standings.all.goals.for}:${team_standings.all.goals.against}`}</p>
-                                </div>
-                                <div className={style.points_container}>
-                                    <p>{team_standings.points}</p>
-                                </div>
-                                <div className={style.form_container}>
-                                    {team_standings.form.split('').map((status, index, _) => {
-                                        return (
-                                            <div
-                                                key={`game_status_${index}`}
-                                                className={`${style.form_view} ${getFormViewColor(status)}`}
-                                            >
-                                                {status}
-                                            </div>
-                                        );
-                                    })}
-                                </div>
+                                {props.sport !== SPORTS.BASKETBALL ?
+                                    <>
+                                        <div className={style.goals_container}>
+                                            <p>{`${team_standings.all.goals.for}:${team_standings.all.goals.against}`}</p>
+                                        </div>
+                                        <div className={style.points_container}>
+                                            <p>{team_standings.points}</p>
+                                        </div>
+                                        <div className={style.form_container}>
+                                            {(team_standings.form + "?????")
+                                                .slice(0, 5)
+                                                .split('')
+                                                .map((status, index, _) => {
+                                                    return (
+                                                        <div
+                                                            key={`game_status_${index}`}
+                                                            className={`${style.form_view} ${getFormViewColor(status)}`}
+                                                        >
+                                                            {status}
+                                                        </div>
+                                                    );
+                                                })
+                                            }
+                                        </div>
+                                    </>
+                                    : <div className={style.basket_goals_container}>
+                                        <p>{`${team_standings.all.goals.for}:${team_standings.all.goals.against}`}</p>
+                                    </div>
+                                }
                             </div>
                         </div>
                     );

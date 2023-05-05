@@ -72,7 +72,7 @@ const TeamDetailsView = (props) => {
                                     </div>
                                 </div>
                                 <div className={style.menu_container}>
-                                    {Object.values(TEAM_MENU).map(item => {
+                                    {Object.values(TEAM_MENU[props.selectedSport.name]).map(item => {
                                         return (
                                             <p
                                                 key={`item-${item}`}
@@ -89,7 +89,8 @@ const TeamDetailsView = (props) => {
                         {props.onLoadingFixtures ?
                             <LoadingSpinner />
                             : <>
-                                {props.view === TEAM_MENU.SUMMARY && props.fixtures &&
+                                {props.view === TEAM_MENU[props.selectedSport.name].SUMMARY &&
+                                    props.fixtures &&
                                     <Summary
                                         fixtures={props.fixtures}
                                         selectedSport={props.selectedSport}
@@ -100,7 +101,7 @@ const TeamDetailsView = (props) => {
                                         changeView={props.changeView}
                                     />
                                 }
-                                {props.view === TEAM_MENU.RESULTS &&
+                                {props.view === TEAM_MENU[props.selectedSport.name].RESULTS &&
                                     <Results
                                         fixtures={props.fixtures.before_today}
                                         selectedSport={props.selectedSport}
@@ -109,7 +110,7 @@ const TeamDetailsView = (props) => {
                                         changeView={props.changeView}
                                     />
                                 }
-                                {props.view === TEAM_MENU.FIXTURES &&
+                                {props.view === TEAM_MENU[props.selectedSport.name].FIXTURES &&
                                     <Fixtures
                                         fixtures={props.fixtures.after_today}
                                         selectedSport={props.selectedSport}
@@ -118,19 +119,19 @@ const TeamDetailsView = (props) => {
                                         changeView={props.changeView}
                                     />
                                 }
-                                {props.view === TEAM_MENU.STANDINGS &&
+                                {props.view === TEAM_MENU[props.selectedSport.name].STANDINGS &&
                                     <StandingsComponent
                                         league={props.league}
                                         season={props.season}
                                     />
                                 }
-                                {props.view === TEAM_MENU.TRANSFERS &&
+                                {props.view === TEAM_MENU[props.selectedSport.name].TRANSFERS &&
                                     <Transfers
                                         transfers={props.transfers}
                                         teamId={props.team.id}
                                     />
                                 }
-                                {props.view === TEAM_MENU.SQUAD &&
+                                {props.view === TEAM_MENU[props.selectedSport.name].SQUAD &&
                                     <Squad squad={props.squad}/>
                                 }
                             </>

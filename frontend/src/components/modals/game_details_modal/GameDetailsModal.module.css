@@ -1,10 +1,9 @@
 .modal {
     position: fixed;
     min-width: 700px;
-    /*width: 100%;*/
     max-width: 900px;
     z-index: 1040;
-    top: 150px;
+    top: 100px;
     left: calc(0.5 * (100vw - 700px));
     background-color: #474B4F;
     border-radius: 10px;

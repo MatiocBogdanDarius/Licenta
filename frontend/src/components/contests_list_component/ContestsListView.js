@@ -8,10 +8,9 @@ const ContestsListView = (props) => {
         <div>
             {props.contests.map(contest => {
                 return (
-                <div className={style.contest_container} key={`contest-fixtures-${props.contests.id}`}>
+                <div className={style.contest_container} key={`contest-fixtures-${contest.id}`}>
                     <ContestFixtures
                         contest={contest}
-                        selectedSport={props.selectedSport}
                         setSelectedDate={props.setSelectedDate}
                         favoriteButtonHandle={props.favoriteButtonHandle}
                         checkIfItemIsFavorite={props.checkIfItemIsFavorite}

@@ -35,16 +35,18 @@ function ContestFilterView(props) {
                         </div>}
                 </div>)
             })}
-            <div
-                className={style.show_more_countries_button}
-                onClick={props.showMoreCountriesButtonHandle}
-            >
-                <p>{`Show ${props.isVisibleAllCountries ? 'less' : 'more'}`}</p>
-                <FontAwesomeIcon
-                    icon={props.isVisibleAllCountries ? faAngleUp : faAngleDown}
-                    className={style.icon}
-                />
-            </div>
+            {props.isVisibleShowMoreButton &&
+                <div
+                    className={style.show_more_countries_button}
+                    onClick={props.showMoreCountriesButtonHandle}
+                >
+                    <p>{`Show ${props.isVisibleAllCountries ? 'less' : 'more'}`}</p>
+                    <FontAwesomeIcon
+                        icon={props.isVisibleAllCountries ? faAngleUp : faAngleDown}
+                        className={style.icon}
+                    />
+                </div>
+            }
         </div>
     );
 }

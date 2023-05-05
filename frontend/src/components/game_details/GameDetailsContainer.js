@@ -27,8 +27,8 @@ export function GameDetailsContainer(props) {
         SPORT_EVENT_AGGREGATOR_SERVICE
             .getGame(props.gameId)
             .then(response => {
-                setGame(response.data);
-                console.log(response.data);
+                setGame(response.data[0]);
+                console.log(response.data[0]);
             })
     }
 

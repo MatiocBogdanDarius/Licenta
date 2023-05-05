@@ -82,6 +82,29 @@ def get_team_transfers(team_players_transfers):
     return transfers
 
 
+def format_statistics(game):
+    for team_statistics in game[0]['statistics']:
+        new_statistics = {
+            'BallPossession': team_statistics['statistics'][9],
+            'TotalShots': team_statistics['statistics'][2],
+            'ShootsOnGoal': team_statistics['statistics'][0],
+            'ShootsOffGoal': team_statistics['statistics'][1],
+            'TotalPasses': team_statistics['statistics'][13],
+            'PassesAccurate': team_statistics['statistics'][14],
+            'PassesPercentage': team_statistics['statistics'][15],
+            'CornerKicks': team_statistics['statistics'][7],
+            'Offsides': team_statistics['statistics'][8],
+            'GoalkeeperSaves': team_statistics['statistics'][12],
+            'Fouls': team_statistics['statistics'][6],
+            'YellowCard': team_statistics['statistics'][10],
+            'RedCard': team_statistics['statistics'][11]
+        }
+        team_statistics['statistics'] = new_statistics
+
+    return game
+
+
+
 def create_request_url(url, params):
     if len(params) == 0:
         return url
@@ -115,8 +138,8 @@ def store_contests(contests):
         for country_name in country_names
     ]
 
-    write_json_file("football_contests.json", countries)
+    write_json_file("FootballAPI/data/football_contests.json", countries)
 
 
 def get_stored_contests():
-    return read_json_file('football_contests.json')
+    return read_json_file('FootballAPI/data/football_contests.json')

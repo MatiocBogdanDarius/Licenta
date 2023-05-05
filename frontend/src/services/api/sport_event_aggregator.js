@@ -1,9 +1,9 @@
 import {sportEventAggregatorAxios} from "./axios";
 
-const getContestsMatches = (filters) => {
+const getContestsMatches = (sport, filters) => {
     return sportEventAggregatorAxios
         .get(
-            "football/fixtures?",
+            `${sport.toLowerCase()}/fixtures?`,
             {
                 params: {
                   ...filters
@@ -12,9 +12,9 @@ const getContestsMatches = (filters) => {
         )
 }
 
-const getCurrentContestsOptions = () => {
+const getCurrentContestsOptions = (sport) => {
     return sportEventAggregatorAxios.get(
-        "football/contests/",
+        `${sport.toLowerCase()}/contests/`,
         {
             params: {
                 current: true
@@ -22,9 +22,9 @@ const getCurrentContestsOptions = () => {
         })
 }
 
-const getContestInfo = (contestId, country) => {
+const getContestInfo = (sport, contestId, country) => {
     return sportEventAggregatorAxios.get(
-        "football/contest/",
+        `${sport.toLowerCase()}/contest/`,
         {
             params: {
                 country: country,
@@ -33,9 +33,9 @@ const getContestInfo = (contestId, country) => {
         })
 }
 
-const getCountryInfo = (country) => {
+const getCountryInfo = (sport, country) => {
     return sportEventAggregatorAxios.get(
-        "football/country/",
+        `${sport.toLowerCase()}/country/`,
         {
             params: {
                 country: country
@@ -43,9 +43,9 @@ const getCountryInfo = (country) => {
         })
 }
 
-const getContestsMatchesGroupByStatusAndRound = (filters) => {
+const getContestsMatchesGroupByStatusAndRound = (sport, filters) => {
     return sportEventAggregatorAxios.get(
-        "football/contest_fixtures/",
+        `${sport.toLowerCase()}/contest_fixtures/`,
         {
             params: {
                 ...filters
@@ -53,9 +53,9 @@ const getContestsMatchesGroupByStatusAndRound = (filters) => {
         })
 }
 
-const getTeamMatchesGroupByStatusAndRound = (filters) => {
+const getTeamMatchesGroupByStatusAndRound = (sport, filters) => {
     return sportEventAggregatorAxios.get(
-        "football/team_fixtures/",
+        `${sport.toLowerCase()}/team_fixtures/`,
         {
             params: {
                 ...filters
@@ -63,9 +63,9 @@ const getTeamMatchesGroupByStatusAndRound = (filters) => {
         })
 }
 
-const getStandings = (league, season) => {
+const getStandings = (sport, league, season) => {
     return sportEventAggregatorAxios.get(
-        "football/standings/",
+        `${sport.toLowerCase()}/standings/`,
         {
             params: {
                 league: league,

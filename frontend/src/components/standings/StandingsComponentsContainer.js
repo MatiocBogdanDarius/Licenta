@@ -3,6 +3,7 @@ import StandingsComponentView from "./StandingsComponentView";
 import * as SPORT_EVENT_AGGREGATOR_SERVICE from "services/api/sport_event_aggregator";
 import {TEAM_DETAILS} from "navigation/CONSTANTS";
 import {useNavigate, useParams} from "react-router-dom";
+import {NO_IMAGE, SPORTS} from "../../assets/constants/Data";
 
 
 export function StandingsComponentsContainer(props) {
@@ -17,10 +18,10 @@ export function StandingsComponentsContainer(props) {
 
     const getStandings = () => {
         SPORT_EVENT_AGGREGATOR_SERVICE
-            .getStandings(props.league, props.season)
+            .getStandings(sport, props.league, props.season)
             .then(response => {
                 setContest(response.data[0].league);
-                console.log(response.data[0].league);
+                console.log("standing", response.data[0].league);
             })
     }
 
@@ -33,12 +34,18 @@ export function StandingsComponentsContainer(props) {
         navigate(path);
     }
 
+    const loadingImageErrorHandler = (event) => {
+        event.target.src = NO_IMAGE
+    }
+
     return (
         <StandingsComponentView
+            sport={SPORTS[sport]}
             contest={contest}
             competition={competition}
             competitionButtonsHandle={competitionButtonsHandle}
             viewTeamDetails={viewTeamDetails}
+            loadingImageErrorHandler={loadingImageErrorHandler}
         />
     );
 }

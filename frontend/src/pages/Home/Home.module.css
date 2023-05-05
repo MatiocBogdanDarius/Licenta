@@ -7,6 +7,8 @@
     height: 100vh;
     margin-top: 80px !important;
     overflow: auto;
+    background-color: #222629;
+    color: #ffffff;
 }
 
 .scrollable_area::-webkit-scrollbar {
@@ -25,10 +27,6 @@
     border-radius: 10px;
 }
 
-.content {
-    background-color: #222629;
-    color: #ffffff;
-}
 
 .container {
     min-width: 900px;

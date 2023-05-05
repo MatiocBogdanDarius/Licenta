@@ -1,23 +1,20 @@
 import React, {useEffect, useState} from "react";
 import ContestDetailsView from "./ContestDetailsView";
-import {CONTEST_MENU, SPORTS, WISHLIST_ITEM_TYPE} from "assets/constants/Data";
+import {
+    CONTEST_MENU,
+    SPORTS,
+    WISHLIST_ITEM_TYPE,
+    EMPTY_WISHLIST
+} from "assets/constants/Data";
 import * as USER_ACCOUNT_SERVICE from "services/api/user_account_service";
 import * as SPORT_EVENT_AGGREGATOR_SERVICE from "services/api/sport_event_aggregator";
-import {CONTESTS} from "assets/constants/TemporarData";
 import {useLocation, useNavigate, useParams} from "react-router-dom";
 import {HOMEPAGE} from "navigation/CONSTANTS";
-
-const emptyWishlist = {
-    CONTEST: [],
-    EVENT: [],
-    TEAM: [],
-    PLAYER: [],
-}
 
 export function ContestDetailsContainer() {
     const {sport, countryName, contestId} = useParams();
     const [contest, setContest] = useState();
-    const [wishlist, setWishlist] = useState(emptyWishlist);
+    const [wishlist, setWishlist] = useState(EMPTY_WISHLIST);
     const [isOpenAddFavoriteModal, setIsOpenAddFavoriteModal] = useState(false);
     const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME)
     const [onLoadingInfo, setOnLoadingInfo] = useState(true);
@@ -28,19 +25,21 @@ export function ContestDetailsContainer() {
     const [view, setView] = useState(CONTEST_MENU.SUMMARY);
 
     useEffect(() => {
-        getContestInfo();
         getWishlist();
     }, [])
+
+    useEffect(() => {
+        getContestInfo();
+    }, [sport])
 
     useEffect(() => {
         contest && getContestFixtures();
     }, [contest])
 
     const getContestInfo = () => {
-        console.log(sport, countryName, contestId);
         setOnLoadingInfo(true);
         SPORT_EVENT_AGGREGATOR_SERVICE
-            .getContestInfo(contestId, countryName)
+            .getContestInfo(sport, contestId, countryName)
             .then(response => {
                 setContest(response.data);
                 setOnLoadingInfo(false);
@@ -48,9 +47,6 @@ export function ContestDetailsContainer() {
     };
 
     const getContestFixtures = () => {
-        // setContestFixtures(CONTESTS);
-        // setOnLoadingFixtures(false);
-
         setOnLoadingFixtures(true);
         let filters = {
             league: contest?.league.id,
@@ -58,7 +54,7 @@ export function ContestDetailsContainer() {
         }
 
         SPORT_EVENT_AGGREGATOR_SERVICE
-            .getContestsMatchesGroupByStatusAndRound(filters)
+            .getContestsMatchesGroupByStatusAndRound(sport, filters)
             .then(response => {
                 setContestFixtures(response.data);
                 setOnLoadingFixtures(false);
@@ -95,7 +91,9 @@ export function ContestDetailsContainer() {
 
     const getWishlist = async () => {
         USER_ACCOUNT_SERVICE.getUserWishlist()
-            .then(response => setWishlist({...emptyWishlist, ...response.data}))
+            .then(response =>
+                setWishlist({...EMPTY_WISHLIST, ...response.data})
+            )
     }
 
     const checkIfItemIsFavorite = (itemId, type) => {
@@ -108,7 +106,7 @@ export function ContestDetailsContainer() {
 
     const goBackButtonHandle = () => {
         const from = location.state?.from?.pathname;
-        navigate(from ?? HOMEPAGE)
+        navigate(from ?? `${HOMEPAGE}/${sport}`)
     }
 
     const changeView = (event, view) => {

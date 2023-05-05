@@ -1,20 +1,16 @@
 import React, {useEffect, useState} from "react";
 import HomeView from "./HomeView";
-import {GAME_STATUS, SPORTS, WISHLIST_ITEM_TYPE} from "assets/constants/Data";
+import {
+    GAME_STATUS,
+    WISHLIST_ITEM_TYPE,
+    EMPTY_WISHLIST
+} from "assets/constants/Data";
 import * as USER_ACCOUNT_SERVICE from "services/api/user_account_service";
 
-const emptyWishlist = {
-    CONTEST: [],
-    EVENT: [],
-    TEAM: [],
-    PLAYER: [],
-}
-
 export function HomeContainer() {
-    const [selectedSport, setSelectedSport] = useState(SPORTS.FOOTBALL)
     const [selectedDate, setSelectedDate] = useState(0);
     const [gameStatusFilterValue, setGameStatusFilterValue] = useState(GAME_STATUS.ALL);
-    const [wishlist, setWishlist] = useState(emptyWishlist);
+    const [wishlist, setWishlist] = useState(EMPTY_WISHLIST);
     const [isOpenAddFavoriteModal, setIsOpenAddFavoriteModal] = useState(false);
     const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME)
 
@@ -51,7 +47,9 @@ export function HomeContainer() {
 
     const getWishlist = async () => {
         USER_ACCOUNT_SERVICE.getUserWishlist()
-            .then(response => setWishlist({...emptyWishlist, ...response.data}))
+            .then(response =>
+                setWishlist({...EMPTY_WISHLIST, ...response.data})
+            )
     }
 
     const checkIfItemIsFavorite = (itemId, type) => {
@@ -62,20 +60,18 @@ export function HomeContainer() {
         setIsOpenAddFavoriteModal(prevState => !prevState);
     }
 
-    return (<div>
-            <HomeView
-                selectedSport={selectedSport}
-                gameStatusFilterValue={gameStatusFilterValue}
-                selectedDate={selectedDate}
-                wishList={wishlist}
-                isOpenAddFavoriteModal={isOpenAddFavoriteModal}
-                addFavoriteModalContentType={addFavoriteModalContentType}
-                gameStatusFittersButtonsHandle={setGameStatusFilterValue}
-                selectSportButtonsHandler={setSelectedSport}
-                selectDateOptionHandle={setSelectedDate}
-                favoriteButtonHandle={favoriteButtonHandle}
-                checkIfItemIsFavorite={checkIfItemIsFavorite}
-                toggleAddFavoriteModal={toggleAddFavoriteModal}
-            />
-        </div>);
+    return (
+        <HomeView
+            gameStatusFilterValue={gameStatusFilterValue}
+            selectedDate={selectedDate}
+            wishList={wishlist}
+            isOpenAddFavoriteModal={isOpenAddFavoriteModal}
+            addFavoriteModalContentType={addFavoriteModalContentType}
+            gameStatusFittersButtonsHandle={setGameStatusFilterValue}
+            selectDateOptionHandle={setSelectedDate}
+            favoriteButtonHandle={favoriteButtonHandle}
+            checkIfItemIsFavorite={checkIfItemIsFavorite}
+            toggleAddFavoriteModal={toggleAddFavoriteModal}
+        />
+    );
 }

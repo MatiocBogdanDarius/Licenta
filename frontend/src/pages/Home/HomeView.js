@@ -16,12 +16,11 @@ const HomeView = (props) => {
         <div className={style.home}>
             <Navbar/>
             <div className={style.scrollable_area}>
-                <div className={style.content}>
-                    <Container sx="lg" className={style.container}>
-                        <div className={style.filters_container}>
-                            <ContestFilter selectedSport={props.selectedSport} />
-                        </div>
-                        <div className={style.schedules_and_sport_filter_container}>
+                <Container sx="lg" className={style.container}>
+                    <div className={style.filters_container}>
+                        <ContestFilter />
+                    </div>
+                    <div className={style.schedules_and_sport_filter_container}>
                             <div className={style.sport_filter_container}>
                                 <SportFilter
                                     selectedSport={props.selectedSport}
@@ -46,7 +45,6 @@ const HomeView = (props) => {
                                 </div>
                                 <div className={style.contest_container}>
                                     <ContestsList
-                                        selectedSport={props.selectedSport}
                                         gameStatusFilterValue={props.gameStatusFilterValue}
                                         selectedDate={props.selectedDate}
                                         selectedContest={props.selectedContest}
@@ -58,8 +56,7 @@ const HomeView = (props) => {
                                 </div>
                             </div>
                         </div>
-                    </Container>
-                </div>
+                </Container>
                 <Footer/>
                 <Copyright/>
             </div>

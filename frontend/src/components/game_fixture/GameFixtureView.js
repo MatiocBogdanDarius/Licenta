@@ -1,13 +1,13 @@
 import React from 'react';
 import style from "./GameFixture.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faStar} from "@fortawesome/free-solid-svg-icons";
+import {faInfoCircle, faStar} from "@fortawesome/free-solid-svg-icons";
 import GameDetailsModal from "components/modals/game_details_modal";
 
 const GameFixtureView = (props) => {
     return (
         <>
-            <div className={style.game_container} onClick={props.toggleGameDetailsModal}>
+            <div className={style.game_container}>
                 <div className={style.fixture_date_and_teams_container}>
                     <div className={style.fixture_buttons_container}>
                         <div
@@ -58,16 +58,25 @@ const GameFixtureView = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className={style.fixture_score_container}>
-                    <div className={style.team_score_container}>
-                        <p className={props.checkIfGameIsLive(props.game) ? style.red_font : ''}>
-                            {props.getScore('home')}
-                        </p>
+                <div className={style.fixture_score_more_details_button_container}>
+                    <div className={style.fixture_score_container}>
+                        <div className={style.team_score_container}>
+                            <p className={props.checkIfGameIsLive(props.game) ? style.red_font : ''}>
+                                {props.getScore('home')}
+                            </p>
+                        </div>
+                        <div className={style.team_score_container}>
+                            <p className={props.checkIfGameIsLive(props.game) ? style.red_font : ''}>
+                                {props.getScore('away')}
+                            </p>
+                        </div>
                     </div>
-                    <div className={style.team_score_container}>
-                        <p className={props.checkIfGameIsLive(props.game) ? style.red_font : ''}>
-                            {props.getScore('away')}
-                        </p>
+                    <div>
+                        <FontAwesomeIcon
+                            icon={faInfoCircle}
+                            className={style.game_details_button_icon}
+                            onClick={props.toggleGameDetailsModal}
+                        />
                     </div>
                 </div>
             </div>

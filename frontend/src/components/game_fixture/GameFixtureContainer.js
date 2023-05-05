@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import GameFixtureView from "./GameFixtureView";
 import {GAME_STATUS_FILTERS_VALUES, SPORTS, WISHLIST_ITEM_TYPE} from "assets/constants/Data";
-import {CONTEST_DETAILS, TEAM_DETAILS} from "navigation/CONSTANTS";
+import {TEAM_DETAILS} from "navigation/CONSTANTS";
 import {useNavigate} from "react-router-dom";
 
 export function GameFixtureContainer(props) {
@@ -20,29 +20,38 @@ export function GameFixtureContainer(props) {
         return GAME_STATUS_FILTERS_VALUES.LIVE.value.includes(props.game.fixture.status.short);
     }
 
+    const getTime = (timestamp) => {
+        const date = new Date(timestamp * 1000);
+        const hours = ("0" + date.getHours()).slice(-2);
+        const minutes = ("0" + date.getMinutes()).slice(-2);
+
+        return hours.substring(-2) + ":" + minutes;
+    }
+
+    const getDateTime = (timestamp) => {
+        const datetime = new Date(timestamp * 1000);
+        const year = datetime.getFullYear();
+        const month = ("0" + (datetime.getMonth() + 1)).slice(-2);
+        const day = ("0" + datetime.getDate()).slice(-2);
+        const time = getTime(timestamp);
+
+        return day + "/" + month + "/" + year + "\n" + time;
+    }
+
     const getFormattedDate = () => {
         if (props.showOnlyDateTime){
-            const timestamp = props.game.fixture.timestamp;
-            const datetime = new Date(timestamp * 1000);
-            const year = datetime.getFullYear();
-            const month = ("0" + (datetime.getMonth() + 1)).slice(-2);
-            const day = ("0" + datetime.getDate()).slice(-2);
-            const hours = ("0" + datetime.getHours()).slice(-2);
-            const minutes = ("0" + datetime.getMinutes()).slice(-2);
-            return day + "/" + month + "/" + year + "\n" + hours + ":" + minutes;
+            return getDateTime(props.game.fixture.timestamp);
         }
 
         switch (props.game.fixture.status.short) {
             case 'NS':
-                const timestamp = props.game.fixture.timestamp
-                const date = new Date(timestamp * 1000);
-                const hours = ("0" + date.getHours()).slice(-2);
-                const minutes = ("0" + date.getMinutes()).slice(-2);
-                return hours.substring(-2) + ":" + minutes;
+                return getTime(props.game.fixture.timestamp);
             case '1H':
             case '2H':
             case 'ET':
-                return props.game.fixture.status.elapsed + "'"
+                if (props.game.fixture.status.elapsed)
+                    return props.game.fixture.status.elapsed + "'";
+                return getTime(props.game.fixture.timestamp);
             case 'FT':
             case 'AET':
             case 'PEN':
@@ -60,17 +69,32 @@ export function GameFixtureContainer(props) {
             case 'AWD':
             case 'LIVE':
             default:
-                return props.game.fixture.status.long
+                return props.game.fixture.status.long;
         }
     }
 
     const getScore = (contestant) => {
         const goals = props.game.goals[contestant];
-        const scoreHalftime = props.game.score.halftime[contestant];
 
         if (props.selectedSport === SPORTS.FOOTBALL) {
+            const scoreHalftime = props.game.score?.halftime[contestant];
             if (goals != null) {
                 return `${goals} (${scoreHalftime})`
+            }
+            return "-";
+        } else if (props.selectedSport === SPORTS.HANDBALL){
+            if (goals != null) {
+                return `${goals}`
+            }
+            return "-";
+        } else if (props.selectedSport === SPORTS.BASKETBALL){
+            if (goals.total !== null) {
+                return `${goals.total}`
+            }
+            return "-";
+        } else if (props.selectedSport === SPORTS.BASEBALL){
+            if (goals !== null) {
+                return `${goals}`
             }
             return "-";
         }

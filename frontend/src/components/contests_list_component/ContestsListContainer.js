@@ -4,19 +4,18 @@ import {GAME_STATUS_FILTERS_VALUES} from "assets/constants/Data";
 import {addDays} from "date-fns";
 import * as SPORT_EVENT_AGGREGATOR_SERVICE from "services/api/sport_event_aggregator";
 import {getFormattedDate} from "utils/formatDate";
-import {CONTESTS} from "assets/constants/TemporarData";
+import {useParams} from "react-router-dom";
 
 export function ContestsListContainer(props) {
+    const {sport} = useParams();
     const [contests, setContests] = useState([]);
     const [onLoading, setOnLoading] = useState(true);
-
-    // useEffect(() => {}, [onLoading])
 
     useEffect(() => getContests(), [])
 
     useEffect(() => {
         getContests();
-    }, [props.gameStatusFilterValue, props.selectedDate, props.selectedContest, props.selectedSeason])
+    }, [sport, props.gameStatusFilterValue, props.selectedDate, props.selectedContest, props.selectedSeason])
 
     const getContests = () => {
         setOnLoading(true);
@@ -27,28 +26,28 @@ export function ContestsListContainer(props) {
             return
         }
 
-        setContests(CONTESTS);
-        setOnLoading(false);
+        // setContests(CONTESTS);
+        // setOnLoading(false);
 
-        // let filters = {
-        //     status: GAME_STATUS_FILTERS_VALUES[props.gameStatusFilterValue]?.value,
-        //     date: getFormattedDate(addDays((new Date()), props.selectedDate)),
-        //     league: props.selectedContest,
-        //     season: props.selectedSeason,
-        // }
-        //
-        // SPORT_EVENT_AGGREGATOR_SERVICE
-        //     .getContestsMatches(filters)
-        //     .then(response => {
-        //         setContests(response.data);
-        //         setOnLoading(false);
-        //     });
+        let filters = {
+            status: GAME_STATUS_FILTERS_VALUES[props.gameStatusFilterValue]?.value,
+            date: getFormattedDate(addDays((new Date()), props.selectedDate)),
+            league: props.selectedContest,
+            season: props.selectedSeason,
+        }
+
+        SPORT_EVENT_AGGREGATOR_SERVICE
+            .getContestsMatches(sport, filters)
+            .then(response => {
+                setContests(response.data);
+                setOnLoading(false);
+                console.log("fixtures:", response.data)
+            });
     }
 
     return (
         <ContestsListView
                 contests={contests}
-                selectedSport={props.selectedSport}
                 onLoading={onLoading}
                 setSelectedDate={props.setSelectedDate}
                 favoriteButtonHandle={props.favoriteButtonHandle}

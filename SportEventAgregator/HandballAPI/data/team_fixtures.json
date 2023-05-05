@@ -1,0 +1,512 @@
+[
+  {
+    "id": 136423,
+    "date": "2023-03-25T18:00:00+00:00",
+    "time": "18:00",
+    "timestamp": 1679767200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-1.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 4192,
+        "name": "Tachos",
+        "logo": "https://media-3.api-sports.io/handball/teams/4192.png"
+      },
+      "away": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-3.api-sports.io/handball/teams/604.png"
+      }
+    },
+    "scores": {
+      "home": 20,
+      "away": 33
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 136426,
+    "date": "2023-04-01T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1680368400,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-2.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-3.api-sports.io/handball/teams/604.png"
+      },
+      "away": {
+        "id": 602,
+        "name": "Hurry-Up",
+        "logo": "https://media-2.api-sports.io/handball/teams/602.png"
+      }
+    },
+    "scores": {
+      "home": 32,
+      "away": 25
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 136430,
+    "date": "2023-04-08T18:00:00+00:00",
+    "time": "18:00",
+    "timestamp": 1680976800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-3.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-1.api-sports.io/handball/teams/604.png"
+      },
+      "away": {
+        "id": 603,
+        "name": "KRAS/Volendam",
+        "logo": "https://media-2.api-sports.io/handball/teams/603.png"
+      }
+    },
+    "scores": {
+      "home": 36,
+      "away": 33
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 136431,
+    "date": "2023-04-15T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1681578000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-3.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 600,
+        "name": "Aalsmeer",
+        "logo": "https://media-1.api-sports.io/handball/teams/600.png"
+      },
+      "away": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-1.api-sports.io/handball/teams/604.png"
+      }
+    },
+    "scores": {
+      "home": 34,
+      "away": 38
+    },
+    "periods": {
+      "first": {
+        "home": 15,
+        "away": 17
+      },
+      "second": {
+        "home": 19,
+        "away": 21
+      }
+    }
+  },
+  {
+    "id": 136419,
+    "date": "2023-04-20T18:00:00+00:00",
+    "time": "18:00",
+    "timestamp": 1682013600,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-3.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 601,
+        "name": "Bevo HC",
+        "logo": "https://media-2.api-sports.io/handball/teams/601.png"
+      },
+      "away": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-1.api-sports.io/handball/teams/604.png"
+      }
+    },
+    "scores": {
+      "home": 31,
+      "away": 37
+    },
+    "periods": {
+      "first": {
+        "home": 15,
+        "away": 15
+      },
+      "second": {
+        "home": 16,
+        "away": 22
+      }
+    }
+  },
+  {
+    "id": 136436,
+    "date": "2023-04-22T18:00:00+00:00",
+    "time": "18:00",
+    "timestamp": 1682186400,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-3.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-2.api-sports.io/handball/teams/604.png"
+      },
+      "away": {
+        "id": 4192,
+        "name": "Tachos",
+        "logo": "https://media-3.api-sports.io/handball/teams/4192.png"
+      }
+    },
+    "scores": {
+      "home": 37,
+      "away": 25
+    },
+    "periods": {
+      "first": {
+        "home": 19,
+        "away": 11
+      },
+      "second": {
+        "home": 18,
+        "away": 14
+      }
+    }
+  },
+  {
+    "id": 136437,
+    "date": "2023-05-02T18:00:00+00:00",
+    "time": "18:00",
+    "timestamp": 1683050400,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-3.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-1.api-sports.io/handball/teams/604.png"
+      },
+      "away": {
+        "id": 601,
+        "name": "Bevo HC",
+        "logo": "https://media-2.api-sports.io/handball/teams/601.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 136442,
+    "date": "2023-05-06T18:00:00+00:00",
+    "time": "18:00",
+    "timestamp": 1683396000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-2.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 602,
+        "name": "Hurry-Up",
+        "logo": "https://media-1.api-sports.io/handball/teams/602.png"
+      },
+      "away": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-1.api-sports.io/handball/teams/604.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 136445,
+    "date": "2023-05-13T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683997200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-1.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 603,
+        "name": "KRAS/Volendam",
+        "logo": "https://media-2.api-sports.io/handball/teams/603.png"
+      },
+      "away": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-2.api-sports.io/handball/teams/604.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "id": 136447,
+    "date": "2023-05-20T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1684602000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 24,
+      "name": "Netherlands",
+      "code": "NL",
+      "flag": "https://media-1.api-sports.io/flags/nl.svg"
+    },
+    "league": {
+      "id": 68,
+      "name": "HandbalNL League",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/handball/leagues/68.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 604,
+        "name": "Limburg Lions",
+        "logo": "https://media-1.api-sports.io/handball/teams/604.png"
+      },
+      "away": {
+        "id": 600,
+        "name": "Aalsmeer",
+        "logo": "https://media-1.api-sports.io/handball/teams/600.png"
+      }
+    },
+    "scores": {
+      "home": null,
+      "away": null
+    },
+    "periods": {
+      "first": {
+        "home": null,
+        "away": null
+      },
+      "second": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

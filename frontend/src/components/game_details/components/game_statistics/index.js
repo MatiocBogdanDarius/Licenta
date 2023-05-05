@@ -1,0 +1,1 @@
+export {GameStatisticsContainer as default} from "./GameStatisticsContainer";

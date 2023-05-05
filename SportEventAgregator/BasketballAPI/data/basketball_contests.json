@@ -1,0 +1,3063 @@
+[
+  {
+    "name": "Africa",
+    "contests": [
+      {
+        "id": 328,
+        "name": "BAL",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/328.png",
+        "country": {
+          "id": 71,
+          "name": "Africa",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-11",
+            "end": "2023-05-06",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 328,
+          "name": "BAL",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/328.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Argentina",
+    "contests": [
+      {
+        "id": 18,
+        "name": "Liga A",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/18.png",
+        "country": {
+          "id": 6,
+          "name": "Argentina",
+          "code": "AR",
+          "flag": "https://media-2.api-sports.io/flags/ar.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-05",
+            "end": "2023-05-10",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 18,
+          "name": "Liga A",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/18.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Asia",
+    "contests": [
+      {
+        "id": 310,
+        "name": "Asia Cup Women",
+        "type": "cup",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/310.png",
+        "country": {
+          "id": 2,
+          "name": "Asia",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-06-26",
+            "end": "2023-06-28",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 310,
+          "name": "Asia Cup Women",
+          "type": "cup",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/310.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Australia",
+    "contests": [
+      {
+        "id": 212,
+        "name": "NBL1 Central",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/212.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-3.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-25",
+            "end": "2023-07-15",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 212,
+          "name": "NBL1 Central",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/212.png"
+        }
+      },
+      {
+        "id": 211,
+        "name": "NBL1 Central Women",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/211.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-3.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-25",
+            "end": "2023-07-15",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 211,
+          "name": "NBL1 Central Women",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/211.png"
+        }
+      },
+      {
+        "id": 215,
+        "name": "NBL1 East",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/215.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-3.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-11",
+            "end": "2023-07-23",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 215,
+          "name": "NBL1 East",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/215.png"
+        }
+      },
+      {
+        "id": 216,
+        "name": "NBL1 East Women",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/216.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-1.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-11",
+            "end": "2023-07-23",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 216,
+          "name": "NBL1 East Women",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/216.png"
+        }
+      },
+      {
+        "id": 207,
+        "name": "NBL1 North",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/207.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-3.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-24",
+            "end": "2023-07-15",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 207,
+          "name": "NBL1 North",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/207.png"
+        }
+      },
+      {
+        "id": 208,
+        "name": "NBL1 North Women",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/208.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-3.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-24",
+            "end": "2023-07-15",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 208,
+          "name": "NBL1 North Women",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/208.png"
+        }
+      },
+      {
+        "id": 209,
+        "name": "NBL1 South",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/209.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-2.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-04-01",
+            "end": "2023-07-16",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 209,
+          "name": "NBL1 South",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/209.png"
+        }
+      },
+      {
+        "id": 210,
+        "name": "NBL1 South Women",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/210.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-1.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-04-01",
+            "end": "2023-07-16",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 210,
+          "name": "NBL1 South Women",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/210.png"
+        }
+      },
+      {
+        "id": 214,
+        "name": "NBL1 West",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/214.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-2.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-31",
+            "end": "2023-07-22",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 214,
+          "name": "NBL1 West",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/214.png"
+        }
+      },
+      {
+        "id": 213,
+        "name": "NBL1 West Women",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/213.png",
+        "country": {
+          "id": 1,
+          "name": "Australia",
+          "code": "AU",
+          "flag": "https://media-1.api-sports.io/flags/au.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-31",
+            "end": "2023-07-22",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 213,
+          "name": "NBL1 West Women",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/213.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Austria",
+    "contests": [
+      {
+        "id": 217,
+        "name": "Superliga",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/217.png",
+        "country": {
+          "id": 3,
+          "name": "Austria",
+          "code": "AT",
+          "flag": "https://media-2.api-sports.io/flags/at.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-29",
+            "end": "2023-05-11",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 217,
+          "name": "Superliga",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/217.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Bahrain",
+    "contests": [
+      {
+        "id": 122,
+        "name": "Premier League",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/122.png",
+        "country": {
+          "id": 56,
+          "name": "Bahrain",
+          "code": "BH",
+          "flag": "https://media-2.api-sports.io/flags/bh.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-10",
+            "end": "2023-05-12",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 122,
+          "name": "Premier League",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/122.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Belarus",
+    "contests": [
+      {
+        "id": 111,
+        "name": "Premier League",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/111.png",
+        "country": {
+          "id": 51,
+          "name": "Belarus",
+          "code": "BY",
+          "flag": "https://media-3.api-sports.io/flags/by.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-17",
+            "end": "2023-05-06",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 111,
+          "name": "Premier League",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/111.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Belgium",
+    "contests": [
+      {
+        "id": 374,
+        "name": "Pro Basketball League",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/374.png",
+        "country": {
+          "id": 7,
+          "name": "Belgium",
+          "code": "BE",
+          "flag": "https://media-1.api-sports.io/flags/be.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-05-03",
+            "end": "2023-05-05",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 374,
+          "name": "Pro Basketball League",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/374.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Bolivia",
+    "contests": [
+      {
+        "id": 379,
+        "name": "Libobasquet",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/379.png",
+        "country": {
+          "id": 72,
+          "name": "Bolivia",
+          "code": "BO",
+          "flag": "https://media-2.api-sports.io/flags/bo.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-15",
+            "end": "2023-06-25",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 379,
+          "name": "Libobasquet",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/379.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Bosnia-and-Herzegovina",
+    "contests": [
+      {
+        "id": 123,
+        "name": "Prvenstvo BiH",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/123.png",
+        "country": {
+          "id": 57,
+          "name": "Bosnia-and-Herzegovina",
+          "code": "BA",
+          "flag": "https://media-1.api-sports.io/flags/ba.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-29",
+            "end": "2023-05-06",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 123,
+          "name": "Prvenstvo BiH",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/123.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Brazil",
+    "contests": [
+      {
+        "id": 27,
+        "name": "LBF W",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/27.png",
+        "country": {
+          "id": 8,
+          "name": "Brazil",
+          "code": "BR",
+          "flag": "https://media-3.api-sports.io/flags/br.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-08",
+            "end": "2023-06-15",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 27,
+          "name": "LBF W",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/27.png"
+        }
+      },
+      {
+        "id": 26,
+        "name": "NBB",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/26.png",
+        "country": {
+          "id": 8,
+          "name": "Brazil",
+          "code": "BR",
+          "flag": "https://media-2.api-sports.io/flags/br.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-15",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 26,
+          "name": "NBB",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/26.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Bulgaria",
+    "contests": [
+      {
+        "id": 113,
+        "name": "NBL",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/113.png",
+        "country": {
+          "id": 52,
+          "name": "Bulgaria",
+          "code": "BG",
+          "flag": "https://media-2.api-sports.io/flags/bg.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-08",
+            "end": "2023-05-05",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 113,
+          "name": "NBL",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/113.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Canada",
+    "contests": [
+      {
+        "id": 222,
+        "name": "CEBL",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/222.png",
+        "country": {
+          "id": 9,
+          "name": "Canada",
+          "code": "CA",
+          "flag": "https://media-3.api-sports.io/flags/ca.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-05-24",
+            "end": "2023-07-30",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 222,
+          "name": "CEBL",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/222.png"
+        }
+      },
+      {
+        "id": 28,
+        "name": "NBL",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/28.png",
+        "country": {
+          "id": 9,
+          "name": "Canada",
+          "code": "CA",
+          "flag": "https://media-2.api-sports.io/flags/ca.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2023-01-08",
+            "end": "2023-05-14",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 28,
+          "name": "NBL",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/28.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Chile",
+    "contests": [
+      {
+        "id": 114,
+        "name": "LNB",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/114.png",
+        "country": {
+          "id": 53,
+          "name": "Chile",
+          "code": "CL",
+          "flag": "https://media-2.api-sports.io/flags/cl.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2023-01-13",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 114,
+          "name": "LNB",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/114.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Colombia",
+    "contests": [
+      {
+        "id": 225,
+        "name": "LBP",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/225.png",
+        "country": {
+          "id": 64,
+          "name": "Colombia",
+          "code": "CO",
+          "flag": "https://media-1.api-sports.io/flags/co.svg"
+        },
+        "seasons": [
+          {
+            "season": "2023-2024",
+            "start": "2023-04-29",
+            "end": "2023-05-07",
+            "year": "2023-2024"
+          }
+        ],
+        "league": {
+          "id": 225,
+          "name": "LBP",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/225.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Croatia",
+    "contests": [
+      {
+        "id": 30,
+        "name": "Premijer liga",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/30.png",
+        "country": {
+          "id": 10,
+          "name": "Croatia",
+          "code": "HR",
+          "flag": "https://media-1.api-sports.io/flags/hr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 30,
+          "name": "Premijer liga",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/30.png"
+        }
+      },
+      {
+        "id": 226,
+        "name": "Premijer Liga Women",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/226.png",
+        "country": {
+          "id": 10,
+          "name": "Croatia",
+          "code": "HR",
+          "flag": "https://media-3.api-sports.io/flags/hr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-01",
+            "end": "2023-05-06",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 226,
+          "name": "Premijer Liga Women",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/226.png"
+        }
+      },
+      {
+        "id": 227,
+        "name": "Prva Liga",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/227.png",
+        "country": {
+          "id": 10,
+          "name": "Croatia",
+          "code": "HR",
+          "flag": "https://media-1.api-sports.io/flags/hr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-01",
+            "end": "2023-05-13",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 227,
+          "name": "Prva Liga",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/227.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Cyprus",
+    "contests": [
+      {
+        "id": 115,
+        "name": "Division A",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/115.png",
+        "country": {
+          "id": 54,
+          "name": "Cyprus",
+          "code": "CY",
+          "flag": "https://media-2.api-sports.io/flags/cy.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-07",
+            "end": "2023-05-14",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 115,
+          "name": "Division A",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/115.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Czech Republic",
+    "contests": [
+      {
+        "id": 32,
+        "name": "NBL",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/32.png",
+        "country": {
+          "id": 12,
+          "name": "Czech Republic",
+          "code": "CZ",
+          "flag": "https://media-3.api-sports.io/flags/cz.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-01",
+            "end": "2023-05-08",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 32,
+          "name": "NBL",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/32.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Dominican-Republic",
+    "contests": [
+      {
+        "id": 380,
+        "name": "LNB",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/380.png",
+        "country": {
+          "id": 73,
+          "name": "Dominican-Republic",
+          "code": "DO",
+          "flag": "https://media-2.api-sports.io/flags/do.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-05-09",
+            "end": "2023-06-11",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 380,
+          "name": "LNB",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/380.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Estonia",
+    "contests": [
+      {
+        "id": 36,
+        "name": "Korvpalli Meistriliiga",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/36.png",
+        "country": {
+          "id": 14,
+          "name": "Estonia",
+          "code": "EE",
+          "flag": "https://media-3.api-sports.io/flags/ee.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2023-04-12",
+            "end": "2023-05-09",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 36,
+          "name": "Korvpalli Meistriliiga",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/36.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Europe",
+    "contests": [
+      {
+        "id": 198,
+        "name": "NLB",
+        "type": "cup",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/198.png",
+        "country": {
+          "id": 55,
+          "name": "Europe",
+          "code": " ",
+          "flag": "https://media-2.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2022,
+            "start": "2022-09-30",
+            "end": "2023-05-08",
+            "year": 2022
+          }
+        ],
+        "league": {
+          "id": 198,
+          "name": "NLB",
+          "type": "cup",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/198.png"
+        }
+      },
+      {
+        "id": 368,
+        "name": "BNXT League",
+        "type": "cup",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/368.png",
+        "country": {
+          "id": 55,
+          "name": "Europe",
+          "code": " ",
+          "flag": "https://media-2.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-05",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 368,
+          "name": "BNXT League",
+          "type": "cup",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/368.png"
+        }
+      },
+      {
+        "id": 202,
+        "name": "Champions League",
+        "type": "cup",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/202.png",
+        "country": {
+          "id": 55,
+          "name": "Europe",
+          "code": " ",
+          "flag": "https://media-3.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2022,
+            "start": "2022-09-21",
+            "end": "2023-05-12",
+            "year": 2022
+          }
+        ],
+        "league": {
+          "id": 202,
+          "name": "Champions League",
+          "type": "cup",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/202.png"
+        }
+      },
+      {
+        "id": 197,
+        "name": "EuroBasket",
+        "type": "cup",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/197.png",
+        "country": {
+          "id": 55,
+          "name": "Europe",
+          "code": " ",
+          "flag": "https://media-3.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2022-11-10",
+            "end": "2023-08-05",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 197,
+          "name": "EuroBasket",
+          "type": "cup",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/197.png"
+        }
+      },
+      {
+        "id": 120,
+        "name": "Euroleague",
+        "type": "cup",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/120.png",
+        "country": {
+          "id": 55,
+          "name": "Europe",
+          "code": null,
+          "flag": null
+        },
+        "seasons": [
+          {
+            "season": 2022,
+            "start": "2022-10-06",
+            "end": "2023-05-05",
+            "year": 2022
+          }
+        ],
+        "league": {
+          "id": 120,
+          "name": "Euroleague",
+          "type": "cup",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/120.png"
+        }
+      },
+      {
+        "id": 331,
+        "name": "European Championship Women",
+        "type": "cup",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/331.png",
+        "country": {
+          "id": 55,
+          "name": "Europe",
+          "code": " ",
+          "flag": "https://media-2.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2021-11-11",
+            "end": "2023-06-17",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 331,
+          "name": "European Championship Women",
+          "type": "cup",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/331.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Finland",
+    "contests": [
+      {
+        "id": 37,
+        "name": "Korisliiga",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/37.png",
+        "country": {
+          "id": 15,
+          "name": "Finland",
+          "code": "FI",
+          "flag": "https://media-1.api-sports.io/flags/fi.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-11",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 37,
+          "name": "Korisliiga",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/37.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "France",
+    "contests": [
+      {
+        "id": 233,
+        "name": "Espoirs U21",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/233.png",
+        "country": {
+          "id": 4,
+          "name": "France",
+          "code": "FR",
+          "flag": "https://media-3.api-sports.io/flags/fr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-23",
+            "end": "2023-05-16",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 233,
+          "name": "Espoirs U21",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/233.png"
+        }
+      },
+      {
+        "id": 10,
+        "name": "LFB W",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/10.png",
+        "country": {
+          "id": 4,
+          "name": "France",
+          "code": "FR",
+          "flag": "https://media-2.api-sports.io/flags/fr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-29",
+            "end": "2023-05-16",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 10,
+          "name": "LFB W",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/10.png"
+        }
+      },
+      {
+        "id": 2,
+        "name": "LNB",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/2.png",
+        "country": {
+          "id": 4,
+          "name": "France",
+          "code": "FR",
+          "flag": "https://media-1.api-sports.io/flags/fr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-23",
+            "end": "2023-05-16",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 2,
+          "name": "LNB",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/2.png"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Pro B",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/8.png",
+        "country": {
+          "id": 4,
+          "name": "France",
+          "code": "FR",
+          "flag": "https://media-3.api-sports.io/flags/fr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-14",
+            "end": "2023-05-12",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 8,
+          "name": "Pro B",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/8.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Georgia",
+    "contests": [
+      {
+        "id": 39,
+        "name": "Superleague",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/39.png",
+        "country": {
+          "id": 16,
+          "name": "Georgia",
+          "code": "GE",
+          "flag": "https://media-3.api-sports.io/flags/ge.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-23",
+            "end": "2023-05-10",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 39,
+          "name": "Superleague",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/39.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Germany",
+    "contests": [
+      {
+        "id": 40,
+        "name": "BBL",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/40.png",
+        "country": {
+          "id": 17,
+          "name": "Germany",
+          "code": "DE",
+          "flag": "https://media-1.api-sports.io/flags/de.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-28",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 40,
+          "name": "BBL",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/40.png"
+        }
+      },
+      {
+        "id": 42,
+        "name": "Pro A",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/42.png",
+        "country": {
+          "id": 17,
+          "name": "Germany",
+          "code": "DE",
+          "flag": "https://media-3.api-sports.io/flags/de.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-10",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 42,
+          "name": "Pro A",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/42.png"
+        }
+      },
+      {
+        "id": 43,
+        "name": "Pro B",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/43.png",
+        "country": {
+          "id": 17,
+          "name": "Germany",
+          "code": "DE",
+          "flag": "https://media-3.api-sports.io/flags/de.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-05",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 43,
+          "name": "Pro B",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/43.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hungary",
+    "contests": [
+      {
+        "id": 46,
+        "name": "NB I A",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/46.png",
+        "country": {
+          "id": 19,
+          "name": "Hungary",
+          "code": "HU",
+          "flag": "https://media-1.api-sports.io/flags/hu.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-24",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 46,
+          "name": "NB I A",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/46.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Iceland",
+    "contests": [
+      {
+        "id": 48,
+        "name": "Premier league",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/48.png",
+        "country": {
+          "id": 20,
+          "name": "Iceland",
+          "code": "IS",
+          "flag": "https://media-2.api-sports.io/flags/is.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-06",
+            "end": "2023-05-12",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 48,
+          "name": "Premier league",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/48.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Iran",
+    "contests": [
+      {
+        "id": 238,
+        "name": "Super League",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/238.png",
+        "country": {
+          "id": 65,
+          "name": "Iran",
+          "code": "IR",
+          "flag": "https://media-1.api-sports.io/flags/ir.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-29",
+            "end": "2023-05-15",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 238,
+          "name": "Super League",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/238.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Israel",
+    "contests": [
+      {
+        "id": 239,
+        "name": "Liga Leumit",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/239.png",
+        "country": {
+          "id": 22,
+          "name": "Israel",
+          "code": "IL",
+          "flag": "https://media-1.api-sports.io/flags/il.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-11",
+            "end": "2023-05-09",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 239,
+          "name": "Liga Leumit",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/239.png"
+        }
+      },
+      {
+        "id": 51,
+        "name": "Super League",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/51.png",
+        "country": {
+          "id": 22,
+          "name": "Israel",
+          "code": "IL",
+          "flag": "https://media-2.api-sports.io/flags/il.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-07",
+            "end": "2023-05-10",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 51,
+          "name": "Super League",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/51.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Italy",
+    "contests": [
+      {
+        "id": 52,
+        "name": "Lega A",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/52.png",
+        "country": {
+          "id": 23,
+          "name": "Italy",
+          "code": "IT",
+          "flag": "https://media-2.api-sports.io/flags/it.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-01",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 52,
+          "name": "Lega A",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/52.png"
+        }
+      },
+      {
+        "id": 53,
+        "name": "Serie A1 W",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/53.png",
+        "country": {
+          "id": 23,
+          "name": "Italy",
+          "code": "IT",
+          "flag": "https://media-3.api-sports.io/flags/it.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-01",
+            "end": "2023-05-05",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 53,
+          "name": "Serie A1 W",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/53.png"
+        }
+      },
+      {
+        "id": 242,
+        "name": "Serie A2",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/242.png",
+        "country": {
+          "id": 23,
+          "name": "Italy",
+          "code": "IT",
+          "flag": "https://media-3.api-sports.io/flags/it.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-01",
+            "end": "2023-05-21",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 242,
+          "name": "Serie A2",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/242.png"
+        }
+      },
+      {
+        "id": 243,
+        "name": "Serie A2 Women - North",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/243.png",
+        "country": {
+          "id": 23,
+          "name": "Italy",
+          "code": "IT",
+          "flag": "https://media-1.api-sports.io/flags/it.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-08",
+            "end": "2023-05-11",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 243,
+          "name": "Serie A2 Women - North",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/243.png"
+        }
+      },
+      {
+        "id": 244,
+        "name": "Serie A2 Women - South",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/244.png",
+        "country": {
+          "id": 23,
+          "name": "Italy",
+          "code": "IT",
+          "flag": "https://media-2.api-sports.io/flags/it.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-08",
+            "end": "2023-05-11",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 244,
+          "name": "Serie A2 Women - South",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/244.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Japan",
+    "contests": [
+      {
+        "id": 56,
+        "name": "B League",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/56.png",
+        "country": {
+          "id": 24,
+          "name": "Japan",
+          "code": "JP",
+          "flag": "https://media-3.api-sports.io/flags/jp.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-29",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 56,
+          "name": "B League",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/56.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Kazakhstan",
+    "contests": [
+      {
+        "id": 57,
+        "name": "National League",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/57.png",
+        "country": {
+          "id": 25,
+          "name": "Kazakhstan",
+          "code": "KZ",
+          "flag": "https://media-2.api-sports.io/flags/kz.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-29",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 57,
+          "name": "National League",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/57.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Kosovo",
+    "contests": [
+      {
+        "id": 59,
+        "name": "Superliga",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/59.png",
+        "country": {
+          "id": 26,
+          "name": "Kosovo",
+          "code": "XK",
+          "flag": "https://media-2.api-sports.io/flags/xk.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-10",
+            "end": "2023-05-11",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 59,
+          "name": "Superliga",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/59.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Latvia",
+    "contests": [
+      {
+        "id": 146,
+        "name": "LBL",
+        "type": "cup",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/146.png",
+        "country": {
+          "id": 59,
+          "name": "Latvia",
+          "code": "LV",
+          "flag": "https://media-1.api-sports.io/flags/lv.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2023-04-05",
+            "end": "2023-05-14",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 146,
+          "name": "LBL",
+          "type": "cup",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/146.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Lithuania",
+    "contests": [
+      {
+        "id": 60,
+        "name": "LKL",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/60.png",
+        "country": {
+          "id": 27,
+          "name": "Lithuania",
+          "code": "LT",
+          "flag": "https://media-1.api-sports.io/flags/lt.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-24",
+            "end": "2023-05-08",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 60,
+          "name": "LKL",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/60.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "contests": [
+      {
+        "id": 250,
+        "name": "Total League Women",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/250.png",
+        "country": {
+          "id": 66,
+          "name": "Luxembourg",
+          "code": "LU",
+          "flag": "https://media-3.api-sports.io/flags/lu.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-24",
+            "end": "2023-05-21",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 250,
+          "name": "Total League Women",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/250.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Macedonia",
+    "contests": [
+      {
+        "id": 318,
+        "name": "Prva Liga",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/318.png",
+        "country": {
+          "id": 32,
+          "name": "Macedonia",
+          "code": "MK",
+          "flag": "https://media-2.api-sports.io/flags/mk.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-06",
+            "end": "2023-06-03",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 318,
+          "name": "Prva Liga",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/318.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mexico",
+    "contests": [
+      {
+        "id": 251,
+        "name": "CIBACOPA",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/251.png",
+        "country": {
+          "id": 28,
+          "name": "Mexico",
+          "code": "MX",
+          "flag": "https://media-3.api-sports.io/flags/mx.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-09",
+            "end": "2023-05-14",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 251,
+          "name": "CIBACOPA",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/251.png"
+        }
+      },
+      {
+        "id": 252,
+        "name": "LMBPF Women",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/252.png",
+        "country": {
+          "id": 28,
+          "name": "Mexico",
+          "code": "MX",
+          "flag": "https://media-2.api-sports.io/flags/mx.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-02-25",
+            "end": "2023-05-07",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 252,
+          "name": "LMBPF Women",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/252.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Montenegro",
+    "contests": [
+      {
+        "id": 64,
+        "name": "Prva A Liga",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/64.png",
+        "country": {
+          "id": 29,
+          "name": "Montenegro",
+          "code": "ME",
+          "flag": "https://media-3.api-sports.io/flags/me.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-05",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 64,
+          "name": "Prva A Liga",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/64.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "contests": [
+      {
+        "id": 65,
+        "name": "DBL",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/65.png",
+        "country": {
+          "id": 30,
+          "name": "Netherlands",
+          "code": "NL",
+          "flag": "https://media-1.api-sports.io/flags/nl.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2023-05-03",
+            "end": "2023-05-05",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 65,
+          "name": "DBL",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/65.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "contests": [
+      {
+        "id": 66,
+        "name": "NBL",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/66.png",
+        "country": {
+          "id": 31,
+          "name": "New Zealand",
+          "code": "NZ",
+          "flag": "https://media-3.api-sports.io/flags/nz.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-04-06",
+            "end": "2023-07-16",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 66,
+          "name": "NBL",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/66.png"
+        }
+      },
+      {
+        "id": 375,
+        "name": "Tauihi Women",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/375.png",
+        "country": {
+          "id": 31,
+          "name": "New Zealand",
+          "code": "NZ",
+          "flag": "https://media-1.api-sports.io/flags/nz.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-07-12",
+            "end": "2023-09-04",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 375,
+          "name": "Tauihi Women",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/375.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Paraguay",
+    "contests": [
+      {
+        "id": 258,
+        "name": "LNB",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/258.png",
+        "country": {
+          "id": 67,
+          "name": "Paraguay",
+          "code": "PY",
+          "flag": "https://media-1.api-sports.io/flags/py.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-04-13",
+            "end": "2023-05-29",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 258,
+          "name": "LNB",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/258.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Poland",
+    "contests": [
+      {
+        "id": 71,
+        "name": "1 Liga",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/71.png",
+        "country": {
+          "id": 34,
+          "name": "Poland",
+          "code": "PL",
+          "flag": "https://media-1.api-sports.io/flags/pl.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-24",
+            "end": "2023-05-06",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 71,
+          "name": "1 Liga",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/71.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Portugal",
+    "contests": [
+      {
+        "id": 260,
+        "name": "LFB Women",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/260.png",
+        "country": {
+          "id": 35,
+          "name": "Portugal",
+          "code": "PT",
+          "flag": "https://media-3.api-sports.io/flags/pt.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-01",
+            "end": "2023-05-06",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 260,
+          "name": "LFB Women",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/260.png"
+        }
+      },
+      {
+        "id": 74,
+        "name": "LPB",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/74.png",
+        "country": {
+          "id": 35,
+          "name": "Portugal",
+          "code": "PT",
+          "flag": "https://media-3.api-sports.io/flags/pt.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-24",
+            "end": "2023-05-06",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 74,
+          "name": "LPB",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/74.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Puerto Rico",
+    "contests": [
+      {
+        "id": 76,
+        "name": "BSN",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/76.png",
+        "country": {
+          "id": 36,
+          "name": "Puerto Rico",
+          "code": "PR",
+          "flag": "https://media-3.api-sports.io/flags/pr.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-23",
+            "end": "2023-06-16",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 76,
+          "name": "BSN",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/76.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Qatar",
+    "contests": [
+      {
+        "id": 77,
+        "name": "QBL",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/77.png",
+        "country": {
+          "id": 37,
+          "name": "Qatar",
+          "code": "QA",
+          "flag": "https://media-1.api-sports.io/flags/qa.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2023-03-01",
+            "end": "2023-05-18",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 77,
+          "name": "QBL",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/77.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Romania",
+    "contests": [
+      {
+        "id": 78,
+        "name": "Divizia A",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/78.png",
+        "country": {
+          "id": 38,
+          "name": "Romania",
+          "code": "RO",
+          "flag": "https://media-3.api-sports.io/flags/ro.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-28",
+            "end": "2023-05-11",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 78,
+          "name": "Divizia A",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/78.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Russia",
+    "contests": [
+      {
+        "id": 81,
+        "name": "Super League",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/81.png",
+        "country": {
+          "id": 39,
+          "name": "Russia",
+          "code": "RU",
+          "flag": "https://media-2.api-sports.io/flags/ru.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-04",
+            "end": "2023-05-13",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 81,
+          "name": "Super League",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/81.png"
+        }
+      },
+      {
+        "id": 82,
+        "name": "VTB United League Promo-Cup",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/82.png",
+        "country": {
+          "id": 39,
+          "name": "Russia",
+          "code": "RU",
+          "flag": "https://media-2.api-sports.io/flags/ru.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-02",
+            "end": "2023-05-13",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 82,
+          "name": "VTB United League Promo-Cup",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/82.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Serbia",
+    "contests": [
+      {
+        "id": 86,
+        "name": "Super League",
+        "type": "cup",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/86.png",
+        "country": {
+          "id": 41,
+          "name": "Serbia",
+          "code": "RS",
+          "flag": "https://media-2.api-sports.io/flags/rs.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-04-25",
+            "end": "2023-05-31",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 86,
+          "name": "Super League",
+          "type": "cup",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/86.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Slovakia",
+    "contests": [
+      {
+        "id": 87,
+        "name": "Extraliga",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/87.png",
+        "country": {
+          "id": 42,
+          "name": "Slovakia",
+          "code": "SK",
+          "flag": "https://media-2.api-sports.io/flags/sk.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-17",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 87,
+          "name": "Extraliga",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/87.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "contests": [
+      {
+        "id": 89,
+        "name": "Liga UPC",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/89.png",
+        "country": {
+          "id": 43,
+          "name": "Slovenia",
+          "code": "SI",
+          "flag": "https://media-1.api-sports.io/flags/si.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-08",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 89,
+          "name": "Liga UPC",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/89.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "South Korea",
+    "contests": [
+      {
+        "id": 91,
+        "name": "KBL",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/91.png",
+        "country": {
+          "id": 44,
+          "name": "South Korea",
+          "code": "KR",
+          "flag": "https://media-2.api-sports.io/flags/kr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-15",
+            "end": "2023-05-05",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 91,
+          "name": "KBL",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/91.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Spain",
+    "contests": [
+      {
+        "id": 117,
+        "name": "ACB",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/117.png",
+        "country": {
+          "id": 45,
+          "name": "Spain",
+          "code": "ES",
+          "flag": "https://media-3.api-sports.io/flags/es.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-28",
+            "end": "2023-05-21",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 117,
+          "name": "ACB",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/117.png"
+        }
+      },
+      {
+        "id": 95,
+        "name": "LEB - Oro",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/95.png",
+        "country": {
+          "id": 45,
+          "name": "Spain",
+          "code": "ES",
+          "flag": "https://media-2.api-sports.io/flags/es.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-07",
+            "end": "2023-05-19",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 95,
+          "name": "LEB - Oro",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/95.png"
+        }
+      },
+      {
+        "id": 96,
+        "name": "LEB - Plata",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/96.png",
+        "country": {
+          "id": 45,
+          "name": "Spain",
+          "code": "ES",
+          "flag": "https://media-2.api-sports.io/flags/es.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-07",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 96,
+          "name": "LEB - Plata",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/96.png"
+        }
+      },
+      {
+        "id": 94,
+        "name": "Liga Femenina W",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/94.png",
+        "country": {
+          "id": 45,
+          "name": "Spain",
+          "code": "ES",
+          "flag": "https://media-3.api-sports.io/flags/es.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-05",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 94,
+          "name": "Liga Femenina W",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/94.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Sweden",
+    "contests": [
+      {
+        "id": 93,
+        "name": "Ligan",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/93.png",
+        "country": {
+          "id": 46,
+          "name": "Sweden",
+          "code": "SE",
+          "flag": "https://media-3.api-sports.io/flags/se.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-23",
+            "end": "2023-05-06",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 93,
+          "name": "Ligan",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/93.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Switzerland",
+    "contests": [
+      {
+        "id": 100,
+        "name": "SB League",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/100.png",
+        "country": {
+          "id": 47,
+          "name": "Switzerland",
+          "code": "CH",
+          "flag": "https://media-3.api-sports.io/flags/ch.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-01",
+            "end": "2023-05-13",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 100,
+          "name": "SB League",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/100.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Taiwan",
+    "contests": [
+      {
+        "id": 267,
+        "name": "SBL",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/267.png",
+        "country": {
+          "id": 68,
+          "name": "Taiwan",
+          "code": "TW",
+          "flag": "https://media-1.api-sports.io/flags/tw.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2023-01-07",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 267,
+          "name": "SBL",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/267.png"
+        }
+      },
+      {
+        "id": 268,
+        "name": "WSBL Women",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/268.png",
+        "country": {
+          "id": 68,
+          "name": "Taiwan",
+          "code": "TW",
+          "flag": "https://media-2.api-sports.io/flags/tw.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-01-07",
+            "end": "2023-05-07",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 268,
+          "name": "WSBL Women",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/268.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Turkey",
+    "contests": [
+      {
+        "id": 104,
+        "name": "Super Ligi",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/104.png",
+        "country": {
+          "id": 48,
+          "name": "Turkey",
+          "code": "TR",
+          "flag": "https://media-3.api-sports.io/flags/tr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-10",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 104,
+          "name": "Super Ligi",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/104.png"
+        }
+      },
+      {
+        "id": 103,
+        "name": "TB2L",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/103.png",
+        "country": {
+          "id": 48,
+          "name": "Turkey",
+          "code": "TR",
+          "flag": "https://media-1.api-sports.io/flags/tr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-11-11",
+            "end": "2023-05-09",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 103,
+          "name": "TB2L",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/103.png"
+        }
+      },
+      {
+        "id": 102,
+        "name": "TBL",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/102.png",
+        "country": {
+          "id": 48,
+          "name": "Turkey",
+          "code": "TR",
+          "flag": "https://media-2.api-sports.io/flags/tr.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-10-07",
+            "end": "2023-05-08",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 102,
+          "name": "TBL",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/102.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "USA",
+    "contests": [
+      {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/12.png",
+        "country": {
+          "id": 5,
+          "name": "USA",
+          "code": "US",
+          "flag": "https://media-1.api-sports.io/flags/us.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-30",
+            "end": "2023-05-10",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 12,
+          "name": "NBA",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/12.png"
+        }
+      },
+      {
+        "id": 13,
+        "name": "NBA W",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/13.png",
+        "country": {
+          "id": 5,
+          "name": "USA",
+          "code": "US",
+          "flag": "https://media-1.api-sports.io/flags/us.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-05-19",
+            "end": "2023-09-10",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 13,
+          "name": "NBA W",
+          "type": "League",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/13.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "contests": [
+      {
+        "id": 108,
+        "name": "BBL",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/108.png",
+        "country": {
+          "id": 50,
+          "name": "United Kingdom",
+          "code": "GB",
+          "flag": "https://media-1.api-sports.io/flags/gb.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-23",
+            "end": "2023-05-08",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 108,
+          "name": "BBL",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/108.png"
+        }
+      },
+      {
+        "id": 109,
+        "name": "WBBL W",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/109.png",
+        "country": {
+          "id": 50,
+          "name": "United Kingdom",
+          "code": "GB",
+          "flag": "https://media-3.api-sports.io/flags/gb.svg"
+        },
+        "seasons": [
+          {
+            "season": "2022-2023",
+            "start": "2022-09-23",
+            "end": "2023-05-07",
+            "year": "2022-2023"
+          }
+        ],
+        "league": {
+          "id": 109,
+          "name": "WBBL W",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/109.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Venezuela",
+    "contests": [
+      {
+        "id": 275,
+        "name": "Superliga",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/275.png",
+        "country": {
+          "id": 61,
+          "name": "Venezuela",
+          "code": "VE",
+          "flag": "https://media-2.api-sports.io/flags/ve.svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-03-18",
+            "end": "2023-05-21",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 275,
+          "name": "Superliga",
+          "type": "League",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/275.png"
+        }
+      }
+    ]
+  },
+  {
+    "name": "World",
+    "contests": [
+      {
+        "id": 296,
+        "name": "Americas Championship U16",
+        "type": "cup",
+        "logo": "https://media-3.api-sports.io/basketball/leagues/296.png",
+        "country": {
+          "id": 62,
+          "name": "World",
+          "code": " ",
+          "flag": "https://media-1.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-06-05",
+            "end": "2023-06-07",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 296,
+          "name": "Americas Championship U16",
+          "type": "cup",
+          "logo": "https://media-3.api-sports.io/basketball/leagues/296.png"
+        }
+      },
+      {
+        "id": 295,
+        "name": "Americas Championship U16 Women",
+        "type": "cup",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/295.png",
+        "country": {
+          "id": 62,
+          "name": "World",
+          "code": " ",
+          "flag": "https://media-3.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-06-13",
+            "end": "2023-06-15",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 295,
+          "name": "Americas Championship U16 Women",
+          "type": "cup",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/295.png"
+        }
+      },
+      {
+        "id": 205,
+        "name": "Friendly International",
+        "type": "cup",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/205.png",
+        "country": {
+          "id": 62,
+          "name": "World",
+          "code": " ",
+          "flag": "https://media-2.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-08-18",
+            "end": "2023-08-20",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 205,
+          "name": "Friendly International",
+          "type": "cup",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/205.png"
+        }
+      },
+      {
+        "id": 278,
+        "name": "World Championship U19",
+        "type": "cup",
+        "logo": "https://media-2.api-sports.io/basketball/leagues/278.png",
+        "country": {
+          "id": 62,
+          "name": "World",
+          "code": " ",
+          "flag": "https://media-1.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-06-24",
+            "end": "2023-06-27",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 278,
+          "name": "World Championship U19",
+          "type": "cup",
+          "logo": "https://media-2.api-sports.io/basketball/leagues/278.png"
+        }
+      },
+      {
+        "id": 279,
+        "name": "World Championship U19 Women",
+        "type": "cup",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/279.png",
+        "country": {
+          "id": 62,
+          "name": "World",
+          "code": " ",
+          "flag": "https://media-3.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2023-07-15",
+            "end": "2023-07-18",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 279,
+          "name": "World Championship U19 Women",
+          "type": "cup",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/279.png"
+        }
+      },
+      {
+        "id": 281,
+        "name": "World Cup",
+        "type": "League",
+        "logo": "https://media-1.api-sports.io/basketball/leagues/281.png",
+        "country": {
+          "id": 62,
+          "name": "World",
+          "code": " ",
+          "flag": "https://media-1.api-sports.io/flags/ .svg"
+        },
+        "seasons": [
+          {
+            "season": 2023,
+            "start": "2020-02-20",
+            "end": "2023-08-30",
+            "year": 2023
+          }
+        ],
+        "league": {
+          "id": 281,
+          "name": "World Cup",
+          "type": "League",
+          "logo": "https://media-1.api-sports.io/basketball/leagues/281.png"
+        }
+      }
+    ]
+  }
+]

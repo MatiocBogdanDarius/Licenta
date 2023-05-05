@@ -17,7 +17,7 @@ export function RegisterFormContainer(props) {
         setErrorMessage('');
     }, [firstname, lastname, email, password, rePassword])
 
-    const register = async (e) => {
+    const register = async (_) => {
         const newUser ={
             firstname: firstname,
             lastname: lastname,
@@ -30,7 +30,7 @@ export function RegisterFormContainer(props) {
             .register(newUser)
             .then(() => {
                 navigate(LOGIN, {replace: true});
-                props.setIsLoginFormActive(true)
+                props.changeForm()
             })
             .catch(error => {
                 console.log(error)
@@ -42,7 +42,6 @@ export function RegisterFormContainer(props) {
         <div>
             <RegisterFormView
                 isActive={props.isActive}
-                setIsLoginFormActive={props.setIsLoginFormActive}
                 firstname={firstname}
                 lastname={lastname}
                 email={email}

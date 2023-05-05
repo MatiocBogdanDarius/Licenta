@@ -1,5 +1,4 @@
 import {userAccountAxios, userAccountAxiosPrivate} from "./axios";
-import useUserAccountAxiosPrivate from "services/hooks/useUserAccountAxiosPrivate";
 
 const register = (user) => {
     return userAccountAxios.post("auth/register",user)

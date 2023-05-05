@@ -15,7 +15,7 @@
 }
 
 .country_title {
-    height: 30px;
+    min-height: 30px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;

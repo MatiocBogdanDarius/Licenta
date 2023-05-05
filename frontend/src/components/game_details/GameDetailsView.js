@@ -3,6 +3,8 @@ import style from "./GameDetails.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faStar} from "@fortawesome/free-solid-svg-icons";
 import {GAME_MENU, WISHLIST_ITEM_TYPE} from "assets/constants/Data";
+import GameEvents from "./components/game_events";
+import GameStatistics from "./components/game_statistics";
 
 function GameDetailsView(props) {
     return (
@@ -13,22 +15,22 @@ function GameDetailsView(props) {
                         <div className={style.home_team_container}>
                             <div
                                 className={style.star_icon_container}
-                                onClick={(event) => props.favoriteButtonHandle(event, props.game[0].teams.home.id, WISHLIST_ITEM_TYPE.TEAM)}
+                                onClick={(event) => props.favoriteButtonHandle(event, props.game.teams.home.id, WISHLIST_ITEM_TYPE.TEAM)}
                             >
                                 <FontAwesomeIcon
                                     icon={faStar}
-                                    className={`${style.star_icon} ${props.checkIfItemIsFavorite( props.game[0].teams.home.id, WISHLIST_ITEM_TYPE.TEAM) ? style.is_favorite : ""}`}
+                                    className={`${style.star_icon} ${props.checkIfItemIsFavorite( props.game.teams.home.id, WISHLIST_ITEM_TYPE.TEAM) ? style.is_favorite : ""}`}
                                 />
                             </div>
                             <div className={style.home_team_info}>
                                 <div className={style.logo_container}>
                                     <img
-                                        src={props.game[0].teams.home.logo}
+                                        src={props.game.teams.home.logo}
                                         className={style.flag_image}
                                         alt=""
                                     />
                                 </div>
-                                <p className={style.team_title}>{props.game[0].teams.home.name}</p>
+                                <p className={style.team_title}>{props.game.teams.home.name}</p>
                             </div>
 
                         </div>
@@ -41,20 +43,20 @@ function GameDetailsView(props) {
                             <div className={style.away_team_info}>
                                 <div className={style.logo_container}>
                                     <img
-                                        src={props.game[0].teams.away.logo}
+                                        src={props.game.teams.away.logo}
                                         className={style.flag_image}
                                         alt=""
                                     />
                                 </div>
-                                <p className={style.team_title}>{props.game[0].teams.away.name}</p>
+                                <p className={style.team_title}>{props.game.teams.away.name}</p>
                             </div>
                             <div
                                 className={style.star_icon_container}
-                                onClick={(event) => props.favoriteButtonHandle(event, props.game[0].teams.home.id, WISHLIST_ITEM_TYPE.TEAM)}
+                                onClick={(event) => props.favoriteButtonHandle(event, props.game.teams.away.id, WISHLIST_ITEM_TYPE.TEAM)}
                             >
                                 <FontAwesomeIcon
                                     icon={faStar}
-                                    className={`${style.star_icon} ${props.checkIfItemIsFavorite( props.game[0].teams.home.id, WISHLIST_ITEM_TYPE.TEAM) ? style.is_favorite : ""}`}
+                                    className={`${style.star_icon} ${props.checkIfItemIsFavorite( props.game.teams.away.id, WISHLIST_ITEM_TYPE.TEAM) ? style.is_favorite : ""}`}
                                 />
                             </div>
                         </div>
@@ -72,6 +74,22 @@ function GameDetailsView(props) {
                             )
                         })}
                     </div>
+                </div>
+            }
+            {props.view === GAME_MENU.EVENTS && props.game &&
+                <div className={style.game_events_container}>
+                    <GameEvents
+                        events={props.game.events}
+                        homeTeamId={props.game.teams.home.id}
+                    />
+                </div>
+            }
+            {props.view === GAME_MENU.STATISTICS && props.game &&
+                <div className={style.game_events_container}>
+                    <GameStatistics
+                        events={props.game.events}
+                        homeTeamId={props.game.teams.home.id}
+                    />
                 </div>
             }
         </div>

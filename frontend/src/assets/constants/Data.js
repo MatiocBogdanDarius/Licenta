@@ -4,6 +4,7 @@ import {
     faFootballBall,
     faSoccerBall
 } from "@fortawesome/free-solid-svg-icons";
+import handballIcon from 'assets/images/handball.svg';
 
 export const COUNTRIES = [
     {
@@ -926,6 +927,7 @@ export const GAME_STATUS_FILTERS_VALUES = {
 
 export const SPORTS = {
     FOOTBALL: {name: "FOOTBALL", icon: faSoccerBall},
+    HANDBALL: {name: "HANDBALL", icon: handballIcon},
     BASKETBALL: {name: "BASKETBALL", icon: faBasketballBall},
     BASEBALL: {name: "BASEBALL", icon: faBaseballBall},
     RUGBY: {name: "RUGBY", icon: faFootballBall},
@@ -936,6 +938,13 @@ export const WISHLIST_ITEM_TYPE = {
     GAME: "EVENT",
     TEAM: "TEAM",
     PLAYER: "PLAYER"
+}
+
+export const EMPTY_WISHLIST = {
+    CONTEST: [],
+    EVENT: [],
+    TEAM: [],
+    PLAYER: [],
 }
 
 export const GAME_STATUS = {
@@ -953,12 +962,32 @@ export const CONTEST_MENU = {
 }
 
 export const TEAM_MENU = {
-    SUMMARY: 'SUMMARY',
-    RESULTS: 'RESULTS',
-    FIXTURES: 'FIXTURES',
-    STANDINGS: 'STANDINGS',
-    TRANSFERS: 'TRANSFERS',
-    SQUAD: 'SQUAD',
+    'FOOTBALL' : {
+        SUMMARY: 'SUMMARY',
+        RESULTS: 'RESULTS',
+        FIXTURES: 'FIXTURES',
+        STANDINGS: 'STANDINGS',
+        TRANSFERS: 'TRANSFERS',
+        SQUAD: 'SQUAD',
+    },
+    'HANDBALL': {
+        SUMMARY: 'SUMMARY',
+        RESULTS: 'RESULTS',
+        FIXTURES: 'FIXTURES',
+        STANDINGS: 'STANDINGS',
+    },
+    'BASKETBALL': {
+        SUMMARY: 'SUMMARY',
+        RESULTS: 'RESULTS',
+        FIXTURES: 'FIXTURES',
+        STANDINGS: 'STANDINGS',
+    },
+    'BASEBALL': {
+        SUMMARY: 'SUMMARY',
+        RESULTS: 'RESULTS',
+        FIXTURES: 'FIXTURES',
+        STANDINGS: 'STANDINGS',
+    },
 }
 
 export const GAME_MENU = {
@@ -967,3 +996,5 @@ export const GAME_MENU = {
     LINEUPS: 'LINEUPS',
     PLAYERS: 'PLAYERS',
 }
+
+export const NO_IMAGE = 'https://media.api-sports.io/handball/teams/2.png';
