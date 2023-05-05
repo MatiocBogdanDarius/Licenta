@@ -2,190 +2,296 @@
   [
     {
       "position": 1,
-      "stage": "HLA",
+      "stage": "Bundesliga",
       "group": {
         "name": "Regular Season"
       },
       "team": {
-        "id": 23,
-        "name": "Voslauer",
-        "logo": "https://media-1.api-sports.io/handball/teams/23.png"
+        "id": 107,
+        "name": "Dornbirn",
+        "logo": "https://media-2.api-sports.io/baseball/teams/107.png"
       },
       "league": {
-        "id": 2,
-        "name": "HLA",
+        "id": 48,
+        "name": "Bundesliga",
         "type": "League",
-        "logo": "https://media-2.api-sports.io/handball/leagues/2.png",
-        "season": 2022
+        "logo": "https://media-3.api-sports.io/baseball/leagues/48.png",
+        "season": 2023
       },
       "country": {
-        "id": 1,
+        "id": 5,
         "name": "Austria",
         "code": "AT",
         "flag": "https://media-1.api-sports.io/flags/at.svg"
       },
       "games": {
-        "played": 1,
+        "played": 6,
         "win": {
-          "total": 1,
-          "percentage": "100.00"
-        },
-        "draw": {
-          "total": 0,
-          "percentage": "0.00"
+          "total": 4,
+          "percentage": "0.667"
         },
         "lose": {
-          "total": 0,
-          "percentage": "0.00"
+          "total": 2,
+          "percentage": "0.333"
         }
       },
-      "goals": {
-        "for": 34,
-        "against": 26
+      "points": {
+        "for": 60,
+        "against": 50
       },
-      "points": 8,
-      "form": "W",
-      "description": null
+      "form": "WWWLL",
+      "description": "Promotion - Bundesliga (Play Offs: )"
     },
     {
       "position": 2,
-      "stage": "HLA",
+      "stage": "Bundesliga",
       "group": {
         "name": "Regular Season"
       },
       "team": {
-        "id": 19,
-        "name": "HSG Graz",
-        "logo": "https://media-2.api-sports.io/handball/teams/19.png"
+        "id": 113,
+        "name": "Vienna Wanderers",
+        "logo": "https://media-1.api-sports.io/baseball/teams/113.png"
       },
       "league": {
-        "id": 2,
-        "name": "HLA",
+        "id": 48,
+        "name": "Bundesliga",
         "type": "League",
-        "logo": "https://media-2.api-sports.io/handball/leagues/2.png",
-        "season": 2022
+        "logo": "https://media-3.api-sports.io/baseball/leagues/48.png",
+        "season": 2023
       },
       "country": {
-        "id": 1,
+        "id": 5,
         "name": "Austria",
         "code": "AT",
-        "flag": "https://media-1.api-sports.io/flags/at.svg"
+        "flag": "https://media-2.api-sports.io/flags/at.svg"
       },
       "games": {
-        "played": 1,
+        "played": 6,
         "win": {
-          "total": 0,
-          "percentage": "0.00"
-        },
-        "draw": {
-          "total": 0,
-          "percentage": "0.00"
+          "total": 4,
+          "percentage": "0.667"
         },
         "lose": {
-          "total": 1,
-          "percentage": "100.00"
+          "total": 2,
+          "percentage": "0.333"
         }
       },
-      "goals": {
-        "for": 26,
-        "against": 34
+      "points": {
+        "for": 58,
+        "against": 51
       },
-      "points": 8,
-      "form": "L",
-      "description": null
+      "form": "WLLWW",
+      "description": "Promotion - Bundesliga (Play Offs: )"
     },
     {
       "position": 3,
-      "stage": "HLA",
+      "stage": "Bundesliga",
       "group": {
         "name": "Regular Season"
       },
       "team": {
-        "id": 15,
-        "name": "Barnbach/K.",
-        "logo": "https://media-3.api-sports.io/handball/teams/15.png"
+        "id": 571,
+        "name": "Schwechat",
+        "logo": "https://media-1.api-sports.io/baseball/teams/571.png"
       },
       "league": {
-        "id": 2,
-        "name": "HLA",
+        "id": 48,
+        "name": "Bundesliga",
         "type": "League",
-        "logo": "https://media-3.api-sports.io/handball/leagues/2.png",
-        "season": 2022
+        "logo": "https://media-2.api-sports.io/baseball/leagues/48.png",
+        "season": 2023
       },
       "country": {
-        "id": 1,
+        "id": 5,
         "name": "Austria",
         "code": "AT",
-        "flag": "https://media-2.api-sports.io/flags/at.svg"
+        "flag": "https://media-3.api-sports.io/flags/at.svg"
       },
       "games": {
-        "played": 1,
+        "played": 4,
         "win": {
-          "total": 1,
-          "percentage": "100.00"
-        },
-        "draw": {
-          "total": 0,
-          "percentage": "0.00"
+          "total": 2,
+          "percentage": "0.500"
         },
         "lose": {
-          "total": 0,
-          "percentage": "0.00"
+          "total": 2,
+          "percentage": "0.500"
         }
       },
-      "goals": {
-        "for": 35,
-        "against": 32
+      "points": {
+        "for": 36,
+        "against": 33
       },
-      "points": 6,
-      "form": "W",
-      "description": null
+      "form": "LWLW",
+      "description": "Promotion - Bundesliga (Play Offs: )"
     },
     {
       "position": 4,
-      "stage": "HLA",
+      "stage": "Bundesliga",
       "group": {
         "name": "Regular Season"
       },
       "team": {
-        "id": 20,
-        "name": "Handball Tirol",
-        "logo": "https://media-2.api-sports.io/handball/teams/20.png"
+        "id": 109,
+        "name": "Hard Bulls",
+        "logo": "https://media-2.api-sports.io/baseball/teams/109.png"
       },
       "league": {
-        "id": 2,
-        "name": "HLA",
+        "id": 48,
+        "name": "Bundesliga",
         "type": "League",
-        "logo": "https://media-3.api-sports.io/handball/leagues/2.png",
-        "season": 2022
+        "logo": "https://media-3.api-sports.io/baseball/leagues/48.png",
+        "season": 2023
       },
       "country": {
-        "id": 1,
+        "id": 5,
         "name": "Austria",
         "code": "AT",
         "flag": "https://media-2.api-sports.io/flags/at.svg"
       },
       "games": {
-        "played": 1,
+        "played": 4,
         "win": {
-          "total": 0,
-          "percentage": "0.00"
-        },
-        "draw": {
-          "total": 0,
-          "percentage": "0.00"
+          "total": 2,
+          "percentage": "0.500"
         },
         "lose": {
-          "total": 1,
-          "percentage": "100.00"
+          "total": 2,
+          "percentage": "0.500"
         }
       },
-      "goals": {
-        "for": 32,
-        "against": 35
+      "points": {
+        "for": 27,
+        "against": 32
       },
-      "points": 6,
-      "form": "L",
+      "form": "WLWL",
+      "description": "Promotion - Bundesliga (Play Offs: )"
+    },
+    {
+      "position": 5,
+      "stage": "Bundesliga",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 114,
+        "name": "Wr. Neustadt",
+        "logo": "https://media-3.api-sports.io/baseball/teams/114.png"
+      },
+      "league": {
+        "id": 48,
+        "name": "Bundesliga",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/baseball/leagues/48.png",
+        "season": 2023
+      },
+      "country": {
+        "id": 5,
+        "name": "Austria",
+        "code": "AT",
+        "flag": "https://media-3.api-sports.io/flags/at.svg"
+      },
+      "games": {
+        "played": 4,
+        "win": {
+          "total": 2,
+          "percentage": "0.500"
+        },
+        "lose": {
+          "total": 2,
+          "percentage": "0.500"
+        }
+      },
+      "points": {
+        "for": 23,
+        "against": 33
+      },
+      "form": "WLLW",
+      "description": null
+    },
+    {
+      "position": 6,
+      "stage": "Bundesliga",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 111,
+        "name": "Traiskirchen",
+        "logo": "https://media-1.api-sports.io/baseball/teams/111.png"
+      },
+      "league": {
+        "id": 48,
+        "name": "Bundesliga",
+        "type": "League",
+        "logo": "https://media-2.api-sports.io/baseball/leagues/48.png",
+        "season": 2023
+      },
+      "country": {
+        "id": 5,
+        "name": "Austria",
+        "code": "AT",
+        "flag": "https://media-3.api-sports.io/flags/at.svg"
+      },
+      "games": {
+        "played": 4,
+        "win": {
+          "total": 1,
+          "percentage": "0.250"
+        },
+        "lose": {
+          "total": 3,
+          "percentage": "0.750"
+        }
+      },
+      "points": {
+        "for": 36,
+        "against": 49
+      },
+      "form": "LLWL",
+      "description": null
+    },
+    {
+      "position": 7,
+      "stage": "Bundesliga",
+      "group": {
+        "name": "Regular Season"
+      },
+      "team": {
+        "id": 112,
+        "name": "Vienna Metrostars",
+        "logo": "https://media-2.api-sports.io/baseball/teams/112.png"
+      },
+      "league": {
+        "id": 48,
+        "name": "Bundesliga",
+        "type": "League",
+        "logo": "https://media-3.api-sports.io/baseball/leagues/48.png",
+        "season": 2023
+      },
+      "country": {
+        "id": 5,
+        "name": "Austria",
+        "code": "AT",
+        "flag": "https://media-2.api-sports.io/flags/at.svg"
+      },
+      "games": {
+        "played": 4,
+        "win": {
+          "total": 1,
+          "percentage": "0.250"
+        },
+        "lose": {
+          "total": 3,
+          "percentage": "0.750"
+        }
+      },
+      "points": {
+        "for": 35,
+        "against": 27
+      },
+      "form": "LWLL",
       "description": null
     }
   ]

@@ -93,8 +93,8 @@ export function GameFixtureContainer(props) {
             }
             return "-";
         } else if (props.selectedSport === SPORTS.BASEBALL){
-            if (goals !== null) {
-                return `${goals}`
+            if (goals.total !== null) {
+                return `${goals.total}`
             }
             return "-";
         }

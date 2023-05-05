@@ -104,11 +104,10 @@ def get_formatted_standings(standings):
         team_standing['all'] = {
             "played": team_standing['games']['played'],
             "win": team_standing['games']['win']['total'],
-            "draw": team_standing['games']['draw']['total'],
             "lose": team_standing['games']['lose']['total'],
             "goals": {
-                "for": team_standing['goals']['for'],
-                "against": team_standing['goals']['against']
+                "for": team_standing['points']['for'],
+                "against": team_standing['points']['against']
             }
         }
         team_standing["group"] = team_standing["group"]["name"]

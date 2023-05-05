@@ -6,10 +6,10 @@ from rest_framework.response import Response
 import json
 from . import utils
 
-conn = http.client.HTTPSConnection("v1.handball.api-sports.io")
+# conn = http.client.HTTPSConnection("v1.baseball.api-sports.io")
 
 headers = {
-    'x-rapidapi-host': "v1.handball.api-sports.io",
+    'x-rapidapi-host': "v1.baseball.api-sports.io",
     'x-rapidapi-key': "af192284169d2fd193e7c25641eedfac"
 }
 
@@ -20,6 +20,7 @@ def fixtures(request):
     print(URL)
     print(request.GET)
 
+    # conn = http.client.HTTPSConnection("v1.baseball.api-sports.io")
     # conn.request("GET", URL, headers=headers)
     #
     # res = conn.getresponse()
@@ -41,6 +42,7 @@ def get_contest_fixtures(request):
     print(URL)
     print(request.GET)
 
+    # conn = http.client.HTTPSConnection("v1.baseball.api-sports.io")
     # conn.request("GET", URL, headers=headers)
     #
     # res = conn.getresponse()
@@ -62,6 +64,7 @@ def get_contests(request):
     print(URL)
     print(request.GET)
 
+    # conn = http.client.HTTPSConnection("v1.baseball.api-sports.io")
     # conn.request("GET", URL, headers=headers)
     #
     # res = conn.getresponse()
@@ -108,6 +111,7 @@ def get_team_fixtures(request):
     print(URL)
     print(request.GET)
 
+    # conn = http.client.HTTPSConnection("v1.baseball.api-sports.io")
     # conn.request("GET", URL, headers=headers)
     #
     # res = conn.getresponse()
@@ -129,6 +133,7 @@ def get_standings(request):
     print(URL)
     print(request.GET)
 
+    # conn = http.client.HTTPSConnection("v1.baseball.api-sports.io")
     # conn.request("GET", URL, headers=headers)
     #
     # res = conn.getresponse()
@@ -151,6 +156,7 @@ def get_game(request):
     print(URL)
     print(request.GET)
 
+    # conn = http.client.HTTPSConnection("v1.baseball.api-sports.io")
     # conn.request("GET", URL, headers=headers)
     #
     # res = conn.getresponse()

@@ -40,18 +40,20 @@ function StandingsComponentView(props) {
                     <div className={style.align_in_row}>
                         <div className={style.matches_played_container}><p>MP</p></div>
                         <div className={style.wins_container}><p>W</p></div>
-                        {props.sport !== SPORTS.BASKETBALL &&
+                        {props.sport !== SPORTS.BASKETBALL && props.sport !== SPORTS.BASEBALL &&
                             <div className={style.draws_container}><p>D</p></div>
                         }
                         <div className={style.losses_container}><p>L</p></div>
-                        {props.sport !== SPORTS.BASKETBALL ?
+                        {props.sport !== SPORTS.BASKETBALL && props.sport !== SPORTS.BASEBALL ?
                             <>
                                 <div className={style.goals_container}><p>G</p></div>
                                 <div className={style.points_container}><p>PTS</p></div>
-                                <div className={style.form_container}><p>FORM</p></div>
                             </>
                             :
                             <div className={style.basket_goals_container}><p>PTS</p></div>
+                        }
+                        {props.sport !== SPORTS.BASKETBALL &&
+                            <div className={style.form_container}><p>FORM</p></div>
                         }
                     </div>
                 </div>
@@ -84,7 +86,7 @@ function StandingsComponentView(props) {
                                 <div className={style.wins_container}>
                                     <p>{team_standings.all.win}</p>
                                 </div>
-                                {props.sport !== SPORTS.BASKETBALL &&
+                                {props.sport !== SPORTS.BASKETBALL && props.sport !== SPORTS.BASEBALL &&
                                     <div className={style.draws_container}>
                                         <p>{team_standings.all.draw}</p>
                                     </div>
@@ -92,7 +94,7 @@ function StandingsComponentView(props) {
                                 <div className={style.losses_container}>
                                     <p>{team_standings.all.lose}</p>
                                 </div>
-                                {props.sport !== SPORTS.BASKETBALL ?
+                                {props.sport !== SPORTS.BASKETBALL && props.sport !== SPORTS.BASEBALL ?
                                     <>
                                         <div className={style.goals_container}>
                                             <p>{`${team_standings.all.goals.for}:${team_standings.all.goals.against}`}</p>
@@ -100,25 +102,27 @@ function StandingsComponentView(props) {
                                         <div className={style.points_container}>
                                             <p>{team_standings.points}</p>
                                         </div>
-                                        <div className={style.form_container}>
-                                            {(team_standings.form + "?????")
-                                                .slice(0, 5)
-                                                .split('')
-                                                .map((status, index, _) => {
-                                                    return (
-                                                        <div
-                                                            key={`game_status_${index}`}
-                                                            className={`${style.form_view} ${getFormViewColor(status)}`}
-                                                        >
-                                                            {status}
-                                                        </div>
-                                                    );
-                                                })
-                                            }
-                                        </div>
                                     </>
                                     : <div className={style.basket_goals_container}>
                                         <p>{`${team_standings.all.goals.for}:${team_standings.all.goals.against}`}</p>
+                                    </div>
+                                }
+                                {props.sport !== SPORTS.BASKETBALL &&
+                                    <div className={style.form_container}>
+                                        {(team_standings.form + "?????")
+                                            .slice(0, 5)
+                                            .split('')
+                                            .map((status, index, _) => {
+                                                return (
+                                                    <div
+                                                        key={`game_status_${index}`}
+                                                        className={`${style.form_view} ${getFormViewColor(status)}`}
+                                                    >
+                                                        {status}
+                                                    </div>
+                                                );
+                                            })
+                                        }
                                     </div>
                                 }
                             </div>
