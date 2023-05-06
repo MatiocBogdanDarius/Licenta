@@ -7,5 +7,7 @@ export function GameDetailsModalContainer(props) {
             isOpen={props.isOpen}
             toggle={props.toggle}
             gameId={props.gameId}
+            favoriteButtonHandle={props.favoriteButtonHandle}
+            checkIfItemIsFavorite={props.checkIfItemIsFavorite}
         />);
 }

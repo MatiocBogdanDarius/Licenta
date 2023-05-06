@@ -26,9 +26,6 @@ export function ContestsListContainer(props) {
             return
         }
 
-        // setContests(CONTESTS);
-        // setOnLoading(false);
-
         let filters = {
             status: GAME_STATUS_FILTERS_VALUES[props.gameStatusFilterValue]?.value,
             date: getFormattedDate(addDays((new Date()), props.selectedDate)),

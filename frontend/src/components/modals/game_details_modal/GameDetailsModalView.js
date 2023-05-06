@@ -29,7 +29,11 @@ function GameDetailsModalView(props) {
                     <div className={style.close_button} onClick={props.toggle}>x</div>
                 </div>
                 <div className={style.modal_body}>
-                   <GameDetails gameId={1015969}/>
+                   <GameDetails
+                       gameId={1015969}
+                       favoriteButtonHandle={props.favoriteButtonHandle}
+                       checkIfItemIsFavorite={props.checkIfItemIsFavorite}
+                   />
                 </div>
             </div>
         </Modal>

@@ -39,7 +39,7 @@ public class WishlistController {
     }
 
     @GetMapping("/by_user_id")
-    public ResponseEntity<Map<String, List<WishListDetails>>> getByUserId(@RequestParam long userId) {
+    public ResponseEntity<Map<Long, Map<String, List<WishListDetails>>>> getByUserId(@RequestParam long userId) {
         return ResponseEntity.ok(wishlistService.findByUserId(userId));
     }
 
@@ -47,11 +47,12 @@ public class WishlistController {
     public void deleteItem(
             @RequestParam long itemId,
             @RequestParam String itemType,
-            @RequestParam long userId
+            @RequestParam long userId,
+            @RequestParam long sourceId
     ) throws CustomException {
         try
         {
-            wishlistService.deleteItem(itemId, itemType, userId);
+            wishlistService.deleteItem(itemId, itemType, userId, sourceId);
         } catch (Exception exception){
             var status = exception instanceof DataAccessException ?
                     HttpStatus.INTERNAL_SERVER_ERROR : HttpStatus.NOT_FOUND;

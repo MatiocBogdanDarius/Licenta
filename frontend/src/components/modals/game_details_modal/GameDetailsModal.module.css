@@ -31,8 +31,9 @@
 .modal_title {
     font-weight: 500;
     font-size: 1.25rem;
-    color: #86C232;;
+    color: #86C232;
 }
+
 .contest_country_flag_container {
     margin: auto;
     width: 40px;

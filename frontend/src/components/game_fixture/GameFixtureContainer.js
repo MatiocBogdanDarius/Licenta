@@ -8,14 +8,6 @@ export function GameFixtureContainer(props) {
     const navigate = useNavigate();
     const [isOpenGameDetailsModal, setIsOpenGameDetailsModal] = useState(false);
 
-    const checkIfItemIsFavorite = () => {
-        return props.checkIfItemIsFavorite(props.game.fixture.id, WISHLIST_ITEM_TYPE.GAME);
-    }
-
-    const favoriteButtonHandle = (event) => {
-        return props.favoriteButtonHandle(event, props.game.fixture.id, WISHLIST_ITEM_TYPE.GAME);
-    }
-
     const checkIfGameIsLive = () => {
         return GAME_STATUS_FILTERS_VALUES.LIVE.value.includes(props.game.fixture.status.short);
     }
@@ -88,13 +80,13 @@ export function GameFixtureContainer(props) {
             }
             return "-";
         } else if (props.selectedSport === SPORTS.BASKETBALL){
-            if (goals.total !== null) {
-                return `${goals.total}`
+            if (goals?.total !== null) {
+                return `${goals?.total ?? "-"}`
             }
             return "-";
         } else if (props.selectedSport === SPORTS.BASEBALL){
-            if (goals.total !== null) {
-                return `${goals.total}`
+            if (goals?.total !== null) {
+                return `${goals?.total ?? "-"}`
             }
             return "-";
         }
@@ -115,8 +107,8 @@ export function GameFixtureContainer(props) {
             game={props.game}
             selectedSport={props.selectedSport}
             isOpenGameDetailsModal={isOpenGameDetailsModal}
-            checkIfItemIsFavorite={checkIfItemIsFavorite}
-            favoriteButtonHandle={favoriteButtonHandle}
+            checkIfItemIsFavorite={props.checkIfItemIsFavorite}
+            favoriteButtonHandle={props.favoriteButtonHandle}
             checkIfGameIsLive={checkIfGameIsLive}
             getFormattedDate={getFormattedDate}
             getScore={getScore}

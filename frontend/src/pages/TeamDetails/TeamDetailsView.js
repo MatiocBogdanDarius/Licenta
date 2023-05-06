@@ -54,7 +54,7 @@ const TeamDetailsView = (props) => {
                                     {props.team &&
                                         <div className={style.team_flag_container}>
                                             <img
-                                                src={`https://media-3.api-sports.io/football/teams/${props.team.id}.png`}
+                                                src={`https://media-3.api-sports.io/${props.selectedSport.name.toLowerCase()}/teams/${props.team.id}.png`}
                                                 className={style.flag_image}
                                                 alt=""
                                             />
@@ -142,9 +142,12 @@ const TeamDetailsView = (props) => {
                 <Copyright/>
             </div>
             <AddFavoriteModal
+                wishlist={props.wishList}
                 isOpen={props.isOpenAddFavoriteModal}
-                toggle={props.toggleAddFavoriteModal}
+                itemId={props.addFavoriteModalContent}
                 contentType={props.addFavoriteModalContentType}
+                updateWishlist={props.updateWishlist}
+                toggle={props.toggleAddFavoriteModal}
             />
         </div>
     )

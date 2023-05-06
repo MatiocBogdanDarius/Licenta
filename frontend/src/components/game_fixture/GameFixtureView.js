@@ -3,6 +3,7 @@ import style from "./GameFixture.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faInfoCircle, faStar} from "@fortawesome/free-solid-svg-icons";
 import GameDetailsModal from "components/modals/game_details_modal";
+import {WISHLIST_ITEM_TYPE} from "../../assets/constants/Data";
 
 const GameFixtureView = (props) => {
     return (
@@ -11,8 +12,8 @@ const GameFixtureView = (props) => {
                 <div className={style.fixture_date_and_teams_container}>
                     <div className={style.fixture_buttons_container}>
                         <div
-                            className={`${style.fixture_button} ${props.checkIfItemIsFavorite() ? style.is_favorite : ""}`}
-                            onClick={(e) => props.favoriteButtonHandle(e)}
+                            className={`${style.fixture_button} ${props.checkIfItemIsFavorite(props.game.fixture.id, WISHLIST_ITEM_TYPE.GAME) ? style.is_favorite : ""}`}
+                            onClick={(e) => props.favoriteButtonHandle(e, props.game.fixture.id, WISHLIST_ITEM_TYPE.GAME)}
                         >
                             <FontAwesomeIcon
                                 icon={faStar}
@@ -84,6 +85,8 @@ const GameFixtureView = (props) => {
                 isOpen={props.isOpenGameDetailsModal}
                 toggle={props.toggleGameDetailsModal}
                 gameId={props.game?.fixture?.id}
+                favoriteButtonHandle={props.favoriteButtonHandle}
+                checkIfItemIsFavorite={props.checkIfItemIsFavorite}
             />
         </>
     )

@@ -926,11 +926,11 @@ export const GAME_STATUS_FILTERS_VALUES = {
 }
 
 export const SPORTS = {
-    FOOTBALL: {name: "FOOTBALL", icon: faSoccerBall},
-    HANDBALL: {name: "HANDBALL", icon: handballIcon},
-    BASKETBALL: {name: "BASKETBALL", icon: faBasketballBall},
-    BASEBALL: {name: "BASEBALL", icon: faBaseballBall},
-    RUGBY: {name: "RUGBY", icon: faFootballBall},
+    FOOTBALL: {id: 1, name: "FOOTBALL", icon: faSoccerBall},
+    HANDBALL: {id: 2, name: "HANDBALL", icon: handballIcon},
+    BASKETBALL: {id: 3, name: "BASKETBALL", icon: faBasketballBall},
+    BASEBALL: {id: 4, name: "BASEBALL", icon: faBaseballBall},
+    RUGBY: {id: 5, name: "RUGBY", icon: faFootballBall},
 }
 
 export const WISHLIST_ITEM_TYPE = {
@@ -940,11 +940,18 @@ export const WISHLIST_ITEM_TYPE = {
     PLAYER: "PLAYER"
 }
 
-export const EMPTY_WISHLIST = {
+const EMPTY_WISHLIST_FOR_SOURCE = {
     CONTEST: [],
     EVENT: [],
     TEAM: [],
     PLAYER: [],
+}
+
+export const  EMPTY_WISHLIST = {
+    1: {...EMPTY_WISHLIST_FOR_SOURCE},
+    2: {...EMPTY_WISHLIST_FOR_SOURCE},
+    3: {...EMPTY_WISHLIST_FOR_SOURCE},
+    4: {...EMPTY_WISHLIST_FOR_SOURCE}
 }
 
 export const GAME_STATUS = {

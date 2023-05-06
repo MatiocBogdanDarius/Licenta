@@ -3,61 +3,56 @@ import HomeView from "./HomeView";
 import {
     GAME_STATUS,
     WISHLIST_ITEM_TYPE,
-    EMPTY_WISHLIST
+    EMPTY_WISHLIST, SPORTS
 } from "assets/constants/Data";
 import * as USER_ACCOUNT_SERVICE from "services/api/user_account_service";
+import {useParams} from "react-router-dom";
 
 export function HomeContainer() {
+    const {sport} = useParams();
     const [selectedDate, setSelectedDate] = useState(0);
     const [gameStatusFilterValue, setGameStatusFilterValue] = useState(GAME_STATUS.ALL);
     const [wishlist, setWishlist] = useState(EMPTY_WISHLIST);
     const [isOpenAddFavoriteModal, setIsOpenAddFavoriteModal] = useState(false);
-    const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME)
+    const [addFavoriteModalContent, setAddFavoriteModalContent] = useState();
+    const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME);
 
     useEffect(() => {
         getWishlist();
     }, [])
 
-    const favoriteButtonHandle = (event, itemId, type) => {
-        event.preventDefault()
-
-        const isFavorite = checkIfItemIsFavorite(itemId, type)
-
-        if (isFavorite){
-            USER_ACCOUNT_SERVICE.removeItemFromWishlist(itemId, type);
-
-            setWishlist(prevState => {
-                const newWishList = {...prevState};
-                newWishList[type] = newWishList[type].filter(item => item.itemId !== itemId)
-                return newWishList;
-            })
-        } else {
-            USER_ACCOUNT_SERVICE.addItemToWishlist(itemId, type);
-
-            setWishlist(prevState => {
-                const newWishList = {...prevState};
-                newWishList[type] = [...newWishList[type], {itemId: itemId, itemType: type}]
-                return newWishList;
-            })
-
-            setAddFavoriteModalContentType(type);
-            // toggleAddFavoriteModal();
-        }
-    }
-
     const getWishlist = async () => {
         USER_ACCOUNT_SERVICE.getUserWishlist()
-            .then(response =>
-                setWishlist({...EMPTY_WISHLIST, ...response.data})
-            )
+            .then(response => {
+                setWishlist(prevState => {
+                    const newWishlist = {...EMPTY_WISHLIST};
+                    Object.keys(response.data)
+                        .forEach(sourceId =>
+                            newWishlist[sourceId] = {
+                                ...newWishlist[sourceId],
+                                ...response.data[sourceId]
+                            });
+                    setWishlist(newWishlist);
+                })
+                console.log("wishlist", response.data, wishlist)
+            })
     }
 
     const checkIfItemIsFavorite = (itemId, type) => {
-        return wishlist[type].map(item => item.itemId).includes(itemId);
+        return wishlist &&
+                wishlist[SPORTS[sport].id][type]
+                    .map(item => item.itemId)
+                    .includes(itemId);
     }
 
     const toggleAddFavoriteModal = () => {
         setIsOpenAddFavoriteModal(prevState => !prevState);
+    }
+
+    const favoriteButtonHandle = (event, item, type) => {
+        setAddFavoriteModalContent(item)
+        setAddFavoriteModalContentType(type);
+        toggleAddFavoriteModal();
     }
 
     return (
@@ -66,12 +61,14 @@ export function HomeContainer() {
             selectedDate={selectedDate}
             wishList={wishlist}
             isOpenAddFavoriteModal={isOpenAddFavoriteModal}
+            addFavoriteModalContent={addFavoriteModalContent}
             addFavoriteModalContentType={addFavoriteModalContentType}
             gameStatusFittersButtonsHandle={setGameStatusFilterValue}
             selectDateOptionHandle={setSelectedDate}
             favoriteButtonHandle={favoriteButtonHandle}
             checkIfItemIsFavorite={checkIfItemIsFavorite}
             toggleAddFavoriteModal={toggleAddFavoriteModal}
+            updateWishlist={setWishlist}
         />
     );
 }

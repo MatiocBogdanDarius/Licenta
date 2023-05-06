@@ -1,4 +1,5 @@
 import {userAccountAxios, userAccountAxiosPrivate} from "./axios";
+import {SPORTS} from "assets/constants/Data";
 
 const register = (user) => {
     return userAccountAxios.post("auth/register",user)
@@ -8,11 +9,11 @@ const login = async (credentials) => {
     return await userAccountAxios.post("auth/authenticate", credentials);
 }
 
-const addItemToWishlist = (itemId, type) => {
+const addItemToWishlist = (sport, itemId, type) => {
     const item = {
         itemId: itemId,
         itemType: type,
-        sourceId: 1,
+        sourceId: SPORTS[sport].id,
         userId: JSON.parse(localStorage.getItem("userDetails"))?.id
     }
 
@@ -27,14 +28,15 @@ const getUserWishlist = () => {
         .get("wishlist/by_user_id", {params:{userId: userId}})
 }
 
-const removeItemFromWishlist = (itemId, itemType) => {
+const removeItemFromWishlist = (sport, itemId, itemType) => {
     userAccountAxiosPrivate.delete(
         "wishlist",
         {params:
                 {
                     itemId: itemId,
                     itemType: itemType,
-                    userId: JSON.parse(localStorage.getItem("userDetails"))?.id
+                    userId: JSON.parse(localStorage.getItem("userDetails"))?.id,
+                    sourceId: SPORTS[sport].id
                 }
         })
 }

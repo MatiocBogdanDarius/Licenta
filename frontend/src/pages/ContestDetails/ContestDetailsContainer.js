@@ -16,6 +16,7 @@ export function ContestDetailsContainer() {
     const [contest, setContest] = useState();
     const [wishlist, setWishlist] = useState(EMPTY_WISHLIST);
     const [isOpenAddFavoriteModal, setIsOpenAddFavoriteModal] = useState(false);
+    const [addFavoriteModalContent, setAddFavoriteModalContent] = useState();
     const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME)
     const [onLoadingInfo, setOnLoadingInfo] = useState(true);
     const [onLoadingFixtures, setOnLoadingFixtures] = useState(true);
@@ -62,46 +63,37 @@ export function ContestDetailsContainer() {
             });
     }
 
-    const favoriteButtonHandle = (event, itemId, type) => {
-        event.preventDefault()
-
-        const isFavorite = checkIfItemIsFavorite(itemId, type)
-
-        if (isFavorite){
-            USER_ACCOUNT_SERVICE.removeItemFromWishlist(itemId, type);
-
-            setWishlist(prevState => {
-                const newWishList = {...prevState};
-                newWishList[type] = newWishList[type].filter(item => item.itemId !== itemId)
-                return newWishList;
-            })
-        } else {
-            USER_ACCOUNT_SERVICE.addItemToWishlist(itemId, type);
-
-            setWishlist(prevState => {
-                const newWishList = {...prevState};
-                newWishList[type] = [...newWishList[type], {itemId: itemId, itemType: type}]
-                return newWishList;
-            })
-
-            setAddFavoriteModalContentType(type);
-            // toggleAddFavoriteModal();
-        }
-    }
-
     const getWishlist = async () => {
         USER_ACCOUNT_SERVICE.getUserWishlist()
-            .then(response =>
-                setWishlist({...EMPTY_WISHLIST, ...response.data})
-            )
+            .then(response => {
+                setWishlist(prevState => {
+                    const newWishlist = {...EMPTY_WISHLIST};
+                    Object.keys(response.data)
+                        .forEach(sourceId =>
+                            newWishlist[sourceId] = {
+                                ...newWishlist[sourceId],
+                                ...response.data[sourceId]
+                            });
+                    setWishlist(newWishlist);
+                })
+                console.log("wishlist", response.data, wishlist)
+            })
     }
 
     const checkIfItemIsFavorite = (itemId, type) => {
-        return wishlist[type].map(item => item.itemId).includes(itemId);
+        return wishlist[SPORTS[sport].id][type]
+            .map(item => item.itemId)
+            .includes(itemId);
     }
 
     const toggleAddFavoriteModal = () => {
         setIsOpenAddFavoriteModal(prevState => !prevState);
+    }
+
+    const favoriteButtonHandle = (event, item, type) => {
+        setAddFavoriteModalContent(item)
+        setAddFavoriteModalContentType(type);
+        toggleAddFavoriteModal();
     }
 
     const goBackButtonHandle = () => {
@@ -120,14 +112,16 @@ export function ContestDetailsContainer() {
             contest={contest}
             wishList={wishlist}
             isOpenAddFavoriteModal={isOpenAddFavoriteModal}
+            addFavoriteModalContent={addFavoriteModalContent}
             addFavoriteModalContentType={addFavoriteModalContentType}
             fixtures={contestFixtures}
             onLoadingInfo={onLoadingInfo}
             onLoadingFixtures={onLoadingFixtures}
             view={view}
-            favoriteButtonHandle={favoriteButtonHandle}
             checkIfItemIsFavorite={checkIfItemIsFavorite}
+            favoriteButtonHandle={favoriteButtonHandle}
             toggleAddFavoriteModal={toggleAddFavoriteModal}
+            updateWishlist={setWishlist}
             goBackButtonHandle={goBackButtonHandle}
             changeView={changeView}
         />

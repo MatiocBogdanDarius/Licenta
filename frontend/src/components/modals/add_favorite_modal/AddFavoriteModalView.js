@@ -17,38 +17,41 @@ function AddFavoriteModalView(props) {
         >
             <div>
                 <div className={style.modal_header}>
-                    <div className={style.modal_title}>Do you want to add item in your calendar?</div>
+                    <div className={style.modal_title}>
+                        {props.isFavorite ?
+                            "Do you want to remove the item from the favorites list?"
+                            : "Do you want to add item in your calendar?"
+                        }
+                    </div>
                     <div>
                         <span className={style.close_button} onClick={props.toggle}>x</span>
                     </div>
                 </div>
                 {props.contentType === WISHLIST_ITEM_TYPE.CONTEST &&
-                    <div className={style.modal_desc}>
+                    <div className={style.modal_body}>
                         <p>Contest</p>
                     </div>
                 }
                 {props.contentType === WISHLIST_ITEM_TYPE.TEAM &&
-                    <div className={style.modal_desc}>
+                    <div className={style.modal_body}>
                         <p>Team</p>
                     </div>
                 }
                 {props.contentType === WISHLIST_ITEM_TYPE.PLAYER &&
-                    <div className={style.modal_desc}>
+                    <div className={style.modal_body}>
                         <p>Player</p>
                     </div>
                 }
                 <div className={style.modal_footer}>
-                    {/*<button className="secondary-button" onClick={props.toggle}>*/}
-                    {/*    Close*/}
-                    {/*</button>*/}
-                    {/*<button className="primary-button" onClick={props.toggle}>*/}
-                    {/*    Save Changes*/}
-                    {/*</button>*/}
-                    <Button>
-                        Add event in calendar
+                    <Button className={style.success_button}
+                            onClick={props.submitButtonHandle}
+                    >
+                        {props.isFavorite ? "Yes" : "Add Event In Calendar"}
                     </Button>
-                    <Button color="danger" onClick={props.toggle}>
-                        Close
+                    <Button className={style.danger_button}
+                            onClick={props.closeButtonHandle}
+                    >
+                        {props.isFavorite ? "No" : "Only Add Event In Wishlist"}
                     </Button>
                 </div>
             </div>

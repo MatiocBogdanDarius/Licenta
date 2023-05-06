@@ -126,9 +126,12 @@ const ContestDetailsView = (props) => {
                 <Copyright/>
             </div>
             <AddFavoriteModal
+                wishlist={props.wishList}
                 isOpen={props.isOpenAddFavoriteModal}
-                toggle={props.toggleAddFavoriteModal}
+                itemId={props.addFavoriteModalContent}
                 contentType={props.addFavoriteModalContentType}
+                updateWishlist={props.updateWishlist}
+                toggle={props.toggleAddFavoriteModal}
             />
         </div>
     )
