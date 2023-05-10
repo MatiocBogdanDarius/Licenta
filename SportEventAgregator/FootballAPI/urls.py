@@ -12,4 +12,5 @@ urlpatterns = [
     path('transfers/', views.get_transfers),
     path('squad/', views.get_squad),
     path('game/', views.get_game),
+    path('games_by_item/', views.get_games_by_item),
 ]

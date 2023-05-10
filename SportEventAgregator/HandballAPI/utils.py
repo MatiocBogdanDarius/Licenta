@@ -1,5 +1,11 @@
+import http.client
 import json
 from datetime import datetime
+
+headers = {
+    'x-rapidapi-host': "v1.handball.api-sports.io",
+    'x-rapidapi-key': "af192284169d2fd193e7c25641eedfac"
+}
 
 
 def group_fixtures_by_contestant(fixtures):
@@ -72,28 +78,6 @@ def group_fixtures_by_status_and_round(fixtures):
     return result
 
 
-def get_team_transfers(team_players_transfers):
-    transfers = []
-
-    for player_transfers in team_players_transfers:
-        for player_transfer in player_transfers["transfers"]:
-            transfer = {
-                "player": player_transfers["player"],
-                "date":  player_transfer["date"],
-                "teams":  player_transfer["teams"],
-                "type":  player_transfer["type"],
-            }
-
-            if datetime.strptime(transfer["date"], "%Y-%m-%d") <= datetime.utcnow():
-                transfers.append(transfer)
-
-            # transfers.append(transfer)
-
-    transfers = sorted(transfers, key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d"), reverse=True)
-
-    return transfers
-
-
 def get_formatted_standings(standings):
     if len(standings) == 0:
         return standings
@@ -143,12 +127,12 @@ def read_json_file(filename):
     return json_object
 
 
-def write_json_file(filename, object):
+def write_json_file(filename, data):
     with open(filename, "w") as outfile:
-        json.dump(object, outfile)
+        json.dump(data, outfile)
 
 
-def store_contests(contests):
+def group_contests(contests):
     for contest in contests:
         contest["league"] = {
             "id": contest['id'],
@@ -173,8 +157,38 @@ def store_contests(contests):
         for country_name in country_names
     ]
 
-    write_json_file("HandballAPI/data/handball_contests.json", countries)
+    return countries
+
+
+def store_contests(contests):
+    contests = group_contests(contests)
+    write_json_file("HandballAPI/data/handball_contests.json", contests)
 
 
 def get_stored_contests():
     return read_json_file('HandballAPI/data/handball_contests.json')
+
+
+def get_info_from_extern_api(url):
+    conn = http.client.HTTPSConnection("v1.handball.api-sports.io")
+    conn.request("GET", url, headers=headers)
+
+    res = conn.getresponse()
+    data = res.read()
+    data = json.loads(data)
+
+    conn.close()
+
+    return data['response']
+
+
+def get_data(url, filename, live=True, store=True):
+    if live:
+        data = get_info_from_extern_api(url)
+
+        if store:
+            write_json_file(filename, data)
+
+        return data
+
+    return read_json_file(filename)

@@ -9,5 +9,5 @@ urlpatterns = [
     path('team_fixtures/', views.get_team_fixtures),
     path('country/', views.get_country),
     path('standings/', views.get_standings),
-    # path('game/', views.get_game),
+    path('game/', views.get_game),
 ]

@@ -101,6 +101,18 @@ const getGame = (id) => {
     )
 }
 
+const getGamesByItem = (sport, itemType, itemId, season) => {
+    return sportEventAggregatorAxios.get(
+        `${sport.toLowerCase()}/games_by_item/`,
+        {
+            params: {
+                itemType: itemType,
+                itemId: itemId,
+                season: season
+            }
+        })
+}
+
 export {
     getContestsMatches,
     getCurrentContestsOptions,
@@ -111,5 +123,6 @@ export {
     getStandings,
     getTransfers,
     getSquad,
-    getGame
+    getGame,
+    getGamesByItem
 };

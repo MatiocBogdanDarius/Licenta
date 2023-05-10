@@ -16,6 +16,7 @@ export function HomeContainer() {
     const [isOpenAddFavoriteModal, setIsOpenAddFavoriteModal] = useState(false);
     const [addFavoriteModalContent, setAddFavoriteModalContent] = useState();
     const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME);
+    const [addFavoriteModalContentSeason, setAddFavoriteModalContentSeason] = useState(2022);
 
     useEffect(() => {
         getWishlist();
@@ -49,9 +50,10 @@ export function HomeContainer() {
         setIsOpenAddFavoriteModal(prevState => !prevState);
     }
 
-    const favoriteButtonHandle = (event, item, type) => {
+    const favoriteButtonHandle = (event, item, type, season) => {
         setAddFavoriteModalContent(item)
         setAddFavoriteModalContentType(type);
+        setAddFavoriteModalContentSeason(season);
         toggleAddFavoriteModal();
     }
 
@@ -63,6 +65,7 @@ export function HomeContainer() {
             isOpenAddFavoriteModal={isOpenAddFavoriteModal}
             addFavoriteModalContent={addFavoriteModalContent}
             addFavoriteModalContentType={addFavoriteModalContentType}
+            addFavoriteModalContentSeason={addFavoriteModalContentSeason}
             gameStatusFittersButtonsHandle={setGameStatusFilterValue}
             selectDateOptionHandle={setSelectedDate}
             favoriteButtonHandle={favoriteButtonHandle}

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import GameFixtureView from "./GameFixtureView";
-import {GAME_STATUS_FILTERS_VALUES, SPORTS, WISHLIST_ITEM_TYPE} from "assets/constants/Data";
+import {GAME_STATUS_FILTERS_VALUES, SPORTS} from "assets/constants/Data";
 import {TEAM_DETAILS} from "navigation/CONSTANTS";
 import {useNavigate} from "react-router-dom";
 
@@ -68,29 +68,19 @@ export function GameFixtureContainer(props) {
     const getScore = (contestant) => {
         const goals = props.game.goals[contestant];
 
-        if (props.selectedSport === SPORTS.FOOTBALL) {
-            const scoreHalftime = props.game.score?.halftime[contestant];
-            if (goals != null) {
-                return `${goals} (${scoreHalftime})`
-            }
-            return "-";
-        } else if (props.selectedSport === SPORTS.HANDBALL){
-            if (goals != null) {
-                return `${goals}`
-            }
-            return "-";
-        } else if (props.selectedSport === SPORTS.BASKETBALL){
-            if (goals?.total !== null) {
+        switch (props.selectedSport){
+            case SPORTS.FOOTBALL:
+                const scoreHalftime = props.game.score?.halftime[contestant];
+                return goals != null ? `${goals ?? ''} (${scoreHalftime ?? ''})` : "-";
+            case SPORTS.HANDBALL:
+                return `${goals ?? '-'}`
+            case SPORTS.BASKETBALL:
                 return `${goals?.total ?? "-"}`
-            }
-            return "-";
-        } else if (props.selectedSport === SPORTS.BASEBALL){
-            if (goals?.total !== null) {
+            case SPORTS.BASEBALL:
                 return `${goals?.total ?? "-"}`
-            }
-            return "-";
+            default:
+                return "-"
         }
-        return "-";
     }
 
     const viewTeamDetails = (team, league) => {

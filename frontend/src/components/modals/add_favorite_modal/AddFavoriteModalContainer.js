@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import AddFavoriteModalView from "./AddFavoriteModalView";
+import * as SPORT_EVENT_AGGREGATOR_SERVICE from "services/api/sport_event_aggregator";
 import * as USER_ACCOUNT_SERVICE from "services/api/user_account_service";
 import {SPORTS} from "assets/constants/Data";
 import {useParams} from "react-router-dom";
@@ -7,10 +8,23 @@ import {useParams} from "react-router-dom";
 export function AddFavoriteModalContainer(props) {
     const {sport} = useParams();
     const [isFavorite, setIsFavorite] = useState();
+    const [games, setGames] = useState();
 
     useEffect(() => {
-        props.wishlist && setIsFavorite(checkIfItemIsFavorite());
+        if (props.isOpen){
+            getGamesByItem();
+            props.wishlist && setIsFavorite(checkIfItemIsFavorite());
+        }
     }, [props])
+
+    const getGamesByItem = () => {
+        SPORT_EVENT_AGGREGATOR_SERVICE
+            .getGamesByItem(sport, props.contentType, props.itemId, props.season)
+            .then(response => {
+                setGames(response.data);
+                console.log("Favorites", sport, props.contentType, props.itemId, props.season, response.data)
+            });
+    }
 
     const checkIfItemIsFavorite = () => {
         return props.wishlist[SPORTS[sport].id][props.contentType]

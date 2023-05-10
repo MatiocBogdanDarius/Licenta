@@ -1,5 +1,11 @@
+import http.client
 import json
 from datetime import datetime
+
+headers = {
+    'x-rapidapi-host': "v3.football.api-sports.io",
+    'x-rapidapi-key': "af192284169d2fd193e7c25641eedfac"
+}
 
 
 def group_fixtures_by_contestant(fixtures):
@@ -24,8 +30,7 @@ def group_fixtures_by_contestant(fixtures):
 
 def group_fixtures_by_status_and_round(fixtures):
     current_date = datetime.utcnow().date()
-    # contest = group_fixtures_by_contestant(fixtures)[0]
-    contest = fixtures[0]
+    contest = group_fixtures_by_contestant(fixtures)[0]
 
     before_today = contest.copy()
     before_today['games'] = []
@@ -67,15 +72,16 @@ def get_team_transfers(team_players_transfers):
         for player_transfer in player_transfers["transfers"]:
             transfer = {
                 "player": player_transfers["player"],
-                "date":  player_transfer["date"],
-                "teams":  player_transfer["teams"],
-                "type":  player_transfer["type"],
+                "date": player_transfer["date"],
+                "teams": player_transfer["teams"],
+                "type": player_transfer["type"],
             }
 
-            if datetime.strptime(transfer["date"], "%Y-%m-%d") <= datetime.utcnow():
-                transfers.append(transfer)
-
-            # transfers.append(transfer)
+            try:
+                if datetime.strptime(transfer["date"], "%Y-%m-%d") <= datetime.utcnow():
+                    transfers.append(transfer)
+            except:
+                pass
 
     transfers = sorted(transfers, key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d"), reverse=True)
 
@@ -104,7 +110,6 @@ def format_statistics(game):
     return game
 
 
-
 def create_request_url(url, params):
     if len(params) == 0:
         return url
@@ -123,9 +128,9 @@ def read_json_file(filename):
     return json_object
 
 
-def write_json_file(filename, object):
+def write_json_file(filename, data):
     with open(filename, "w") as outfile:
-        json.dump(object, outfile)
+        json.dump(data, outfile)
 
 
 def store_contests(contests):
@@ -143,3 +148,92 @@ def store_contests(contests):
 
 def get_stored_contests():
     return read_json_file('FootballAPI/data/football_contests.json')
+
+
+def get_info_from_extern_api(url):
+    conn = http.client.HTTPSConnection("v3.football.api-sports.io")
+    conn.request("GET", url, headers=headers)
+
+    res = conn.getresponse()
+    data = res.read()
+    data = json.loads(data)
+
+    conn.close()
+
+    return data['response']
+
+
+def get_data(url, filename, live=True, store=True):
+    if live:
+        data = get_info_from_extern_api(url)
+
+        if store:
+            write_json_file(filename, data)
+
+        return data
+
+    return read_json_file(filename)
+
+
+def get_squad(url, live, store):
+    filename = "FootballAPI/data/squad.json"
+
+    if live:
+        return read_json_file(filename)
+
+    conn = http.client.HTTPSConnection("v3.football.api-sports.io")
+    conn.request("GET", url, headers=headers)
+
+    res = conn.getresponse()
+    data = res.read()
+    data = json.loads(data)
+
+    conn.close()
+
+    no_of_pages = data['paging']['total']
+    squad = data['response']
+    print(data['errors'])
+
+    page = 2
+    while page <= no_of_pages:
+        conn = http.client.HTTPSConnection("v3.football.api-sports.io")
+        conn.request("GET", f'{url}&page={page}', headers=headers)
+
+        res = conn.getresponse()
+        data = res.read()
+        data = json.loads(data)
+
+        no_of_pages = data['paging']['total']
+        squad += data['response']
+        page += 1
+
+        conn.close()
+
+    if store:
+        write_json_file(filename, squad)
+
+    return squad
+
+
+def get_game_by_id(game_id, live=True, store=True):
+    url = "/fixtures?&id=" + game_id
+    filename = "FootballAPI/data/game_by_id.json"
+    return get_data(url, filename, live, store)
+
+
+def get_games_by_contest(contest_id, season, live=True, store=True):
+    url = f"/fixtures?&league={contest_id}&season={season}"
+    filename = "FootballAPI/data/game_by_contest.json"
+    data = get_data(url, filename, live, store)
+    return data
+
+
+def get_games_by_team(team_id, season, live=True, store=True):
+    date = datetime.utcnow().date()
+    print(date)
+    url = f"/fixtures?&team={team_id}&season={season}"
+    filename = "FootballAPI/data/game_by_team.json"
+    data = get_data(url, filename, live, store)
+    contests = group_fixtures_by_contestant(data)
+    contests = list(filter(lambda x: "Friend" not in x["name"], contests))
+    return contests

@@ -17,7 +17,8 @@ export function ContestDetailsContainer() {
     const [wishlist, setWishlist] = useState(EMPTY_WISHLIST);
     const [isOpenAddFavoriteModal, setIsOpenAddFavoriteModal] = useState(false);
     const [addFavoriteModalContent, setAddFavoriteModalContent] = useState();
-    const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME)
+    const [addFavoriteModalContentType, setAddFavoriteModalContentType] = useState(WISHLIST_ITEM_TYPE.GAME);
+    const [addFavoriteModalContentSeason, setAddFavoriteModalContentSeason] = useState(2022);
     const [onLoadingInfo, setOnLoadingInfo] = useState(true);
     const [onLoadingFixtures, setOnLoadingFixtures] = useState(true);
     const [contestFixtures, setContestFixtures] = useState([]);
@@ -90,9 +91,10 @@ export function ContestDetailsContainer() {
         setIsOpenAddFavoriteModal(prevState => !prevState);
     }
 
-    const favoriteButtonHandle = (event, item, type) => {
+    const favoriteButtonHandle = (event, item, type, season) => {
         setAddFavoriteModalContent(item)
         setAddFavoriteModalContentType(type);
+        setAddFavoriteModalContentSeason(season);
         toggleAddFavoriteModal();
     }
 
@@ -114,10 +116,12 @@ export function ContestDetailsContainer() {
             isOpenAddFavoriteModal={isOpenAddFavoriteModal}
             addFavoriteModalContent={addFavoriteModalContent}
             addFavoriteModalContentType={addFavoriteModalContentType}
+            addFavoriteModalContentSeason={addFavoriteModalContentSeason}
             fixtures={contestFixtures}
             onLoadingInfo={onLoadingInfo}
             onLoadingFixtures={onLoadingFixtures}
             view={view}
+            season={contest?.seasons[0]?.year}
             checkIfItemIsFavorite={checkIfItemIsFavorite}
             favoriteButtonHandle={favoriteButtonHandle}
             toggleAddFavoriteModal={toggleAddFavoriteModal}

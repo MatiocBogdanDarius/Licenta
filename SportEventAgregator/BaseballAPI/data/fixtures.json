@@ -1,1 +1,3506 @@
-[{"id": 143271, "date": "2023-05-05T00:30:00+00:00", "time": "00:30", "timestamp": 1683246600, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-1.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 293, "name": "Quintana Roo", "logo": "https://media-3.api-sports.io/baseball/teams/293.png"}, "away": {"id": 282, "name": "Campeche", "logo": "https://media-3.api-sports.io/baseball/teams/282.png"}}, "scores": {"home": {"hits": 2, "errors": 1, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 0}, "away": {"hits": 6, "errors": 0, "innings": {"1": 2, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 3}}}, {"id": 139891, "date": "2023-05-05T00:35:00+00:00", "time": "00:35", "timestamp": 1683246900, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 4, "name": "PCL", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/4.png", "season": 2023}, "teams": {"home": {"id": 49, "name": "El Paso Chihuahuas", "logo": "https://media-1.api-sports.io/baseball/teams/49.png"}, "away": {"id": 81, "name": "Oklahoma City Dodgers", "logo": "https://media-3.api-sports.io/baseball/teams/81.png"}}, "scores": {"home": {"hits": 12, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 1, "6": 0, "7": 0, "8": 7, "9": null, "extra": null}, "total": 8}, "away": {"hits": 5, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 2, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 2}}}, {"id": 139892, "date": "2023-05-05T00:35:00+00:00", "time": "00:35", "timestamp": 1683246900, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-2.api-sports.io/flags/us.svg"}, "league": {"id": 4, "name": "PCL", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/4.png", "season": 2023}, "teams": {"home": {"id": 84, "name": "Salt Lake Bees", "logo": "https://media-2.api-sports.io/baseball/teams/84.png"}, "away": {"id": 86, "name": "Tacoma Rainiers", "logo": "https://media-1.api-sports.io/baseball/teams/86.png"}}, "scores": {"home": {"hits": 12, "errors": 0, "innings": {"1": 0, "2": 1, "3": 0, "4": 5, "5": 1, "6": 1, "7": 0, "8": 0, "9": null, "extra": null}, "total": 8}, "away": {"hits": 11, "errors": 2, "innings": {"1": 1, "2": 0, "3": 0, "4": 3, "5": 2, "6": 1, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 7}}}, {"id": 143270, "date": "2023-05-05T01:00:00+00:00", "time": "01:00", "timestamp": 1683248400, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-2.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 291, "name": "Oaxaca", "logo": "https://media-1.api-sports.io/baseball/teams/291.png"}, "away": {"id": 457, "name": "Veracruz", "logo": "https://media-1.api-sports.io/baseball/teams/457.png"}}, "scores": {"home": {"hits": 10, "errors": 0, "innings": {"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0, "7": 2, "8": 0, "9": null, "extra": null}, "total": 4}, "away": {"hits": 5, "errors": 1, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 1, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 1}}}, {"id": 143268, "date": "2023-05-05T01:30:00+00:00", "time": "01:30", "timestamp": 1683250200, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-3.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 285, "name": "Laguna", "logo": "https://media-2.api-sports.io/baseball/teams/285.png"}, "away": {"id": 287, "name": "Mexico", "logo": "https://media-2.api-sports.io/baseball/teams/287.png"}}, "scores": {"home": {"hits": 10, "errors": 0, "innings": {"1": 0, "2": 1, "3": 1, "4": 3, "5": 0, "6": 1, "7": 1, "8": 0, "9": null, "extra": null}, "total": 7}, "away": {"hits": 7, "errors": 1, "innings": {"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 2, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 4}}}, {"id": 143269, "date": "2023-05-05T01:30:00+00:00", "time": "01:30", "timestamp": 1683250200, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-1.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 288, "name": "Monclova", "logo": "https://media-3.api-sports.io/baseball/teams/288.png"}, "away": {"id": 283, "name": "Dos Laredos", "logo": "https://media-1.api-sports.io/baseball/teams/283.png"}}, "scores": {"home": {"hits": 10, "errors": 0, "innings": {"1": 1, "2": 1, "3": 1, "4": 4, "5": 0, "6": 0, "7": 1, "8": 0, "9": null, "extra": null}, "total": 8}, "away": {"hits": 8, "errors": 1, "innings": {"1": 0, "2": 0, "3": 1, "4": 0, "5": 1, "6": 0, "7": 1, "8": 0, "9": 0, "extra": null}, "total": 3}}}, {"id": 143274, "date": "2023-05-05T01:30:00+00:00", "time": "01:30", "timestamp": 1683250200, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-2.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 281, "name": "Aguascalientes", "logo": "https://media-2.api-sports.io/baseball/teams/281.png"}, "away": {"id": 598, "name": "Guadalajara", "logo": "https://media-3.api-sports.io/baseball/teams/598.png"}}, "scores": {"home": {"hits": 14, "errors": 1, "innings": {"1": 2, "2": 1, "3": 4, "4": 0, "5": 0, "6": 1, "7": 1, "8": 0, "9": null, "extra": null}, "total": 9}, "away": {"hits": 8, "errors": 2, "innings": {"1": 0, "2": 0, "3": 4, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 4}}}, {"id": 143267, "date": "2023-05-05T01:35:00+00:00", "time": "01:35", "timestamp": 1683250500, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-1.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 284, "name": "Durango", "logo": "https://media-2.api-sports.io/baseball/teams/284.png"}, "away": {"id": 844, "name": "Bravos de Leon", "logo": "https://media-2.api-sports.io/baseball/teams/844.png"}}, "scores": {"home": {"hits": 5, "errors": 4, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 0}, "away": {"hits": 11, "errors": 0, "innings": {"1": 0, "2": 0, "3": 5, "4": 0, "5": 0, "6": 1, "7": 0, "8": 0, "9": 1, "extra": null}, "total": 7}}}, {"id": 139893, "date": "2023-05-05T01:45:00+00:00", "time": "01:45", "timestamp": 1683251100, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 4, "name": "PCL", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/4.png", "season": 2023}, "teams": {"home": {"id": 54, "name": "Sacramento River Cats", "logo": "https://media-3.api-sports.io/baseball/teams/54.png"}, "away": {"id": 80, "name": "Las Vegas Aviators", "logo": "https://media-2.api-sports.io/baseball/teams/80.png"}}, "scores": {"home": {"hits": 11, "errors": 1, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 5, "9": 2, "extra": null}, "total": 7}, "away": {"hits": 11, "errors": 1, "innings": {"1": 1, "2": 2, "3": 0, "4": 2, "5": 0, "6": 0, "7": 0, "8": 0, "9": 1, "extra": null}, "total": 6}}}, {"id": 143272, "date": "2023-05-05T02:00:00+00:00", "time": "02:00", "timestamp": 1683252000, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-2.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 296, "name": "Tabasco", "logo": "https://media-1.api-sports.io/baseball/teams/296.png"}, "away": {"id": 298, "name": "Yucatan", "logo": "https://media-1.api-sports.io/baseball/teams/298.png"}}, "scores": {"home": {"hits": 7, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 5, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 5}, "away": {"hits": 12, "errors": 1, "innings": {"1": 0, "2": 0, "3": 2, "4": 0, "5": 5, "6": 2, "7": 0, "8": 2, "9": 0, "extra": null}, "total": 11}}}, {"id": 143273, "date": "2023-05-05T02:35:00+00:00", "time": "02:35", "timestamp": 1683254100, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-2.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 297, "name": "Toros de Tijuana", "logo": "https://media-3.api-sports.io/baseball/teams/297.png"}, "away": {"id": 292, "name": "Puebla", "logo": "https://media-2.api-sports.io/baseball/teams/292.png"}}, "scores": {"home": {"hits": 12, "errors": 1, "innings": {"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 3, "7": 1, "8": 2, "9": null, "extra": null}, "total": 7}, "away": {"hits": 9, "errors": 2, "innings": {"1": 0, "2": 0, "3": 0, "4": 1, "5": 0, "6": 1, "7": 3, "8": 0, "9": 0, "extra": null}, "total": 5}}}, {"id": 140903, "date": "2023-05-05T05:00:00+00:00", "time": "05:00", "timestamp": 1683262800, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 2, "name": "Japan", "code": "JP", "flag": "https://media-1.api-sports.io/flags/jp.svg"}, "league": {"id": 2, "name": "NPB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/2.png", "season": 2023}, "teams": {"home": {"id": 56, "name": "Chunichi Dragons", "logo": "https://media-3.api-sports.io/baseball/teams/56.png"}, "away": {"id": 66, "name": "Yomiuri Giants", "logo": "https://media-3.api-sports.io/baseball/teams/66.png"}}, "scores": {"home": {"hits": 11, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 2, "6": 0, "7": 0, "8": 6, "9": null, "extra": null}, "total": 8}, "away": {"hits": 10, "errors": 0, "innings": {"1": 1, "2": 0, "3": 0, "4": 0, "5": 2, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 3}}}, {"id": 140907, "date": "2023-05-05T05:00:00+00:00", "time": "05:00", "timestamp": 1683262800, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 2, "name": "Japan", "code": "JP", "flag": "https://media-2.api-sports.io/flags/jp.svg"}, "league": {"id": 2, "name": "NPB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/2.png", "season": 2023}, "teams": {"home": {"id": 64, "name": "Yakult Swallows", "logo": "https://media-2.api-sports.io/baseball/teams/64.png"}, "away": {"id": 65, "name": "Yokohama BayStars", "logo": "https://media-3.api-sports.io/baseball/teams/65.png"}}, "scores": {"home": {"hits": 16, "errors": 1, "innings": {"1": 0, "2": 1, "3": 2, "4": 0, "5": 1, "6": 0, "7": 0, "8": 4, "9": 2, "extra": null}, "total": 10}, "away": {"hits": 13, "errors": 0, "innings": {"1": 0, "2": 0, "3": 3, "4": 3, "5": 0, "6": 0, "7": 3, "8": 0, "9": 0, "extra": null}, "total": 9}}}, {"id": 141832, "date": "2023-05-05T05:00:00+00:00", "time": "05:00", "timestamp": 1683262800, "timezone": "UTC", "week": null, "status": {"long": "Postponed", "short": "POST"}, "country": {"id": 3, "name": "South-Korea", "code": "KR", "flag": "https://media-2.api-sports.io/flags/kr.svg"}, "league": {"id": 5, "name": "KBO", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/5.png", "season": 2023}, "teams": {"home": {"id": 88, "name": "Doosan Bears", "logo": "https://media-1.api-sports.io/baseball/teams/88.png"}, "away": {"id": 93, "name": "LG Twins", "logo": "https://media-2.api-sports.io/baseball/teams/93.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 141833, "date": "2023-05-05T05:00:00+00:00", "time": "05:00", "timestamp": 1683262800, "timezone": "UTC", "week": null, "status": {"long": "Postponed", "short": "POST"}, "country": {"id": 3, "name": "South-Korea", "code": "KR", "flag": "https://media-1.api-sports.io/flags/kr.svg"}, "league": {"id": 5, "name": "KBO", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/5.png", "season": 2023}, "teams": {"home": {"id": 89, "name": "Hanwha Eagles", "logo": "https://media-3.api-sports.io/baseball/teams/89.png"}, "away": {"id": 91, "name": "KT Wiz Suwon", "logo": "https://media-2.api-sports.io/baseball/teams/91.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 141834, "date": "2023-05-05T05:00:00+00:00", "time": "05:00", "timestamp": 1683262800, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 3, "name": "South-Korea", "code": "KR", "flag": "https://media-2.api-sports.io/flags/kr.svg"}, "league": {"id": 5, "name": "KBO", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/5.png", "season": 2023}, "teams": {"home": {"id": 92, "name": "Kiwoom Heroes", "logo": "https://media-3.api-sports.io/baseball/teams/92.png"}, "away": {"id": 647, "name": "SSG Landers", "logo": "https://media-2.api-sports.io/baseball/teams/647.png"}}, "scores": {"home": {"hits": 6, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 1, "8": 0, "9": 0, "extra": null}, "total": 1}, "away": {"hits": 6, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 1, "5": 0, "6": 0, "7": 1, "8": 0, "9": 1, "extra": null}, "total": 3}}}, {"id": 141835, "date": "2023-05-05T05:00:00+00:00", "time": "05:00", "timestamp": 1683262800, "timezone": "UTC", "week": null, "status": {"long": "Postponed", "short": "POST"}, "country": {"id": 3, "name": "South-Korea", "code": "KR", "flag": "https://media-2.api-sports.io/flags/kr.svg"}, "league": {"id": 5, "name": "KBO", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/5.png", "season": 2023}, "teams": {"home": {"id": 94, "name": "Lotte Giants", "logo": "https://media-1.api-sports.io/baseball/teams/94.png"}, "away": {"id": 97, "name": "Samsung Lions", "logo": "https://media-3.api-sports.io/baseball/teams/97.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 141836, "date": "2023-05-05T05:00:00+00:00", "time": "05:00", "timestamp": 1683262800, "timezone": "UTC", "week": null, "status": {"long": "Postponed", "short": "POST"}, "country": {"id": 3, "name": "South-Korea", "code": "KR", "flag": "https://media-2.api-sports.io/flags/kr.svg"}, "league": {"id": 5, "name": "KBO", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/5.png", "season": 2023}, "teams": {"home": {"id": 95, "name": "NC Dinos", "logo": "https://media-1.api-sports.io/baseball/teams/95.png"}, "away": {"id": 90, "name": "KIA Tigers", "logo": "https://media-1.api-sports.io/baseball/teams/90.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 140902, "date": "2023-05-05T09:00:00+00:00", "time": "09:00", "timestamp": 1683277200, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 2, "name": "Japan", "code": "JP", "flag": "https://media-3.api-sports.io/flags/jp.svg"}, "league": {"id": 2, "name": "NPB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/2.png", "season": 2023}, "teams": {"home": {"id": 55, "name": "Chiba Lotte Marines", "logo": "https://media-3.api-sports.io/baseball/teams/55.png"}, "away": {"id": 57, "name": "Fukuoka S. Hawks", "logo": "https://media-1.api-sports.io/baseball/teams/57.png"}}, "scores": {"home": {"hits": 7, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": 0}, "total": 0}, "away": {"hits": 6, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": 0}, "total": 0}}}, {"id": 140904, "date": "2023-05-05T09:00:00+00:00", "time": "09:00", "timestamp": 1683277200, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 2, "name": "Japan", "code": "JP", "flag": "https://media-1.api-sports.io/flags/jp.svg"}, "league": {"id": 2, "name": "NPB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/2.png", "season": 2023}, "teams": {"home": {"id": 59, "name": "Hiroshima Carp", "logo": "https://media-1.api-sports.io/baseball/teams/59.png"}, "away": {"id": 58, "name": "Hanshin Tigers", "logo": "https://media-2.api-sports.io/baseball/teams/58.png"}}, "scores": {"home": {"hits": 5, "errors": 1, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 0}, "away": {"hits": 11, "errors": 0, "innings": {"1": 2, "2": 0, "3": 2, "4": 0, "5": 0, "6": 1, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 5}}}, {"id": 140905, "date": "2023-05-05T09:00:00+00:00", "time": "09:00", "timestamp": 1683277200, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 2, "name": "Japan", "code": "JP", "flag": "https://media-3.api-sports.io/flags/jp.svg"}, "league": {"id": 2, "name": "NPB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/2.png", "season": 2023}, "teams": {"home": {"id": 60, "name": "Nippon Ham Fighters", "logo": "https://media-3.api-sports.io/baseball/teams/60.png"}, "away": {"id": 62, "name": "Rakuten Gold. Eagles", "logo": "https://media-2.api-sports.io/baseball/teams/62.png"}}, "scores": {"home": {"hits": 10, "errors": 1, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 1, "8": 4, "9": null, "extra": null}, "total": 5}, "away": {"hits": 9, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 2, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 2}}}, {"id": 140906, "date": "2023-05-05T09:00:00+00:00", "time": "09:00", "timestamp": 1683277200, "timezone": "UTC", "week": null, "status": {"long": "Finished", "short": "FT"}, "country": {"id": 2, "name": "Japan", "code": "JP", "flag": "https://media-2.api-sports.io/flags/jp.svg"}, "league": {"id": 2, "name": "NPB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/2.png", "season": 2023}, "teams": {"home": {"id": 61, "name": "Orix Buffaloes", "logo": "https://media-2.api-sports.io/baseball/teams/61.png"}, "away": {"id": 63, "name": "Seibu Lions", "logo": "https://media-3.api-sports.io/baseball/teams/63.png"}}, "scores": {"home": {"hits": 11, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 5, "5": 1, "6": 0, "7": 0, "8": 0, "9": null, "extra": null}, "total": 6}, "away": {"hits": 8, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 0}}}, {"id": 142901, "date": "2023-05-05T10:35:00+00:00", "time": "10:35", "timestamp": 1683282900, "timezone": "UTC", "week": null, "status": {"long": "Inning 8", "short": "IN8"}, "country": {"id": 22, "name": "Taiwan", "code": "TW", "flag": "https://media-1.api-sports.io/flags/tw.svg"}, "league": {"id": 29, "name": "CPBL", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/29.png", "season": 2023}, "teams": {"home": {"id": 348, "name": "Chinatrust Brothers", "logo": "https://media-1.api-sports.io/baseball/teams/348.png"}, "away": {"id": 349, "name": "Fubon Guardians", "logo": "https://media-3.api-sports.io/baseball/teams/349.png"}}, "scores": {"home": {"hits": 7, "errors": 2, "innings": {"1": 0, "2": 0, "3": 0, "4": 3, "5": 0, "6": 0, "7": 0, "8": null, "9": null, "extra": null}, "total": 3}, "away": {"hits": 9, "errors": 0, "innings": {"1": 0, "2": 2, "3": 3, "4": 0, "5": 0, "6": 0, "7": 2, "8": 0, "9": null, "extra": null}, "total": 7}}}, {"id": 142902, "date": "2023-05-05T10:35:00+00:00", "time": "10:35", "timestamp": 1683282900, "timezone": "UTC", "week": null, "status": {"long": "Inning 9", "short": "IN9"}, "country": {"id": 22, "name": "Taiwan", "code": "TW", "flag": "https://media-3.api-sports.io/flags/tw.svg"}, "league": {"id": 29, "name": "CPBL", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/29.png", "season": 2023}, "teams": {"home": {"id": 351, "name": "Uni Lions", "logo": "https://media-2.api-sports.io/baseball/teams/351.png"}, "away": {"id": 569, "name": "Wei Chuan Dragons", "logo": "https://media-3.api-sports.io/baseball/teams/569.png"}}, "scores": {"home": {"hits": 8, "errors": 0, "innings": {"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 1, "7": 1, "8": 0, "9": null, "extra": null}, "total": 4}, "away": {"hits": 6, "errors": 0, "innings": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "extra": null}, "total": 0}}}, {"id": 140558, "date": "2023-05-05T17:00:00+00:00", "time": "17:00", "timestamp": 1683306000, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 12, "name": "Germany", "code": "DE", "flag": "https://media-2.api-sports.io/flags/de.svg"}, "league": {"id": 15, "name": "Bundesliga South", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/15.png", "season": 2023}, "teams": {"home": {"id": 627, "name": "Guggenberger", "logo": "https://media-1.api-sports.io/baseball/teams/627.png"}, "away": {"id": 185, "name": "Stuttgart", "logo": "https://media-2.api-sports.io/baseball/teams/185.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 141646, "date": "2023-05-05T17:00:00+00:00", "time": "17:00", "timestamp": 1683306000, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 8, "name": "Czech-Republic", "code": "CZ", "flag": "https://media-1.api-sports.io/flags/cz.svg"}, "league": {"id": 10, "name": "Extraliga", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/10.png", "season": 2023}, "teams": {"home": {"id": 146, "name": "Trebic", "logo": "https://media-2.api-sports.io/baseball/teams/146.png"}, "away": {"id": 144, "name": "Technika Brno", "logo": "https://media-1.api-sports.io/baseball/teams/144.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 141647, "date": "2023-05-05T17:00:00+00:00", "time": "17:00", "timestamp": 1683306000, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 8, "name": "Czech-Republic", "code": "CZ", "flag": "https://media-3.api-sports.io/flags/cz.svg"}, "league": {"id": 10, "name": "Extraliga", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/10.png", "season": 2023}, "teams": {"home": {"id": 139, "name": "Eagles Prague", "logo": "https://media-3.api-sports.io/baseball/teams/139.png"}, "away": {"id": 142, "name": "Ostrava", "logo": "https://media-2.api-sports.io/baseball/teams/142.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 141648, "date": "2023-05-05T17:00:00+00:00", "time": "17:00", "timestamp": 1683306000, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 8, "name": "Czech-Republic", "code": "CZ", "flag": "https://media-3.api-sports.io/flags/cz.svg"}, "league": {"id": 10, "name": "Extraliga", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/10.png", "season": 2023}, "teams": {"home": {"id": 376, "name": "Hluboka", "logo": "https://media-2.api-sports.io/baseball/teams/376.png"}, "away": {"id": 145, "name": "Tempo Prague", "logo": "https://media-3.api-sports.io/baseball/teams/145.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 141649, "date": "2023-05-05T17:00:00+00:00", "time": "17:00", "timestamp": 1683306000, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 8, "name": "Czech-Republic", "code": "CZ", "flag": "https://media-1.api-sports.io/flags/cz.svg"}, "league": {"id": 10, "name": "Extraliga", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/10.png", "season": 2023}, "teams": {"home": {"id": 138, "name": "Draci Brno", "logo": "https://media-3.api-sports.io/baseball/teams/138.png"}, "away": {"id": 140, "name": "Hrosi Brno", "logo": "https://media-3.api-sports.io/baseball/teams/140.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 144091, "date": "2023-05-05T17:00:00+00:00", "time": "17:00", "timestamp": 1683306000, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 5, "name": "Austria", "code": "AT", "flag": "https://media-3.api-sports.io/flags/at.svg"}, "league": {"id": 48, "name": "Bundesliga", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/48.png", "season": 2023}, "teams": {"home": {"id": 113, "name": "Vienna Wanderers", "logo": "https://media-2.api-sports.io/baseball/teams/113.png"}, "away": {"id": 571, "name": "Schwechat", "logo": "https://media-1.api-sports.io/baseball/teams/571.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 136665, "date": "2023-05-05T18:20:00+00:00", "time": "18:20", "timestamp": 1683310800, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-3.api-sports.io/flags/us.svg"}, "league": {"id": 1, "name": "MLB", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/1.png", "season": 2023}, "teams": {"home": {"id": 6, "name": "Chicago Cubs", "logo": "https://media-1.api-sports.io/baseball/teams/6.png"}, "away": {"id": 19, "name": "Miami Marlins", "logo": "https://media-2.api-sports.io/baseball/teams/19.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 136668, "date": "2023-05-05T22:35:00+00:00", "time": "22:35", "timestamp": 1683326100, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 1, "name": "MLB", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/1.png", "season": 2023}, "teams": {"home": {"id": 28, "name": "Pittsburgh Pirates", "logo": "https://media-1.api-sports.io/baseball/teams/28.png"}, "away": {"id": 36, "name": "Toronto Blue Jays", "logo": "https://media-2.api-sports.io/baseball/teams/36.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138644, "date": "2023-05-05T22:35:00+00:00", "time": "22:35", "timestamp": 1683326100, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 53, "name": "Norfolk Tides", "logo": "https://media-3.api-sports.io/baseball/teams/53.png"}, "away": {"id": 69, "name": "Durham Bulls", "logo": "https://media-1.api-sports.io/baseball/teams/69.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138645, "date": "2023-05-05T22:35:00+00:00", "time": "22:35", "timestamp": 1683326100, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 75, "name": "Scranton/WB", "logo": "https://media-3.api-sports.io/baseball/teams/75.png"}, "away": {"id": 29, "name": "Rochester Red Wings", "logo": "https://media-1.api-sports.io/baseball/teams/29.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138646, "date": "2023-05-05T22:35:00+00:00", "time": "22:35", "timestamp": 1683326100, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 76, "name": "Syracuse Mets", "logo": "https://media-1.api-sports.io/baseball/teams/76.png"}, "away": {"id": 72, "name": "Lehigh Valley IronPigs", "logo": "https://media-2.api-sports.io/baseball/teams/72.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 136656, "date": "2023-05-05T22:40:00+00:00", "time": "22:40", "timestamp": 1683326400, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 1, "name": "MLB", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/1.png", "season": 2023}, "teams": {"home": {"id": 34, "name": "Tampa Bay Rays", "logo": "https://media-3.api-sports.io/baseball/teams/34.png"}, "away": {"id": 25, "name": "New York Yankees", "logo": "https://media-3.api-sports.io/baseball/teams/25.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 136664, "date": "2023-05-05T22:40:00+00:00", "time": "22:40", "timestamp": 1683326400, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-2.api-sports.io/flags/us.svg"}, "league": {"id": 1, "name": "MLB", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/1.png", "season": 2023}, "teams": {"home": {"id": 8, "name": "Cincinnati Reds", "logo": "https://media-1.api-sports.io/baseball/teams/8.png"}, "away": {"id": 7, "name": "Chicago White Sox", "logo": "https://media-3.api-sports.io/baseball/teams/7.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138647, "date": "2023-05-05T22:45:00+00:00", "time": "22:45", "timestamp": 1683326700, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 596, "name": "Worcester", "logo": "https://media-2.api-sports.io/baseball/teams/596.png"}, "away": {"id": 67, "name": "Buffalo Bisons", "logo": "https://media-2.api-sports.io/baseball/teams/67.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 136669, "date": "2023-05-05T23:05:00+00:00", "time": "23:05", "timestamp": 1683327900, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 1, "name": "MLB", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/1.png", "season": 2023}, "teams": {"home": {"id": 27, "name": "Philadelphia Phillies", "logo": "https://media-2.api-sports.io/baseball/teams/27.png"}, "away": {"id": 5, "name": "Boston Red Sox", "logo": "https://media-1.api-sports.io/baseball/teams/5.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138648, "date": "2023-05-05T23:05:00+00:00", "time": "23:05", "timestamp": 1683327900, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 77, "name": "Toledo Mud Hens", "logo": "https://media-2.api-sports.io/baseball/teams/77.png"}, "away": {"id": 71, "name": "Indianapolis Indians", "logo": "https://media-1.api-sports.io/baseball/teams/71.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138649, "date": "2023-05-05T23:05:00+00:00", "time": "23:05", "timestamp": 1683327900, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-3.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 70, "name": "Gwinnett Stripers", "logo": "https://media-3.api-sports.io/baseball/teams/70.png"}, "away": {"id": 48, "name": "Charlotte Knights", "logo": "https://media-3.api-sports.io/baseball/teams/48.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138650, "date": "2023-05-05T23:05:00+00:00", "time": "23:05", "timestamp": 1683327900, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-1.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 68, "name": "Columbus Clippers", "logo": "https://media-2.api-sports.io/baseball/teams/68.png"}, "away": {"id": 79, "name": "Iowa Cubs", "logo": "https://media-3.api-sports.io/baseball/teams/79.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 136660, "date": "2023-05-05T23:10:00+00:00", "time": "23:10", "timestamp": 1683328200, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-2.api-sports.io/flags/us.svg"}, "league": {"id": 1, "name": "MLB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/1.png", "season": 2023}, "teams": {"home": {"id": 24, "name": "New York Mets", "logo": "https://media-1.api-sports.io/baseball/teams/24.png"}, "away": {"id": 10, "name": "Colorado Rockies", "logo": "https://media-2.api-sports.io/baseball/teams/10.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 136663, "date": "2023-05-05T23:10:00+00:00", "time": "23:10", "timestamp": 1683328200, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-2.api-sports.io/flags/us.svg"}, "league": {"id": 1, "name": "MLB", "type": "League", "logo": "https://media-3.api-sports.io/baseball/leagues/1.png", "season": 2023}, "teams": {"home": {"id": 9, "name": "Cleveland Guardians", "logo": "https://media-1.api-sports.io/baseball/teams/9.png"}, "away": {"id": 22, "name": "Minnesota Twins", "logo": "https://media-2.api-sports.io/baseball/teams/22.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 136666, "date": "2023-05-05T23:20:00+00:00", "time": "23:20", "timestamp": 1683328800, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 1, "name": "MLB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/1.png", "season": 2023}, "teams": {"home": {"id": 3, "name": "Atlanta Braves", "logo": "https://media-3.api-sports.io/baseball/teams/3.png"}, "away": {"id": 4, "name": "Baltimore Orioles", "logo": "https://media-3.api-sports.io/baseball/teams/4.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138651, "date": "2023-05-05T23:35:00+00:00", "time": "23:35", "timestamp": 1683329700, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 44, "name": "Omaha Storm Chasers", "logo": "https://media-1.api-sports.io/baseball/teams/44.png"}, "away": {"id": 73, "name": "Louisville Bats", "logo": "https://media-1.api-sports.io/baseball/teams/73.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 143282, "date": "2023-05-05T23:35:00+00:00", "time": "23:35", "timestamp": 1683329700, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 15, "name": "Mexico", "code": "MX", "flag": "https://media-1.api-sports.io/flags/mx.svg"}, "league": {"id": 21, "name": "LMB", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/21.png", "season": 2023}, "teams": {"home": {"id": 283, "name": "Dos Laredos", "logo": "https://media-3.api-sports.io/baseball/teams/283.png"}, "away": {"id": 292, "name": "Puebla", "logo": "https://media-3.api-sports.io/baseball/teams/292.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}, {"id": 138652, "date": "2023-05-05T23:37:00+00:00", "time": "23:37", "timestamp": 1683329820, "timezone": "UTC", "week": null, "status": {"long": "Not Started", "short": "NS"}, "country": {"id": 1, "name": "USA", "code": "US", "flag": "https://media-1.api-sports.io/flags/us.svg"}, "league": {"id": 3, "name": "IL", "type": "League", "logo": "https://media-2.api-sports.io/baseball/leagues/3.png", "season": 2023}, "teams": {"home": {"id": 595, "name": "St. Paul", "logo": "https://media-1.api-sports.io/baseball/teams/595.png"}, "away": {"id": 42, "name": "Nashville Sounds", "logo": "https://media-2.api-sports.io/baseball/teams/42.png"}}, "scores": {"home": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}, "away": {"hits": null, "errors": null, "innings": {"1": null, "2": null, "3": null, "4": null, "5": null, "6": null, "7": null, "8": null, "9": null, "extra": null}, "total": null}}}]
+[
+  {
+    "id": 143271,
+    "date": "2023-05-05T00:30:00+00:00",
+    "time": "00:30",
+    "timestamp": 1683246600,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-1.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 293,
+        "name": "Quintana Roo",
+        "logo": "https://media-3.api-sports.io/baseball/teams/293.png"
+      },
+      "away": {
+        "id": 282,
+        "name": "Campeche",
+        "logo": "https://media-3.api-sports.io/baseball/teams/282.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 2,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 0
+      },
+      "away": {
+        "hits": 6,
+        "errors": 0,
+        "innings": {
+          "1": 2,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 3
+      }
+    }
+  },
+  {
+    "id": 139891,
+    "date": "2023-05-05T00:35:00+00:00",
+    "time": "00:35",
+    "timestamp": 1683246900,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 4,
+      "name": "PCL",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/4.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 49,
+        "name": "El Paso Chihuahuas",
+        "logo": "https://media-1.api-sports.io/baseball/teams/49.png"
+      },
+      "away": {
+        "id": 81,
+        "name": "Oklahoma City Dodgers",
+        "logo": "https://media-3.api-sports.io/baseball/teams/81.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 12,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 7,
+          "9": null,
+          "extra": null
+        },
+        "total": 8
+      },
+      "away": {
+        "hits": 5,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 2
+      }
+    }
+  },
+  {
+    "id": 139892,
+    "date": "2023-05-05T00:35:00+00:00",
+    "time": "00:35",
+    "timestamp": 1683246900,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-2.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 4,
+      "name": "PCL",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/4.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 84,
+        "name": "Salt Lake Bees",
+        "logo": "https://media-2.api-sports.io/baseball/teams/84.png"
+      },
+      "away": {
+        "id": 86,
+        "name": "Tacoma Rainiers",
+        "logo": "https://media-1.api-sports.io/baseball/teams/86.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 12,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 5,
+          "5": 1,
+          "6": 1,
+          "7": 0,
+          "8": 0,
+          "9": null,
+          "extra": null
+        },
+        "total": 8
+      },
+      "away": {
+        "hits": 11,
+        "errors": 2,
+        "innings": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 3,
+          "5": 2,
+          "6": 1,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 7
+      }
+    }
+  },
+  {
+    "id": 143270,
+    "date": "2023-05-05T01:00:00+00:00",
+    "time": "01:00",
+    "timestamp": 1683248400,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-2.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 291,
+        "name": "Oaxaca",
+        "logo": "https://media-1.api-sports.io/baseball/teams/291.png"
+      },
+      "away": {
+        "id": 457,
+        "name": "Veracruz",
+        "logo": "https://media-1.api-sports.io/baseball/teams/457.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 10,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 2,
+          "8": 0,
+          "9": null,
+          "extra": null
+        },
+        "total": 4
+      },
+      "away": {
+        "hits": 5,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 1
+      }
+    }
+  },
+  {
+    "id": 143268,
+    "date": "2023-05-05T01:30:00+00:00",
+    "time": "01:30",
+    "timestamp": 1683250200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-3.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 285,
+        "name": "Laguna",
+        "logo": "https://media-2.api-sports.io/baseball/teams/285.png"
+      },
+      "away": {
+        "id": 287,
+        "name": "Mexico",
+        "logo": "https://media-2.api-sports.io/baseball/teams/287.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 10,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 3,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": null,
+          "extra": null
+        },
+        "total": 7
+      },
+      "away": {
+        "hits": 7,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0,
+          "6": 2,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 4
+      }
+    }
+  },
+  {
+    "id": 143269,
+    "date": "2023-05-05T01:30:00+00:00",
+    "time": "01:30",
+    "timestamp": 1683250200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-1.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 288,
+        "name": "Monclova",
+        "logo": "https://media-3.api-sports.io/baseball/teams/288.png"
+      },
+      "away": {
+        "id": 283,
+        "name": "Dos Laredos",
+        "logo": "https://media-1.api-sports.io/baseball/teams/283.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 10,
+        "errors": 0,
+        "innings": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 4,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 0,
+          "9": null,
+          "extra": null
+        },
+        "total": 8
+      },
+      "away": {
+        "hits": 8,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 1,
+          "6": 0,
+          "7": 1,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 3
+      }
+    }
+  },
+  {
+    "id": 143274,
+    "date": "2023-05-05T01:30:00+00:00",
+    "time": "01:30",
+    "timestamp": 1683250200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-2.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 281,
+        "name": "Aguascalientes",
+        "logo": "https://media-2.api-sports.io/baseball/teams/281.png"
+      },
+      "away": {
+        "id": 598,
+        "name": "Guadalajara",
+        "logo": "https://media-3.api-sports.io/baseball/teams/598.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 14,
+        "errors": 1,
+        "innings": {
+          "1": 2,
+          "2": 1,
+          "3": 4,
+          "4": 0,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": null,
+          "extra": null
+        },
+        "total": 9
+      },
+      "away": {
+        "hits": 8,
+        "errors": 2,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 4
+      }
+    }
+  },
+  {
+    "id": 143267,
+    "date": "2023-05-05T01:35:00+00:00",
+    "time": "01:35",
+    "timestamp": 1683250500,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-1.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 284,
+        "name": "Durango",
+        "logo": "https://media-2.api-sports.io/baseball/teams/284.png"
+      },
+      "away": {
+        "id": 844,
+        "name": "Bravos de Leon",
+        "logo": "https://media-2.api-sports.io/baseball/teams/844.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 5,
+        "errors": 4,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 0
+      },
+      "away": {
+        "hits": 11,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 0,
+          "5": 0,
+          "6": 1,
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "extra": null
+        },
+        "total": 7
+      }
+    }
+  },
+  {
+    "id": 139893,
+    "date": "2023-05-05T01:45:00+00:00",
+    "time": "01:45",
+    "timestamp": 1683251100,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 4,
+      "name": "PCL",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/4.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 54,
+        "name": "Sacramento River Cats",
+        "logo": "https://media-3.api-sports.io/baseball/teams/54.png"
+      },
+      "away": {
+        "id": 80,
+        "name": "Las Vegas Aviators",
+        "logo": "https://media-2.api-sports.io/baseball/teams/80.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 11,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 5,
+          "9": 2,
+          "extra": null
+        },
+        "total": 7
+      },
+      "away": {
+        "hits": 11,
+        "errors": 1,
+        "innings": {
+          "1": 1,
+          "2": 2,
+          "3": 0,
+          "4": 2,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "extra": null
+        },
+        "total": 6
+      }
+    }
+  },
+  {
+    "id": 143272,
+    "date": "2023-05-05T02:00:00+00:00",
+    "time": "02:00",
+    "timestamp": 1683252000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-2.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 296,
+        "name": "Tabasco",
+        "logo": "https://media-1.api-sports.io/baseball/teams/296.png"
+      },
+      "away": {
+        "id": 298,
+        "name": "Yucatan",
+        "logo": "https://media-1.api-sports.io/baseball/teams/298.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 7,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 5,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 5
+      },
+      "away": {
+        "hits": 12,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 5,
+          "6": 2,
+          "7": 0,
+          "8": 2,
+          "9": 0,
+          "extra": null
+        },
+        "total": 11
+      }
+    }
+  },
+  {
+    "id": 143273,
+    "date": "2023-05-05T02:35:00+00:00",
+    "time": "02:35",
+    "timestamp": 1683254100,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-2.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 297,
+        "name": "Toros de Tijuana",
+        "logo": "https://media-3.api-sports.io/baseball/teams/297.png"
+      },
+      "away": {
+        "id": 292,
+        "name": "Puebla",
+        "logo": "https://media-2.api-sports.io/baseball/teams/292.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 12,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0,
+          "6": 3,
+          "7": 1,
+          "8": 2,
+          "9": null,
+          "extra": null
+        },
+        "total": 7
+      },
+      "away": {
+        "hits": 9,
+        "errors": 2,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0,
+          "6": 1,
+          "7": 3,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 5
+      }
+    }
+  },
+  {
+    "id": 140903,
+    "date": "2023-05-05T05:00:00+00:00",
+    "time": "05:00",
+    "timestamp": 1683262800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 2,
+      "name": "Japan",
+      "code": "JP",
+      "flag": "https://media-1.api-sports.io/flags/jp.svg"
+    },
+    "league": {
+      "id": 2,
+      "name": "NPB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/2.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 56,
+        "name": "Chunichi Dragons",
+        "logo": "https://media-3.api-sports.io/baseball/teams/56.png"
+      },
+      "away": {
+        "id": 66,
+        "name": "Yomiuri Giants",
+        "logo": "https://media-3.api-sports.io/baseball/teams/66.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 11,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 0,
+          "7": 0,
+          "8": 6,
+          "9": null,
+          "extra": null
+        },
+        "total": 8
+      },
+      "away": {
+        "hits": 10,
+        "errors": 0,
+        "innings": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 3
+      }
+    }
+  },
+  {
+    "id": 140907,
+    "date": "2023-05-05T05:00:00+00:00",
+    "time": "05:00",
+    "timestamp": 1683262800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 2,
+      "name": "Japan",
+      "code": "JP",
+      "flag": "https://media-2.api-sports.io/flags/jp.svg"
+    },
+    "league": {
+      "id": 2,
+      "name": "NPB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/2.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 64,
+        "name": "Yakult Swallows",
+        "logo": "https://media-2.api-sports.io/baseball/teams/64.png"
+      },
+      "away": {
+        "id": 65,
+        "name": "Yokohama BayStars",
+        "logo": "https://media-3.api-sports.io/baseball/teams/65.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 16,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 0,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 4,
+          "9": 2,
+          "extra": null
+        },
+        "total": 10
+      },
+      "away": {
+        "hits": 13,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 3,
+          "5": 0,
+          "6": 0,
+          "7": 3,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 9
+      }
+    }
+  },
+  {
+    "id": 141832,
+    "date": "2023-05-05T05:00:00+00:00",
+    "time": "05:00",
+    "timestamp": 1683262800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Postponed",
+      "short": "POST"
+    },
+    "country": {
+      "id": 3,
+      "name": "South-Korea",
+      "code": "KR",
+      "flag": "https://media-2.api-sports.io/flags/kr.svg"
+    },
+    "league": {
+      "id": 5,
+      "name": "KBO",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/5.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 88,
+        "name": "Doosan Bears",
+        "logo": "https://media-1.api-sports.io/baseball/teams/88.png"
+      },
+      "away": {
+        "id": 93,
+        "name": "LG Twins",
+        "logo": "https://media-2.api-sports.io/baseball/teams/93.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 141833,
+    "date": "2023-05-05T05:00:00+00:00",
+    "time": "05:00",
+    "timestamp": 1683262800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Postponed",
+      "short": "POST"
+    },
+    "country": {
+      "id": 3,
+      "name": "South-Korea",
+      "code": "KR",
+      "flag": "https://media-1.api-sports.io/flags/kr.svg"
+    },
+    "league": {
+      "id": 5,
+      "name": "KBO",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/5.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 89,
+        "name": "Hanwha Eagles",
+        "logo": "https://media-3.api-sports.io/baseball/teams/89.png"
+      },
+      "away": {
+        "id": 91,
+        "name": "KT Wiz Suwon",
+        "logo": "https://media-2.api-sports.io/baseball/teams/91.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 141834,
+    "date": "2023-05-05T05:00:00+00:00",
+    "time": "05:00",
+    "timestamp": 1683262800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 3,
+      "name": "South-Korea",
+      "code": "KR",
+      "flag": "https://media-2.api-sports.io/flags/kr.svg"
+    },
+    "league": {
+      "id": 5,
+      "name": "KBO",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/5.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 92,
+        "name": "Kiwoom Heroes",
+        "logo": "https://media-3.api-sports.io/baseball/teams/92.png"
+      },
+      "away": {
+        "id": 647,
+        "name": "SSG Landers",
+        "logo": "https://media-2.api-sports.io/baseball/teams/647.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 6,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 1
+      },
+      "away": {
+        "hits": 6,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 0,
+          "9": 1,
+          "extra": null
+        },
+        "total": 3
+      }
+    }
+  },
+  {
+    "id": 141835,
+    "date": "2023-05-05T05:00:00+00:00",
+    "time": "05:00",
+    "timestamp": 1683262800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Postponed",
+      "short": "POST"
+    },
+    "country": {
+      "id": 3,
+      "name": "South-Korea",
+      "code": "KR",
+      "flag": "https://media-2.api-sports.io/flags/kr.svg"
+    },
+    "league": {
+      "id": 5,
+      "name": "KBO",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/5.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 94,
+        "name": "Lotte Giants",
+        "logo": "https://media-1.api-sports.io/baseball/teams/94.png"
+      },
+      "away": {
+        "id": 97,
+        "name": "Samsung Lions",
+        "logo": "https://media-3.api-sports.io/baseball/teams/97.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 141836,
+    "date": "2023-05-05T05:00:00+00:00",
+    "time": "05:00",
+    "timestamp": 1683262800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Postponed",
+      "short": "POST"
+    },
+    "country": {
+      "id": 3,
+      "name": "South-Korea",
+      "code": "KR",
+      "flag": "https://media-2.api-sports.io/flags/kr.svg"
+    },
+    "league": {
+      "id": 5,
+      "name": "KBO",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/5.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 95,
+        "name": "NC Dinos",
+        "logo": "https://media-1.api-sports.io/baseball/teams/95.png"
+      },
+      "away": {
+        "id": 90,
+        "name": "KIA Tigers",
+        "logo": "https://media-1.api-sports.io/baseball/teams/90.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 140902,
+    "date": "2023-05-05T09:00:00+00:00",
+    "time": "09:00",
+    "timestamp": 1683277200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 2,
+      "name": "Japan",
+      "code": "JP",
+      "flag": "https://media-3.api-sports.io/flags/jp.svg"
+    },
+    "league": {
+      "id": 2,
+      "name": "NPB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/2.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 55,
+        "name": "Chiba Lotte Marines",
+        "logo": "https://media-3.api-sports.io/baseball/teams/55.png"
+      },
+      "away": {
+        "id": 57,
+        "name": "Fukuoka S. Hawks",
+        "logo": "https://media-1.api-sports.io/baseball/teams/57.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 7,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": 0
+        },
+        "total": 0
+      },
+      "away": {
+        "hits": 6,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": 0
+        },
+        "total": 0
+      }
+    }
+  },
+  {
+    "id": 140904,
+    "date": "2023-05-05T09:00:00+00:00",
+    "time": "09:00",
+    "timestamp": 1683277200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 2,
+      "name": "Japan",
+      "code": "JP",
+      "flag": "https://media-1.api-sports.io/flags/jp.svg"
+    },
+    "league": {
+      "id": 2,
+      "name": "NPB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/2.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 59,
+        "name": "Hiroshima Carp",
+        "logo": "https://media-1.api-sports.io/baseball/teams/59.png"
+      },
+      "away": {
+        "id": 58,
+        "name": "Hanshin Tigers",
+        "logo": "https://media-2.api-sports.io/baseball/teams/58.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 5,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 0
+      },
+      "away": {
+        "hits": 11,
+        "errors": 0,
+        "innings": {
+          "1": 2,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0,
+          "6": 1,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 5
+      }
+    }
+  },
+  {
+    "id": 140905,
+    "date": "2023-05-05T09:00:00+00:00",
+    "time": "09:00",
+    "timestamp": 1683277200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 2,
+      "name": "Japan",
+      "code": "JP",
+      "flag": "https://media-3.api-sports.io/flags/jp.svg"
+    },
+    "league": {
+      "id": 2,
+      "name": "NPB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/2.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 60,
+        "name": "Nippon Ham Fighters",
+        "logo": "https://media-3.api-sports.io/baseball/teams/60.png"
+      },
+      "away": {
+        "id": 62,
+        "name": "Rakuten Gold. Eagles",
+        "logo": "https://media-2.api-sports.io/baseball/teams/62.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 10,
+        "errors": 1,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 1,
+          "8": 4,
+          "9": null,
+          "extra": null
+        },
+        "total": 5
+      },
+      "away": {
+        "hits": 9,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 2,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 2
+      }
+    }
+  },
+  {
+    "id": 140906,
+    "date": "2023-05-05T09:00:00+00:00",
+    "time": "09:00",
+    "timestamp": 1683277200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 2,
+      "name": "Japan",
+      "code": "JP",
+      "flag": "https://media-2.api-sports.io/flags/jp.svg"
+    },
+    "league": {
+      "id": 2,
+      "name": "NPB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/2.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 61,
+        "name": "Orix Buffaloes",
+        "logo": "https://media-2.api-sports.io/baseball/teams/61.png"
+      },
+      "away": {
+        "id": 63,
+        "name": "Seibu Lions",
+        "logo": "https://media-3.api-sports.io/baseball/teams/63.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 11,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 5,
+          "5": 1,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": null,
+          "extra": null
+        },
+        "total": 6
+      },
+      "away": {
+        "hits": 8,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 0
+      }
+    }
+  },
+  {
+    "id": 142901,
+    "date": "2023-05-05T10:35:00+00:00",
+    "time": "10:35",
+    "timestamp": 1683282900,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Inning 8",
+      "short": "IN8"
+    },
+    "country": {
+      "id": 22,
+      "name": "Taiwan",
+      "code": "TW",
+      "flag": "https://media-1.api-sports.io/flags/tw.svg"
+    },
+    "league": {
+      "id": 29,
+      "name": "CPBL",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/29.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 348,
+        "name": "Chinatrust Brothers",
+        "logo": "https://media-1.api-sports.io/baseball/teams/348.png"
+      },
+      "away": {
+        "id": 349,
+        "name": "Fubon Guardians",
+        "logo": "https://media-3.api-sports.io/baseball/teams/349.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 7,
+        "errors": 2,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 3,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": 3
+      },
+      "away": {
+        "hits": 9,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 2,
+          "3": 3,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 2,
+          "8": 0,
+          "9": null,
+          "extra": null
+        },
+        "total": 7
+      }
+    }
+  },
+  {
+    "id": 142902,
+    "date": "2023-05-05T10:35:00+00:00",
+    "time": "10:35",
+    "timestamp": 1683282900,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Inning 9",
+      "short": "IN9"
+    },
+    "country": {
+      "id": 22,
+      "name": "Taiwan",
+      "code": "TW",
+      "flag": "https://media-3.api-sports.io/flags/tw.svg"
+    },
+    "league": {
+      "id": 29,
+      "name": "CPBL",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/29.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 351,
+        "name": "Uni Lions",
+        "logo": "https://media-2.api-sports.io/baseball/teams/351.png"
+      },
+      "away": {
+        "id": 569,
+        "name": "Wei Chuan Dragons",
+        "logo": "https://media-3.api-sports.io/baseball/teams/569.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 8,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 0,
+          "5": 0,
+          "6": 1,
+          "7": 1,
+          "8": 0,
+          "9": null,
+          "extra": null
+        },
+        "total": 4
+      },
+      "away": {
+        "hits": 6,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 0
+      }
+    }
+  },
+  {
+    "id": 140558,
+    "date": "2023-05-05T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683306000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 12,
+      "name": "Germany",
+      "code": "DE",
+      "flag": "https://media-2.api-sports.io/flags/de.svg"
+    },
+    "league": {
+      "id": 15,
+      "name": "Bundesliga South",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/15.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 627,
+        "name": "Guggenberger",
+        "logo": "https://media-1.api-sports.io/baseball/teams/627.png"
+      },
+      "away": {
+        "id": 185,
+        "name": "Stuttgart",
+        "logo": "https://media-2.api-sports.io/baseball/teams/185.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 141646,
+    "date": "2023-05-05T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683306000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 8,
+      "name": "Czech-Republic",
+      "code": "CZ",
+      "flag": "https://media-1.api-sports.io/flags/cz.svg"
+    },
+    "league": {
+      "id": 10,
+      "name": "Extraliga",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/10.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 146,
+        "name": "Trebic",
+        "logo": "https://media-2.api-sports.io/baseball/teams/146.png"
+      },
+      "away": {
+        "id": 144,
+        "name": "Technika Brno",
+        "logo": "https://media-1.api-sports.io/baseball/teams/144.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 141647,
+    "date": "2023-05-05T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683306000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 8,
+      "name": "Czech-Republic",
+      "code": "CZ",
+      "flag": "https://media-3.api-sports.io/flags/cz.svg"
+    },
+    "league": {
+      "id": 10,
+      "name": "Extraliga",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/10.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 139,
+        "name": "Eagles Prague",
+        "logo": "https://media-3.api-sports.io/baseball/teams/139.png"
+      },
+      "away": {
+        "id": 142,
+        "name": "Ostrava",
+        "logo": "https://media-2.api-sports.io/baseball/teams/142.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 141648,
+    "date": "2023-05-05T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683306000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 8,
+      "name": "Czech-Republic",
+      "code": "CZ",
+      "flag": "https://media-3.api-sports.io/flags/cz.svg"
+    },
+    "league": {
+      "id": 10,
+      "name": "Extraliga",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/10.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 376,
+        "name": "Hluboka",
+        "logo": "https://media-2.api-sports.io/baseball/teams/376.png"
+      },
+      "away": {
+        "id": 145,
+        "name": "Tempo Prague",
+        "logo": "https://media-3.api-sports.io/baseball/teams/145.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 141649,
+    "date": "2023-05-05T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683306000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 8,
+      "name": "Czech-Republic",
+      "code": "CZ",
+      "flag": "https://media-1.api-sports.io/flags/cz.svg"
+    },
+    "league": {
+      "id": 10,
+      "name": "Extraliga",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/10.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 138,
+        "name": "Draci Brno",
+        "logo": "https://media-3.api-sports.io/baseball/teams/138.png"
+      },
+      "away": {
+        "id": 140,
+        "name": "Hrosi Brno",
+        "logo": "https://media-3.api-sports.io/baseball/teams/140.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 144091,
+    "date": "2023-05-05T17:00:00+00:00",
+    "time": "17:00",
+    "timestamp": 1683306000,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 5,
+      "name": "Austria",
+      "code": "AT",
+      "flag": "https://media-3.api-sports.io/flags/at.svg"
+    },
+    "league": {
+      "id": 48,
+      "name": "Bundesliga",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/48.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 113,
+        "name": "Vienna Wanderers",
+        "logo": "https://media-2.api-sports.io/baseball/teams/113.png"
+      },
+      "away": {
+        "id": 571,
+        "name": "Schwechat",
+        "logo": "https://media-1.api-sports.io/baseball/teams/571.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 136665,
+    "date": "2023-05-05T18:20:00+00:00",
+    "time": "18:20",
+    "timestamp": 1683310800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-3.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/1.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 6,
+        "name": "Chicago Cubs",
+        "logo": "https://media-1.api-sports.io/baseball/teams/6.png"
+      },
+      "away": {
+        "id": 19,
+        "name": "Miami Marlins",
+        "logo": "https://media-2.api-sports.io/baseball/teams/19.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 136668,
+    "date": "2023-05-05T22:35:00+00:00",
+    "time": "22:35",
+    "timestamp": 1683326100,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/1.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 28,
+        "name": "Pittsburgh Pirates",
+        "logo": "https://media-1.api-sports.io/baseball/teams/28.png"
+      },
+      "away": {
+        "id": 36,
+        "name": "Toronto Blue Jays",
+        "logo": "https://media-2.api-sports.io/baseball/teams/36.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138644,
+    "date": "2023-05-05T22:35:00+00:00",
+    "time": "22:35",
+    "timestamp": 1683326100,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 53,
+        "name": "Norfolk Tides",
+        "logo": "https://media-3.api-sports.io/baseball/teams/53.png"
+      },
+      "away": {
+        "id": 69,
+        "name": "Durham Bulls",
+        "logo": "https://media-1.api-sports.io/baseball/teams/69.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138645,
+    "date": "2023-05-05T22:35:00+00:00",
+    "time": "22:35",
+    "timestamp": 1683326100,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 75,
+        "name": "Scranton/WB",
+        "logo": "https://media-3.api-sports.io/baseball/teams/75.png"
+      },
+      "away": {
+        "id": 29,
+        "name": "Rochester Red Wings",
+        "logo": "https://media-1.api-sports.io/baseball/teams/29.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138646,
+    "date": "2023-05-05T22:35:00+00:00",
+    "time": "22:35",
+    "timestamp": 1683326100,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 76,
+        "name": "Syracuse Mets",
+        "logo": "https://media-1.api-sports.io/baseball/teams/76.png"
+      },
+      "away": {
+        "id": 72,
+        "name": "Lehigh Valley IronPigs",
+        "logo": "https://media-2.api-sports.io/baseball/teams/72.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 136656,
+    "date": "2023-05-05T22:40:00+00:00",
+    "time": "22:40",
+    "timestamp": 1683326400,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/1.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 34,
+        "name": "Tampa Bay Rays",
+        "logo": "https://media-3.api-sports.io/baseball/teams/34.png"
+      },
+      "away": {
+        "id": 25,
+        "name": "New York Yankees",
+        "logo": "https://media-3.api-sports.io/baseball/teams/25.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 136664,
+    "date": "2023-05-05T22:40:00+00:00",
+    "time": "22:40",
+    "timestamp": 1683326400,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-2.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/1.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 8,
+        "name": "Cincinnati Reds",
+        "logo": "https://media-1.api-sports.io/baseball/teams/8.png"
+      },
+      "away": {
+        "id": 7,
+        "name": "Chicago White Sox",
+        "logo": "https://media-3.api-sports.io/baseball/teams/7.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138647,
+    "date": "2023-05-05T22:45:00+00:00",
+    "time": "22:45",
+    "timestamp": 1683326700,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 596,
+        "name": "Worcester",
+        "logo": "https://media-2.api-sports.io/baseball/teams/596.png"
+      },
+      "away": {
+        "id": 67,
+        "name": "Buffalo Bisons",
+        "logo": "https://media-2.api-sports.io/baseball/teams/67.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 136669,
+    "date": "2023-05-05T23:05:00+00:00",
+    "time": "23:05",
+    "timestamp": 1683327900,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/1.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 27,
+        "name": "Philadelphia Phillies",
+        "logo": "https://media-2.api-sports.io/baseball/teams/27.png"
+      },
+      "away": {
+        "id": 5,
+        "name": "Boston Red Sox",
+        "logo": "https://media-1.api-sports.io/baseball/teams/5.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138648,
+    "date": "2023-05-05T23:05:00+00:00",
+    "time": "23:05",
+    "timestamp": 1683327900,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 77,
+        "name": "Toledo Mud Hens",
+        "logo": "https://media-2.api-sports.io/baseball/teams/77.png"
+      },
+      "away": {
+        "id": 71,
+        "name": "Indianapolis Indians",
+        "logo": "https://media-1.api-sports.io/baseball/teams/71.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138649,
+    "date": "2023-05-05T23:05:00+00:00",
+    "time": "23:05",
+    "timestamp": 1683327900,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-3.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 70,
+        "name": "Gwinnett Stripers",
+        "logo": "https://media-3.api-sports.io/baseball/teams/70.png"
+      },
+      "away": {
+        "id": 48,
+        "name": "Charlotte Knights",
+        "logo": "https://media-3.api-sports.io/baseball/teams/48.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138650,
+    "date": "2023-05-05T23:05:00+00:00",
+    "time": "23:05",
+    "timestamp": 1683327900,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-1.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 68,
+        "name": "Columbus Clippers",
+        "logo": "https://media-2.api-sports.io/baseball/teams/68.png"
+      },
+      "away": {
+        "id": 79,
+        "name": "Iowa Cubs",
+        "logo": "https://media-3.api-sports.io/baseball/teams/79.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 136660,
+    "date": "2023-05-05T23:10:00+00:00",
+    "time": "23:10",
+    "timestamp": 1683328200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-2.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/1.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 24,
+        "name": "New York Mets",
+        "logo": "https://media-1.api-sports.io/baseball/teams/24.png"
+      },
+      "away": {
+        "id": 10,
+        "name": "Colorado Rockies",
+        "logo": "https://media-2.api-sports.io/baseball/teams/10.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 136663,
+    "date": "2023-05-05T23:10:00+00:00",
+    "time": "23:10",
+    "timestamp": 1683328200,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-2.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/1.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 9,
+        "name": "Cleveland Guardians",
+        "logo": "https://media-1.api-sports.io/baseball/teams/9.png"
+      },
+      "away": {
+        "id": 22,
+        "name": "Minnesota Twins",
+        "logo": "https://media-2.api-sports.io/baseball/teams/22.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 136666,
+    "date": "2023-05-05T23:20:00+00:00",
+    "time": "23:20",
+    "timestamp": 1683328800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 1,
+      "name": "MLB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/1.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 3,
+        "name": "Atlanta Braves",
+        "logo": "https://media-3.api-sports.io/baseball/teams/3.png"
+      },
+      "away": {
+        "id": 4,
+        "name": "Baltimore Orioles",
+        "logo": "https://media-3.api-sports.io/baseball/teams/4.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138651,
+    "date": "2023-05-05T23:35:00+00:00",
+    "time": "23:35",
+    "timestamp": 1683329700,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 44,
+        "name": "Omaha Storm Chasers",
+        "logo": "https://media-1.api-sports.io/baseball/teams/44.png"
+      },
+      "away": {
+        "id": 73,
+        "name": "Louisville Bats",
+        "logo": "https://media-1.api-sports.io/baseball/teams/73.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 143282,
+    "date": "2023-05-05T23:35:00+00:00",
+    "time": "23:35",
+    "timestamp": 1683329700,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 15,
+      "name": "Mexico",
+      "code": "MX",
+      "flag": "https://media-1.api-sports.io/flags/mx.svg"
+    },
+    "league": {
+      "id": 21,
+      "name": "LMB",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/21.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 283,
+        "name": "Dos Laredos",
+        "logo": "https://media-3.api-sports.io/baseball/teams/283.png"
+      },
+      "away": {
+        "id": 292,
+        "name": "Puebla",
+        "logo": "https://media-3.api-sports.io/baseball/teams/292.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  },
+  {
+    "id": 138652,
+    "date": "2023-05-05T23:37:00+00:00",
+    "time": "23:37",
+    "timestamp": 1683329820,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Not Started",
+      "short": "NS"
+    },
+    "country": {
+      "id": 1,
+      "name": "USA",
+      "code": "US",
+      "flag": "https://media-1.api-sports.io/flags/us.svg"
+    },
+    "league": {
+      "id": 3,
+      "name": "IL",
+      "type": "League",
+      "logo": "https://media-2.api-sports.io/baseball/leagues/3.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 595,
+        "name": "St. Paul",
+        "logo": "https://media-1.api-sports.io/baseball/teams/595.png"
+      },
+      "away": {
+        "id": 42,
+        "name": "Nashville Sounds",
+        "logo": "https://media-2.api-sports.io/baseball/teams/42.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      },
+      "away": {
+        "hits": null,
+        "errors": null,
+        "innings": {
+          "1": null,
+          "2": null,
+          "3": null,
+          "4": null,
+          "5": null,
+          "6": null,
+          "7": null,
+          "8": null,
+          "9": null,
+          "extra": null
+        },
+        "total": null
+      }
+    }
+  }
+]

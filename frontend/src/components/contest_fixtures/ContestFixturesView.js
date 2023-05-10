@@ -13,7 +13,13 @@ const ContestFixturesView = (props) => {
                 <div className={style.contest_infos_container}>
                     <div
                         className={style.star_icon_container}
-                        onClick={(event) => props.favoriteButtonHandle(event, props.contest.id, WISHLIST_ITEM_TYPE.CONTEST)}
+                        onClick={(event) =>
+                            props.favoriteButtonHandle(
+                                event,
+                                props.contest.id,
+                                WISHLIST_ITEM_TYPE.CONTEST,
+                                props.contest.year
+                            )}
                     >
                         <FontAwesomeIcon
                             icon={faStar}

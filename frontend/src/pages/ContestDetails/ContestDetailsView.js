@@ -57,7 +57,13 @@ const ContestDetailsView = (props) => {
                                     <h1 className={style.league_title}>{props.contest.league.name}</h1>
                                     <div
                                         className={style.star_icon_container}
-                                        onClick={(event) => props.favoriteButtonHandle(event, props.contest.league.id, WISHLIST_ITEM_TYPE.CONTEST)}
+                                        onClick={(event) =>
+                                            props.favoriteButtonHandle(
+                                                event,
+                                                props.contest.league.id,
+                                                WISHLIST_ITEM_TYPE.CONTEST,
+                                                props.season
+                                            )}
                                     >
                                         <FontAwesomeIcon
                                             icon={faStar}
@@ -130,6 +136,7 @@ const ContestDetailsView = (props) => {
                 isOpen={props.isOpenAddFavoriteModal}
                 itemId={props.addFavoriteModalContent}
                 contentType={props.addFavoriteModalContentType}
+                season={props.addFavoriteModalContentSeason}
                 updateWishlist={props.updateWishlist}
                 toggle={props.toggleAddFavoriteModal}
             />

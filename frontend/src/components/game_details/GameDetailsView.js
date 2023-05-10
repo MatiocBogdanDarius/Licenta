@@ -15,7 +15,13 @@ function GameDetailsView(props) {
                         <div className={style.home_team_container}>
                             <div
                                 className={style.star_icon_container}
-                                onClick={(event) => props.favoriteButtonHandle(event, props.game.teams.home.id, WISHLIST_ITEM_TYPE.TEAM)}
+                                onClick={(event) =>
+                                    props.favoriteButtonHandle(
+                                        event,
+                                        props.game.teams.home.id,
+                                        WISHLIST_ITEM_TYPE.TEAM,
+                                        props.season
+                                    )}
                             >
                                 <FontAwesomeIcon
                                     icon={faStar}

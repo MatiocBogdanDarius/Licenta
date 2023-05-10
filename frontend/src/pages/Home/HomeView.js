@@ -65,6 +65,7 @@ const HomeView = (props) => {
                 isOpen={props.isOpenAddFavoriteModal}
                 itemId={props.addFavoriteModalContent}
                 contentType={props.addFavoriteModalContentType}
+                season={props.addFavoriteModalContentSeason}
                 updateWishlist={props.updateWishlist}
                 toggle={props.toggleAddFavoriteModal}
             />
