@@ -30,6 +30,7 @@ export function GameDetailsContainer(props) {
             game={game}
             view={view}
             season={game?.league.season}
+            sport={props.sport}
             favoriteButtonHandle={props.favoriteButtonHandle}
             checkIfItemIsFavorite={props.checkIfItemIsFavorite}
             changeView={changeView}

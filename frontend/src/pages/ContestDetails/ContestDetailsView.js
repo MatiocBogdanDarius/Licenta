@@ -2,7 +2,7 @@ import React from 'react';
 import style from "./ContestDetails.module.css";
 import {Container} from "reactstrap";
 import Navbar from "components/navbar";
-import AddFavoriteModal from "components/modals/add_favorite_modal";
+import AddFavoriteModal from "components/modals/favorite_modal";
 import Footer from "components/footer";
 import Copyright from "components/copyright";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

@@ -1,11 +1,11 @@
 import * as React from 'react';
-import style from './AddFavoriteModal.module.css'
+import style from './FavoriteModal.module.css'
 import Modal from "react-overlays/Modal";
 import {Button} from "reactstrap";
 import {WISHLIST_ITEM_TYPE} from "assets/constants/Data";
 import Contest from "./components/contest";
 
-function AddFavoriteModalView(props) {
+function FavoriteModalView(props) {
     const renderBackdrop = (props) => <div className={style.backdrop} {...props} />;
 
     return (
@@ -53,7 +53,6 @@ function AddFavoriteModalView(props) {
                                         />
                                     );
                                 })}
-
                             </div>
                         }
                     </>
@@ -79,4 +78,4 @@ function AddFavoriteModalView(props) {
     );
 }
 
-export default AddFavoriteModalView;
+export default FavoriteModalView;

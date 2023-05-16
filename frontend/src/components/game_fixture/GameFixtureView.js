@@ -85,6 +85,7 @@ const GameFixtureView = (props) => {
                 isOpen={props.isOpenGameDetailsModal}
                 toggle={props.toggleGameDetailsModal}
                 gameId={props.game?.fixture?.id}
+                sport={props.selectedSport.name}
                 favoriteButtonHandle={props.favoriteButtonHandle}
                 checkIfItemIsFavorite={props.checkIfItemIsFavorite}
             />

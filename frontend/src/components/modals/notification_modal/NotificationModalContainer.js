@@ -8,5 +8,6 @@ export function NotificationModalContainer(props) {
             isOpen={props.isOpen}
             toggle={props.toggle}
             contentType={props.contentType}
+            
         />);
 }

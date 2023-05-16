@@ -7,7 +7,7 @@ import SportFilter from "components/filters/sport_filter_component";
 import GameStatusFilter from 'components/filters/game_status_filter_component';
 import DateFilter from 'components/filters/date_filter_component';
 import ContestsList from 'components/contests_list_component';
-import AddFavoriteModal from "components/modals/add_favorite_modal";
+import AddFavoriteModal from "components/modals/favorite_modal";
 import Footer from "components/footer";
 import Copyright from "components/copyright";
 

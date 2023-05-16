@@ -1,0 +1,1 @@
+export {FavoriteModalContainer as default} from "./FavoriteModalContainer";

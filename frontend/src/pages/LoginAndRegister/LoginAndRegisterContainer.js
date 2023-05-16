@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import LoginAndRegisterView from "./LoginAndRegisterView";
 import {useLocation} from "react-router-dom";
-import {LOGIN} from "../../navigation/CONSTANTS";
+import {LOGIN} from "navigation/CONSTANTS";
 
 export function LoginAndRegisterContainer() {
     const pathname = useLocation()?.pathname;

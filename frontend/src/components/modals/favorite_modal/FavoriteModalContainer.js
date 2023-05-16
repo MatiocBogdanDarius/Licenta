@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from "react";
-import AddFavoriteModalView from "./AddFavoriteModalView";
+import FavoriteModalView from "./FavoriteModalView";
 import * as SPORT_EVENT_AGGREGATOR_SERVICE from "services/api/sport_event_aggregator";
 import * as USER_ACCOUNT_SERVICE from "services/api/user_account_service";
 import {SPORTS, WISHLIST_ITEM_TYPE} from "assets/constants/Data";
 import {useParams} from "react-router-dom";
 
-export function AddFavoriteModalContainer(props) {
+export function FavoriteModalContainer(props) {
     const {sport} = useParams();
     const [isFavorite, setIsFavorite] = useState();
     const [games, setGames] = useState([]);
@@ -86,7 +86,7 @@ export function AddFavoriteModalContainer(props) {
     }
 
     return (
-        <AddFavoriteModalView
+        <FavoriteModalView
             isFavorite={isFavorite}
             isOpen={props.isOpen}
             toggle={props.toggle}
@@ -96,5 +96,6 @@ export function AddFavoriteModalContainer(props) {
             submitButtonHandle={submitButtonHandle}
             closeButtonHandle={closeButtonHandle}
             setSelectedGames={setSelectedGames}
-        />);
+        />
+    );
 }

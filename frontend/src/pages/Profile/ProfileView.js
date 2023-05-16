@@ -3,7 +3,7 @@ import style from './Profile.module.css'
 import {Container} from "reactstrap";
 import Calendar from 'components/calendar'
 import Navbar from "components/navbar";
-import AddFavoriteModal from "components/modals/add_favorite_modal";
+import AddFavoriteModal from "components/modals/favorite_modal";
 import GameDetailsModal from "components/modals/game_details_modal";
 
 function ProfileView(props) {
