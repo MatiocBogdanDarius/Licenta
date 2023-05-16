@@ -2,7 +2,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from . import utils
 
-LIVE = True
+LIVE = False
 STORE = False
 
 
@@ -107,13 +107,13 @@ def get_games_by_item(request):
         season = request.GET["season"]
 
     if item_type == "EVENT":
-        # games = utils.get_game_by_id(item_id, LIVE, STORE)
-        games = utils.get_game_by_id(item_id, True, True)
+        games = utils.get_game_by_id(item_id, LIVE, STORE)
+        # games = utils.get_game_by_id(item_id, True, True)
     elif item_type == "CONTEST":
-        # games = utils.get_games_by_contest(item_id, season, LIVE, STORE)
-        games = utils.get_games_by_contest(item_id, season, True, True)
+        games = utils.get_games_by_contest(item_id, season, LIVE, STORE)
+        # games = utils.get_games_by_contest(item_id, season, True, True)
     elif item_type == "TEAM":
-        # games = utils.get_games_by_team(item_id, season, LIVE, STORE)
-        games = utils.get_games_by_team(item_id, season, True, True)
+        games = utils.get_games_by_team(item_id, season, LIVE, STORE)
+        # games = utils.get_games_by_team(item_id, season, True, True)
 
     return Response(games)

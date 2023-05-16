@@ -75,7 +75,7 @@ const addEventsToCalendar = (sport, games) => {
             userId: userId
         }
     })
-    console.log(schedules)
+
     userAccountAxiosPrivate
         .post(
             "schedule",

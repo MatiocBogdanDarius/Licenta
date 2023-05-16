@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleDown, faAngleUp, faStar} from "@fortawesome/free-solid-svg-icons";
 import GameFixture from "components/game_fixture";
 import {WISHLIST_ITEM_TYPE} from "assets/constants/Data";
-import StandingsModal from "components/modals/standingsModal";
+import StandingsModal from "components/modals/standings_modal";
 
 const ContestFixturesView = (props) => {
     return (

@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -22,4 +23,5 @@ public class Notification implements Serializable {
     @ManyToOne()
     @JoinColumn(name = "wish_list_item", nullable = false)
     private Wishlist wishList;
+    private LocalDateTime date;
 }

@@ -28,8 +28,25 @@ def group_fixtures_by_contestant(fixtures):
     return contests
 
 
-def group_fixtures_by_status_and_round(fixtures):
+def group_by_date(games, before_today, today, after_today):
     current_date = datetime.utcnow().date()
+
+    for game in games:
+        game_date = datetime.strptime(game["fixture"]["date"][:10], "%Y-%m-%d").date()
+
+        if game_date < current_date:
+            before_today.append(game)
+        elif game_date > current_date:
+            after_today.append(game)
+        else:
+            today.append(game)
+
+    before_today.sort(reverse=True, key=lambda x: x["fixture"]["timestamp"])
+    today.sort(key=lambda x: x["fixture"]["timestamp"])
+    after_today.sort(key=lambda x: x["fixture"]["timestamp"])
+
+
+def group_fixtures_by_status_and_round(fixtures):
     contest = group_fixtures_by_contestant(fixtures)[0]
 
     before_today = contest.copy()
@@ -39,19 +56,8 @@ def group_fixtures_by_status_and_round(fixtures):
     after_today = contest.copy()
     after_today['games'] = []
 
-    for game in contest['games']:
-        game_date = datetime.strptime(game["fixture"]["date"][:10], "%Y-%m-%d").date()
+    group_by_date(contest["games"], before_today['games'], today['games'], after_today['games'])
 
-        if game_date < current_date:
-            before_today['games'].append(game)
-        elif game_date > current_date:
-            after_today['games'].append(game)
-        else:
-            today['games'].append(game)
-
-    before_today["games"].sort(reverse=True, key=lambda x: x["fixture"]["timestamp"])
-    today["games"].sort(key=lambda x: x["fixture"]["timestamp"])
-    after_today["games"].sort(key=lambda x: x["fixture"]["timestamp"])
     league = contest
     league["games"] = None
 
@@ -225,7 +231,13 @@ def get_games_by_contest(contest_id, season, live=True, store=True):
     url = f"/fixtures?&league={contest_id}&season={season}"
     filename = "FootballAPI/data/game_by_contest.json"
     data = get_data(url, filename, live, store)
-    return data
+    games = {
+        "before_today": [],
+        "today": [],
+        "after_today": [],
+    }
+    group_by_date(data, games["before_today"], games["today"], games["after_today"])
+    return games
 
 
 def get_games_by_team(team_id, season, live=True, store=True):
@@ -233,7 +245,24 @@ def get_games_by_team(team_id, season, live=True, store=True):
     print(date)
     url = f"/fixtures?&team={team_id}&season={season}"
     filename = "FootballAPI/data/game_by_team.json"
-    data = get_data(url, filename, live, store)
-    contests = group_fixtures_by_contestant(data)
+    games = get_data(url, filename, live, store)
+    contests = group_fixtures_by_contestant(games)
     contests = list(filter(lambda x: "Friend" not in x["name"], contests))
+
+    for contest in contests:
+        groupedGames = {
+            "before_today": [],
+            "today": [],
+            "after_today": [],
+        }
+
+        group_by_date(
+            contest["games"],
+            groupedGames["before_today"],
+            groupedGames["today"],
+            groupedGames["after_today"]
+        )
+
+        contest["games"] = groupedGames
+
     return contests

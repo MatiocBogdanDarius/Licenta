@@ -1,10 +1,7 @@
 package backend.user.account.service.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -13,6 +10,7 @@ import java.sql.Timestamp;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Entity(name="schedule_table")
 public class Schedule implements Serializable {
     @Id
@@ -24,10 +22,14 @@ public class Schedule implements Serializable {
     private Timestamp start;
     @Column(name = "end_date", nullable = false)
     private Timestamp end;
-    @Column(name = "name")
-    private String name;
-    @Column(name = "description")
-    private String description;
+    @Column(name = "country")
+    private String country;
+    @Column(name = "contest")
+    private String contest;
+    @Column(name = "player1")
+    private String player1;
+    @Column(name = "player2")
+    private String player2;
     @ManyToOne
     @JoinColumn(name = "source", nullable = false)
     private Source source;

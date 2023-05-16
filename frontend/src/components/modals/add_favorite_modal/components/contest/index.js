@@ -1,1 +1,0 @@
-export {ContestContainer as default} from "./ContestContainer";
