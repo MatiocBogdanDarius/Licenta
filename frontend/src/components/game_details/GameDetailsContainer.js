@@ -13,7 +13,7 @@ export function GameDetailsContainer(props) {
 
     const getGame = () => {
         SPORT_EVENT_AGGREGATOR_SERVICE
-            .getGame(props.gameId)
+            .getGame(props.sport, props.gameId)
             .then(response => {
                 setGame(response.data[0]);
                 console.log(response.data[0]);

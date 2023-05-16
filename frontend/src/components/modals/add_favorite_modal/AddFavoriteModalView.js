@@ -3,6 +3,7 @@ import style from './AddFavoriteModal.module.css'
 import Modal from "react-overlays/Modal";
 import {Button} from "reactstrap";
 import {WISHLIST_ITEM_TYPE} from "assets/constants/Data";
+import Contest from "./components/contest";
 
 function AddFavoriteModalView(props) {
     const renderBackdrop = (props) => <div className={style.backdrop} {...props} />;
@@ -27,26 +28,45 @@ function AddFavoriteModalView(props) {
                         <span className={style.close_button} onClick={props.toggle}>x</span>
                     </div>
                 </div>
-                {props.contentType === WISHLIST_ITEM_TYPE.CONTEST &&
-                    <div className={style.modal_body}>
-                        <p>Contest</p>
-                    </div>
-                }
-                {props.contentType === WISHLIST_ITEM_TYPE.TEAM &&
-                    <div className={style.modal_body}>
-                        <p>Team</p>
-                    </div>
-                }
-                {props.contentType === WISHLIST_ITEM_TYPE.PLAYER &&
-                    <div className={style.modal_body}>
-                        <p>Player</p>
-                    </div>
+                {!props.isFavorite &&
+                    <>
+                        {props.contentType === WISHLIST_ITEM_TYPE.CONTEST &&
+                            <div className={style.modal_body}>
+                                <Contest
+                                    games={props.games}
+                                    selectedGames={props.selectedGames}
+                                    showHeader={false}
+                                    setSelectedGames={props.setSelectedGames}
+                                />
+                            </div>
+                        }
+                        {props.contentType === WISHLIST_ITEM_TYPE.TEAM &&
+                            <div className={style.modal_body}>
+                                {props.games.map(contest => {
+                                    return (
+                                        <Contest
+                                            title={`${contest.country}: ${contest.name}`}
+                                            games={contest.games}
+                                            selectedGames={props.selectedGames}
+                                            showHeader={true}
+                                            setSelectedGames={props.setSelectedGames}
+                                        />
+                                    );
+                                })}
+
+                            </div>
+                        }
+                    </>
                 }
                 <div className={style.modal_footer}>
                     <Button className={style.success_button}
                             onClick={props.submitButtonHandle}
+                            disabled={!props.isFavorite && props.selectedGames.length === 0}
                     >
-                        {props.isFavorite ? "Yes" : "Add Event In Calendar"}
+                        {props.isFavorite ?
+                            "Yes"
+                            : `Add Event${ props.selectedGames?.length > 1 ? 's': ''} In Calendar`
+                        }
                     </Button>
                     <Button className={style.danger_button}
                             onClick={props.closeButtonHandle}

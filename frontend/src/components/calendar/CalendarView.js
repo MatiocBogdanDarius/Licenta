@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Calendar.module.css';
 import {IntlProvider, LocalizationProvider} from "@progress/kendo-react-intl";
 
-import {AgendaView, DayView, MonthView, Scheduler, WeekView} from '@progress/kendo-react-scheduler';
+import {AgendaView, DayView, MonthView, Scheduler, SchedulerItem, WeekView} from '@progress/kendo-react-scheduler';
 import '@progress/kendo-date-math/tz/Etc/UTC';
 import '@progress/kendo-date-math/tz/Europe/Sofia';
 import '@progress/kendo-date-math/tz/Europe/Madrid';
@@ -14,11 +14,22 @@ import 'Sport-Events/dist/css/sport-events.css';
 import {customModelFields} from './resources/events-utc';
 
 function CalendarView(props) {
+    const viewGameDetails = props.viewGameDetails
+
+    const CustomItem = (props) => (
+        <SchedulerItem
+            {...props}
+            onClick={() => viewGameDetails(props.dataItem)}
+        />
+    );
+
     return (
         <div className={style.calendar_section}>
             <LocalizationProvider language={props.locale.language}>
                 <IntlProvider locale={props.locale.locale}>
+                    {console.log("lemne", props.data)}
                     <Scheduler
+                        item={CustomItem}
                         className={style.scheduler}
                         data={props.data}
                         onDataChange={props.handleDataChange}
@@ -26,7 +37,7 @@ function CalendarView(props) {
                         onViewChange={props.handleViewChange}
                         date={props.date}
                         onDateChange={props.handleDateChange}
-                        editable={true}
+                        editable={false}
                         timezone={props.timezone}
                         modelFields={customModelFields}
                         group={{
@@ -41,7 +52,7 @@ function CalendarView(props) {
                             colorField: 'color'
                         }]}
                     >
-                        <DayView showWorkHours={false}/>
+                        <DayView showWorkHours={false} />
                         <WeekView showWorkHours={false}/>
                         <MonthView/>
                         <AgendaView/>

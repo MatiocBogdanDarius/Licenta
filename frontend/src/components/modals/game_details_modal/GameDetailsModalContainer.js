@@ -5,8 +5,9 @@ export function GameDetailsModalContainer(props) {
     return (
         <GameDetailsModalView
             isOpen={props.isOpen}
-            toggle={props.toggle}
+            sport={props.sport}
             gameId={props.gameId}
+            toggle={props.toggle}
             favoriteButtonHandle={props.favoriteButtonHandle}
             checkIfItemIsFavorite={props.checkIfItemIsFavorite}
         />);

@@ -13,6 +13,7 @@ import timeZoneNames from 'cldr-dates-full/main/es/timeZoneNames.json';
 import {timezoneNames} from "@progress/kendo-date-math";
 import {displayDate} from "./resources/events-utc";
 import {guid} from "@progress/kendo-react-common";
+import {SPORTS} from "../../assets/constants/Data";
 
 load(likelySubtags, currencyData, weekData, numbers, currencies, caGregorian, dateFields, timeZoneNames);
 
@@ -31,7 +32,7 @@ const locales = [{
     locale: 'es'
 }];
 
-export function CalendarContainer() {
+export function CalendarContainer(props) {
     const [view, setView] = useState('week');
     const [date, setDate] = useState(displayDate);
     const [locale, setLocale] = useState(locales[0]);
@@ -66,21 +67,29 @@ export function CalendarContainer() {
     }, []);
 
     const handleDataChange = useCallback(({created, updated, deleted}) => {
-        setData(old => old.filter(item => deleted.find(current => current.TaskID === item.TaskID) === undefined).map(item => updated.find(current => current.TaskID === item.TaskID) || item).concat(created.map(item => Object.assign({}, item, {
-            TaskID: guid()
-        }))));
+        // setData(old => {
+        //     old
+        //         .filter(item => deleted.find(current => current.TaskID === item.TaskID) === undefined)
+        //         .map(item => updated.find(current => current.TaskID === item.TaskID) || item)
+        //         .concat(created.map(item => Object.assign({}, item, {TaskID: guid()})))
+        // });
     }, [setData]);
+
+    const getTitle = (schedule) => {
+        return `\n${schedule.sport}\n${schedule.country}: ${schedule.contest} \n${schedule.player1} - ${schedule.player2}`;
+    }
 
     const getData = async () => {
         let schedules = await USER_ACCOUNT_SERVICE
             .getUserCalendar()
             .then(response => {
-                console.log(response.data)
+                console.log("Calendar -> schedules:", response.data)
                 return response.data.map(schedule => {
                     return {
                         ...schedule,
                         start: parseAdjust(schedule.start),
                         end: parseAdjust(schedule.end),
+                        title: getTitle(schedule),
                         StartTimezone: null,
                         EndTimezone: null,
                         RecurrenceRule: null,
@@ -91,7 +100,7 @@ export function CalendarContainer() {
                 })
             })
             .catch(() => []);
-
+        console.log(schedules)
         setData(schedules);
     }
 
@@ -110,6 +119,7 @@ export function CalendarContainer() {
             handleTimezoneChange={handleTimezoneChange}
             handleOrientationChange={handleOrientationChange}
             handleDataChange={handleDataChange}
+            viewGameDetails={props.viewGameDetails}
         />
     );
 }

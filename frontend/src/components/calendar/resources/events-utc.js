@@ -1,5 +1,5 @@
 export const customModelFields = {
-    id: 'id',
+    // id: 'id',
     title: 'title',
     start: 'start',
     end: 'end'

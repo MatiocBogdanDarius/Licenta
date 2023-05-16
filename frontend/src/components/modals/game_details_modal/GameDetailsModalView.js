@@ -30,7 +30,8 @@ function GameDetailsModalView(props) {
                 </div>
                 <div className={style.modal_body}>
                    <GameDetails
-                       gameId={1015969}
+                       sport={props.sport}
+                       gameId={props.gameId}
                        favoriteButtonHandle={props.favoriteButtonHandle}
                        checkIfItemIsFavorite={props.checkIfItemIsFavorite}
                    />
