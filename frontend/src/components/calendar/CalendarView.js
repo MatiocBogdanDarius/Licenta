@@ -27,7 +27,6 @@ function CalendarView(props) {
         <div className={style.calendar_section}>
             <LocalizationProvider language={props.locale.language}>
                 <IntlProvider locale={props.locale.locale}>
-                    {console.log("lemne", props.data)}
                     <Scheduler
                         item={CustomItem}
                         className={style.scheduler}

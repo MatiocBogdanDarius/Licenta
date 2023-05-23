@@ -25,23 +25,11 @@ public class ScheduleService {
         return scheduleRepository
                 .findAllByUser_Id(userId)
                 .stream()
-                .map(schedule -> ScheduleDetails
-                        .builder()
-                        .id(schedule.getId())
-                        .itemId(schedule.getItemId())
-                        .start(schedule.getStart())
-                        .end(schedule.getEnd())
-                        .country(schedule.getCountry())
-                        .contest(schedule.getContest())
-                        .player1(schedule.getPlayer1())
-                        .player2(schedule.getPlayer2())
-                        .sport(schedule.getSource().getName())
-                        .build()
-                )
+                .map(this::mapScheduleToScheduleDetails)
                 .toList();
     }
 
-    public void addSchedules(AddSchedulesRequest request) throws Exception {
+    public List<ScheduleDetails> addSchedules(AddSchedulesRequest request) throws Exception {
         var sourceName = request.getSchedules().get(0).getSport();
         var userId = request.getSchedules().get(0).getUserId();
 
@@ -60,10 +48,31 @@ public class ScheduleService {
                 ))
                 .collect(Collectors.toList());
 
-        scheduleRepository.saveAll(schedules);
+        schedules =  scheduleRepository.saveAll(schedules);
+
+        return schedules
+                .stream()
+                .map(this::mapScheduleToScheduleDetails)
+                .toList();
     }
 
-    public Schedule  mapScheduleDetailsToSchedule(
+    private ScheduleDetails mapScheduleToScheduleDetails(Schedule schedule) {
+        return ScheduleDetails
+                .builder()
+                .id(schedule.getId())
+                .itemId(schedule.getItemId())
+                .start(schedule.getStart())
+                .end(schedule.getEnd())
+                .country(schedule.getCountry())
+                .contest(schedule.getContest())
+                .player1(schedule.getPlayer1())
+                .player2(schedule.getPlayer2())
+                .userId(schedule.getUser().getId())
+                .sport(schedule.getSource().getName())
+                .build();
+    }
+
+    private Schedule  mapScheduleDetailsToSchedule(
             ScheduleDetails scheduleDetails,
             User user,
             Source source

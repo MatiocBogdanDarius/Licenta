@@ -1,37 +1,39 @@
 package backend.user.account.service.controller;
 
-import backend.user.account.service.dto.ScheduleDetails;
-import backend.user.account.service.dto.request.AddSchedulesRequest;
+import backend.user.account.service.dto.NotificationDetails;
+import backend.user.account.service.dto.request.AddNotificationsRequest;
 import backend.user.account.service.exception.CustomException;
-import backend.user.account.service.service.ScheduleService;
+import backend.user.account.service.service.NotificationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/schedule")
+@RequestMapping("api/v1/notification")
 @RequiredArgsConstructor
-public class ScheduleController {
-    private final ScheduleService scheduleService;
+public class NotificationController {
+    private final NotificationService notificationService;
 
     @GetMapping("/by_user_id")
-    public ResponseEntity<List<ScheduleDetails>> getByUserId(
+    public ResponseEntity<List<NotificationDetails>> getByUserId(
             @RequestParam long userId
     ) {
         return ResponseEntity
-                .ok(scheduleService.findAllByUserId(userId));
+                .ok(notificationService.findPastNotificationsByUserId(userId));
     }
 
     @PostMapping
-    public List<ScheduleDetails> addSchedules(
-            @RequestBody AddSchedulesRequest request
-    ) throws CustomException {
+    public void addNotifications(
+            @RequestBody AddNotificationsRequest request
+    ) throws CustomException
+    {
         try
         {
-            return scheduleService.addSchedules(request);
+            notificationService.addNotifications(request);
         } catch (Exception exception){
             var status = exception instanceof DataAccessException ?
                     HttpStatus.INTERNAL_SERVER_ERROR : HttpStatus.NOT_FOUND;

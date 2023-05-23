@@ -4,7 +4,7 @@ const RegisterFormView = (props) => {
     return (
         <div className={[styles.container, styles.aContainer, props.isActive ? "" : styles.isTxl ].join(" ") }
              id="a-container">
-            <form className={styles.form} id="a-form" onSubmit={props.register}>
+            <form className={styles.form} id="a-form" onSubmit={props.registerButtonHandle}>
                 <h2 className={["from_title", styles.title].join(" ")}>Create Account</h2>
                 <input
                     className={styles.form__input}

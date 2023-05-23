@@ -103,3 +103,23 @@ export const GAME_MENU = {
 }
 
 export const NO_IMAGE = 'https://media.api-sports.io/handball/teams/2.png';
+
+export const STANDARD_ALARMS = [
+    {id: 1, name: "At time of event", time: 0,  selected: false},
+    {id: 2, name: "30 mins before", time: 1_800_000, selected: false},
+    {id: 3, name: "1 hour before", time: 3_600_000, selected: true},
+    {id: 4, name: "1 day before", time: 86_400_000, selected: false},
+]
+
+export const TIME_UNIT = {
+    MINUTE: {singular: "min", plural: "mins", milliseconds: 60_000, max_value: 360},
+    HOUR: {singular: "hour", plural: "hours", milliseconds: 3_600_000, max_value: 99},
+    DAY: {singular: "day", plural: "days", milliseconds: 86_400_000, max_value: 365},
+    WEEK: {singular: "week", plural: "weeks", milliseconds: 604_800_000, max_value: 52},
+}
+
+export const NOTIFICATION_STATUS = {
+    UNSENT: 0,
+    UNREAD: 1,
+    READ: 2,
+}

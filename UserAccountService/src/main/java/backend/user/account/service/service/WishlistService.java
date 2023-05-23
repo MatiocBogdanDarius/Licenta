@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.groupingBy;
 
@@ -22,34 +23,6 @@ public class WishlistService {
     private final WishlistRepository wishlistRepository;
     private final UserRepository userRepository;
     private final SourceRepository sourceRepository;
-
-    public Map<Long, Map<String, List<WishListDetails>>> findByUserId(long userId) {
-        Map<Long, Map<String, List<WishListDetails>>> wishlist = new HashMap<>();
-        var wishlistItemsGroupBySource = wishlistRepository
-                .findAllByUser_Id(userId)
-                .orElse(new ArrayList<>())
-                .stream()
-                .map(wishlistItem -> WishListDetails
-                        .builder()
-                        .id(wishlistItem.getId())
-                        .itemId(wishlistItem.getItemId())
-                        .itemType(wishlistItem.getItemType().name())
-                        .sourceId(wishlistItem.getSource().getId())
-                        .userId(wishlistItem.getUser().getId())
-                        .build()
-                ).collect(groupingBy(WishListDetails::getSourceId));
-
-        wishlistItemsGroupBySource.keySet()
-                .forEach(sourceId -> {
-                    var wishlistItemsFromSourceGroupedByType =  wishlistItemsGroupBySource
-                            .get(sourceId)
-                            .stream()
-                            .collect(groupingBy(WishListDetails::getItemType));
-                    wishlist.put(sourceId, wishlistItemsFromSourceGroupedByType);
-                });
-
-        return wishlist;
-    }
 
     public void addItem(WishListDetails request) throws Exception {
         var itemType = ItemType.valueOf(request.getItemType());
@@ -87,5 +60,51 @@ public class WishlistService {
                 .orElseThrow(() -> new Exception("Wishlist not contains item"));
 
         wishlistRepository.deleteById(wishlistItem.getId());
+    }
+
+    public Map<Long, Map<String, List<WishListDetails>>> findByUserId(long userId) {
+        Map<Long, Map<String, List<WishListDetails>>> wishlist = new HashMap<>();
+
+        var wishlistItemsGroupBySource =
+                getWishlistItemsGroupBySource(userId);
+
+        for(var sourceId : wishlistItemsGroupBySource.keySet()) {
+            var wishlistForSource = wishlistItemsGroupBySource.get(sourceId);
+            var wishlistForSourceGroupedByType = groupByType(wishlistForSource);
+            wishlist.put(sourceId, wishlistForSourceGroupedByType);
+        }
+
+        return wishlist;
+    }
+
+    private Map<Long, List<WishListDetails>> getWishlistItemsGroupBySource(
+            Long userId
+    ){
+        return wishlistRepository
+                .findAllByUser_Id(userId)
+                .orElse(new ArrayList<>())
+                .stream()
+                .map(this::mapWishlistToWishlistDetails)
+                .collect(groupingBy(WishListDetails::getSourceId));
+    }
+
+    private Map<String, List<WishListDetails>> groupByType(
+            List<WishListDetails> wishlist
+    ){
+        return wishlist
+                .stream()
+                .collect(groupingBy(WishListDetails::getItemType));
+
+    }
+
+    private WishListDetails mapWishlistToWishlistDetails(Wishlist wishlist){
+        return WishListDetails
+                .builder()
+                .id(wishlist.getId())
+                .itemId(wishlist.getItemId())
+                .itemType(wishlist.getItemType().name())
+                .sourceId(wishlist.getSource().getId())
+                .userId(wishlist.getUser().getId())
+                .build();
     }
 }

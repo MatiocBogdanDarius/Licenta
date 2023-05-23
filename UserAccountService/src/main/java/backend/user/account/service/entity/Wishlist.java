@@ -8,7 +8,8 @@ import java.util.*;
 
 import static jakarta.persistence.CascadeType.ALL;
 
-@Data
+@Getter
+@Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
@@ -27,7 +28,4 @@ public class Wishlist implements Serializable {
     @ManyToOne
     @JoinColumn(name = "source", nullable = false)
     private Source source;
-    @OneToMany(cascade=ALL, mappedBy="wishList")
-    private Set<Notification> notifications = new HashSet<>();
-
 }

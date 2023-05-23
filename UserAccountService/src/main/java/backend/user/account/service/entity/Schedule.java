@@ -1,10 +1,12 @@
 package backend.user.account.service.entity;
 
 import jakarta.persistence.*;
+import static jakarta.persistence.CascadeType.ALL;
 import lombok.*;
-
 import java.io.Serializable;
 import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -35,4 +37,6 @@ public class Schedule implements Serializable {
     private Source source;
     @ManyToOne
     private User user;
+    @OneToMany(cascade=ALL, mappedBy="schedule")
+    private List<Notification> notifications = new ArrayList<>();
 }

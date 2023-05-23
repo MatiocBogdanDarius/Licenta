@@ -1,18 +1,17 @@
 package backend.user.account.service.entity;
 
+import backend.user.account.service.entity.enums.NotificationStatus;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
+import lombok.*;
 import java.io.Serializable;
-import java.time.LocalDateTime;
+import java.sql.Timestamp;
 
+@ToString
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Entity
 @Table(name = "notification_table")
 public class Notification implements Serializable {
@@ -20,8 +19,10 @@ public class Notification implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
-    @ManyToOne()
-    @JoinColumn(name = "wish_list_item", nullable = false)
-    private Wishlist wishList;
-    private LocalDateTime date;
+    @ManyToOne
+    @JoinColumn(name = "schedule_id", nullable = false)
+    private Schedule schedule;
+    private Timestamp date;
+    private String description;
+    private NotificationStatus notificationStatus;
 }

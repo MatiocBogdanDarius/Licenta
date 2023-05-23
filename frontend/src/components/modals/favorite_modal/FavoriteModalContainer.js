@@ -9,7 +9,9 @@ export function FavoriteModalContainer(props) {
     const {sport} = useParams();
     const [isFavorite, setIsFavorite] = useState();
     const [games, setGames] = useState([]);
-    const [selectedGames, setSelectedGames] = useState([])
+    const [selectedGames, setSelectedGames] = useState([]);
+    const [isOpenNotificationModal, setIsOpenNotificationModal] = useState(false);
+    const [schedules, setSchedules] = useState();
 
     useEffect(() => {
         if (props.isOpen){
@@ -61,9 +63,15 @@ export function FavoriteModalContainer(props) {
         })
     }
 
-    const addEventsToCalendar = () => {
-        console.log("add Events To Calendar")
-        USER_ACCOUNT_SERVICE.addEventsToCalendar(props.sport ?? sport, selectedGames)
+    const addEventsToCalendar = async () => {
+        USER_ACCOUNT_SERVICE
+            .addEventsToCalendar(props.sport ?? sport, selectedGames)
+            .then(response => {
+                setSchedules(response.data)
+                console.log("Saved schedules", response.data)
+            });
+
+        toggleNotificationModal();
     }
 
     const submitButtonHandle = (event) => {
@@ -85,6 +93,10 @@ export function FavoriteModalContainer(props) {
         props.toggle();
     }
 
+    const toggleNotificationModal = () => {
+        setIsOpenNotificationModal(prevState => !prevState);
+    }
+
     return (
         <FavoriteModalView
             isFavorite={isFavorite}
@@ -93,9 +105,13 @@ export function FavoriteModalContainer(props) {
             contentType={props.contentType}
             games={games}
             selectedGames={selectedGames}
+            isOpenNotificationModal={isOpenNotificationModal}
+            sport={props.sport ?? sport}
+            schedules={schedules}
             submitButtonHandle={submitButtonHandle}
             closeButtonHandle={closeButtonHandle}
             setSelectedGames={setSelectedGames}
+            toggleNotificationModal={toggleNotificationModal}
         />
     );
 }
