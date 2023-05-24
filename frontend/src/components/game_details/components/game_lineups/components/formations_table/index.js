@@ -1,0 +1,1 @@
+export {FormationsTableContainer as default} from "./FormationsTableContainer";

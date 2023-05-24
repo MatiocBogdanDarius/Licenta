@@ -3,6 +3,6 @@ import GameLineupsView from "./GameLineupsView";
 
 export function GameLineupsContainer(props) {
     return (
-        <GameLineupsView events={props.lineups}/>
+        <GameLineupsView lineups={props.lineups}/>
     );
 }

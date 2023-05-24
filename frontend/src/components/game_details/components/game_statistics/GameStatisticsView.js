@@ -13,7 +13,9 @@ function GameStatisticsView(props) {
             {props.statistics?.length === 0 && <p>Events are not available</p>}
             {Object.keys(props.statistics[0].statistics).map(statisticName => {
                 return props.statistics[0].statistics[statisticName].value
-                    ? <div className={style.statistic_container}>
+                    ? <div key={`statistic-${statisticName}`}
+                           className={style.statistic_container}
+                    >
                         <div className={style.statistic_info}>
                             <p>{props.statistics[0].statistics[statisticName].value}</p>
                             <h2>{props.statistics[0].statistics[statisticName].type}</h2>
@@ -32,7 +34,7 @@ function GameStatisticsView(props) {
                             </div>
                         </div>
                     </div>
-                    : <></>
+                    : <React.Fragment key={`statistic-${statisticName}`} />
             })}
         </div>
     );
