@@ -18,7 +18,7 @@ const ContestFixturesView = (props) => {
                                 event,
                                 props.contest.id,
                                 WISHLIST_ITEM_TYPE.CONTEST,
-                                props.contest.year
+                                props.contest.season
                             )}
                     >
                         <FontAwesomeIcon
