@@ -20,11 +20,6 @@ export function GameDetailsContainer(props) {
             })
     }
 
-    const changeView = (event, view) => {
-        event.preventDefault();
-        setView(view);
-    }
-
     return (
         <GameDetailsView
             game={game}
@@ -33,7 +28,7 @@ export function GameDetailsContainer(props) {
             sport={props.sport}
             favoriteButtonHandle={props.favoriteButtonHandle}
             checkIfItemIsFavorite={props.checkIfItemIsFavorite}
-            changeView={changeView}
+            changeView={setView}
         />
     );
 }
