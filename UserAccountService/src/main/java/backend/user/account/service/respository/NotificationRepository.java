@@ -10,7 +10,7 @@ import java.util.List;
 
 @Repository
 public interface NotificationRepository extends JpaRepository<Notification, Long> {
-    List<Notification> findByNotificationStatusAndDateLessThan(
+    List<Notification> findByStatusAndDateLessThan(
             NotificationStatus notificationStatus,
             Timestamp date
     );

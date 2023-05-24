@@ -12,5 +12,8 @@ public class NotificationDetails {
     private Timestamp date;
     private String description;
     private int status;
+    private ScheduleDetails schedule;
+    private String unit;
+    private long numberOfUnits;
 }
 

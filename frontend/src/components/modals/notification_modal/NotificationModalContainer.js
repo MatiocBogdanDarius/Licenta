@@ -34,12 +34,16 @@ export function NotificationModalContainer(props) {
         return notificationId + 1;
     }
 
+    const getNotificationName = (unit) => {
+        return `${numberOfUnits} ${numberOfUnits > 1 ? unit.plural : unit.singular} before`;
+    }
+
     const saveCustomNotification = () => {
-        const unit = TIME_UNIT[selectedUnit]
         const newNotification = {
             id: generateId(),
-            time: numberOfUnits * unit.milliseconds,
-            name: `${numberOfUnits} ${numberOfUnits > 1 ? unit.plural : unit.singular} before`,
+            unit: selectedUnit,
+            numberOfUnits: numberOfUnits,
+            name: getNotificationName(TIME_UNIT[selectedUnit]),
             selected: true
         }
 

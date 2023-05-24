@@ -1,6 +1,7 @@
 package backend.user.account.service.entity;
 
 import backend.user.account.service.entity.enums.NotificationStatus;
+import backend.user.account.service.entity.enums.TimeUnitType;
 import jakarta.persistence.*;
 import lombok.*;
 import java.io.Serializable;
@@ -24,5 +25,7 @@ public class Notification implements Serializable {
     private Schedule schedule;
     private Timestamp date;
     private String description;
-    private NotificationStatus notificationStatus;
+    private NotificationStatus status;
+    private TimeUnitType unit;
+    private long numberOfUnits;
 }

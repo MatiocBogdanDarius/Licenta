@@ -1,6 +1,5 @@
 package backend.user.account.service.notification.system;
 
-import backend.user.account.service.config.RabbitMQConfig;
 import backend.user.account.service.entity.Notification;
 import backend.user.account.service.entity.enums.NotificationStatus;
 import backend.user.account.service.respository.NotificationRepository;
@@ -22,7 +21,7 @@ public class NotificationScheduler {
         List<Notification> notifications = findPastUnsentNotifications();
 
         for (Notification notification : notifications) {
-            notification.setNotificationStatus(NotificationStatus.UNREAD);
+            notification.setStatus(NotificationStatus.UNREAD);
             notificationPublisher.sendNotification(notification);
         }
 
@@ -32,7 +31,7 @@ public class NotificationScheduler {
     private List<Notification> findPastUnsentNotifications() {
         var currentDateTime = new Timestamp(System.currentTimeMillis());
 
-        return notificationRepository.findByNotificationStatusAndDateLessThan(
+        return notificationRepository.findByStatusAndDateLessThan(
                 NotificationStatus.UNSENT,
                 currentDateTime
         );

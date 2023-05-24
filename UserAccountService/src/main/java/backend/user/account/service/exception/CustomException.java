@@ -1,10 +1,12 @@
 package backend.user.account.service.exception;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 import org.springframework.http.HttpStatus;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@RequiredArgsConstructor
 @Builder
 public class CustomException extends Exception {
     private HttpStatus status;

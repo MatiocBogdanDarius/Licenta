@@ -1,5 +1,5 @@
 import {userAccountAxios, userAccountAxiosPrivate} from "./axios";
-import {SPORTS} from "assets/constants/Data";
+import {SPORTS, TIME_UNIT} from "assets/constants/Data";
 
 const getCurrentUser = () => {
     const user = localStorage.getItem("userDetails");
@@ -92,7 +92,9 @@ const addEventsToCalendar = (sport, games) => {
         .post("schedule", {schedules: schedules});
 }
 
-const getNotificationDateTime = (scheduleStartDatetime, alarmTime) => {
+const getNotificationDateTime = (scheduleStartDatetime, alarm) => {
+    console.log(alarm.unit)
+    const alarmTime = alarm.numberOfUnits * TIME_UNIT[alarm.unit].milliseconds;
     const notificationDate = new Date(scheduleStartDatetime);
     notificationDate.setMilliseconds(notificationDate.getMilliseconds() - alarmTime);
 
@@ -102,8 +104,10 @@ const getNotificationDateTime = (scheduleStartDatetime, alarmTime) => {
 const createNotification = (schedule, alarm) => {
     return {
         scheduleId: schedule.id,
-        date: getNotificationDateTime(schedule.start, alarm.time),
-        description: alarm.name
+        date: getNotificationDateTime(schedule.start, alarm),
+        description: alarm.name,
+        unit: alarm.unit,
+        numberOfUnits: alarm.numberOfUnits
     };
 }
 

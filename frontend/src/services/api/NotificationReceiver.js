@@ -29,13 +29,14 @@ const NotificationReceiver = (props) => {
     }
 
     return(
-        userId
+        socketTopics.length > 0
             ? <SockJsClient
                 url={socketUrl}
                 topics={socketTopics}
                 onConnect={onConnectSocket}
                 onDisconnect={onDisconnectSocket}
                 onMessage={socketHandler}
+                onError={console.error}
             />
             : <></>
     );

@@ -1,10 +1,12 @@
 package backend.user.account.service.service;
 
 import backend.user.account.service.dto.NotificationDetails;
+import backend.user.account.service.dto.ScheduleDetails;
 import backend.user.account.service.dto.request.AddNotificationsRequest;
 import backend.user.account.service.entity.Notification;
 import backend.user.account.service.entity.Schedule;
 import backend.user.account.service.entity.enums.NotificationStatus;
+import backend.user.account.service.entity.enums.TimeUnitType;
 import backend.user.account.service.respository.NotificationRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -29,24 +31,6 @@ public class NotificationService {
         notificationRepository.saveAll(notifications);
     }
 
-    private Notification mapNotificationDetailsToNotification(
-            NotificationDetails notification
-    ) {
-        return Notification
-                .builder()
-                .schedule(createSchedule(notification.getScheduleId()))
-                .date(notification.getDate())
-                .description(notification.getDescription())
-                .build();
-    }
-
-    private Schedule createSchedule(Long id){
-        return Schedule
-                .builder()
-                .id(id)
-                .build();
-    }
-
     public List<NotificationDetails> findPastNotificationsByUserId(long userId) {
         Timestamp currentDateTime = new Timestamp(System.currentTimeMillis());
 
@@ -57,16 +41,60 @@ public class NotificationService {
                 .toList();
     }
 
+    private Notification mapNotificationDetailsToNotification(
+            NotificationDetails notification
+    ) {
+        return Notification
+                .builder()
+                .schedule(createSchedule(notification.getScheduleId()))
+                .date(notification.getDate())
+                .description(notification.getDescription())
+                .status(NotificationStatus.UNSENT)
+                .unit(TimeUnitType.valueOf(notification.getUnit()))
+                .numberOfUnits(notification.getNumberOfUnits())
+                .build();
+    }
+
     private NotificationDetails mapNotificationToNotificationDetails(
             Notification notification
     ){
+        var schedule = mapScheduleToScheduleDetails(
+            notification.getSchedule()
+        );
+
         return NotificationDetails
                 .builder()
                 .id(notification.getId())
                 .scheduleId(notification.getSchedule().getId())
+                .schedule(schedule)
                 .date(notification.getDate())
                 .description(notification.getDescription())
-                .status(notification.getNotificationStatus().ordinal())
+                .status(notification.getStatus().ordinal())
+                .unit(notification.getUnit().name())
+                .numberOfUnits(notification.getNumberOfUnits())
+                .build();
+    }
+
+    private Schedule createSchedule(Long id){
+        return Schedule
+                .builder()
+                .id(id)
+                .build();
+    }
+
+    private ScheduleDetails mapScheduleToScheduleDetails(Schedule schedule) {
+        return ScheduleDetails
+                .builder()
+                .id(schedule.getId())
+                .itemId(schedule.getItemId())
+                .start(schedule.getStart())
+                .end(schedule.getEnd())
+                .country(schedule.getCountry())
+                .contest(schedule.getContest())
+                .player1(schedule.getPlayer1())
+                .player2(schedule.getPlayer2())
+                .userId(schedule.getUser().getId())
+                .sport(schedule.getSource().getName())
                 .build();
     }
 }

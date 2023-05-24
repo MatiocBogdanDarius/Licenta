@@ -29,7 +29,9 @@ public class NotificationPublisher {
                 .scheduleId(notification.getSchedule().getId())
                 .date(notification.getDate())
                 .description(notification.getDescription())
-                .status(notification.getNotificationStatus().ordinal())
+                .status(notification.getStatus().ordinal())
+                .unit(notification.getUnit().name())
+                .numberOfUnits(notification.getNumberOfUnits())
                 .build();
     }
 }
