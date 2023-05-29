@@ -8,21 +8,72 @@ headers = {
 }
 
 
+def format_evolution_score(games):
+    games[0]['evolutionScore'] = {
+        'teams': {
+            'home': games[0]['teams']['home'],
+            'away': games[0]['teams']['away'],
+        },
+        'evolution': [
+            {
+                'short_name': "F",
+                'long_name': "Final Score",
+                'values': {
+                    'home': games[0]['scores']['home'],
+                    'away': games[0]['scores']['away'],
+                },
+                'bold': True
+            },
+            {
+                'short_name': "H1",
+                'long_name': "1st HALF",
+                'values': {
+                    'home': games[0]['periods']['first']['home'],
+                    'away': games[0]['periods']['first']['away'],
+                }
+            },
+            {
+                'short_name': "H2",
+                'long_name': "2nd HALF",
+                'values': {
+                    'home': games[0]['periods']['second']['home'],
+                    'away': games[0]['periods']['second']['away'],
+                }
+            },
+        ],
+    }
+
+    games[0]['goals'] = {
+        'away': games[0]['goals']['away'],
+        'home': games[0]['goals']['home'],
+    }
+
+    return games
+
+
+def restructure_game_fields(game):
+    game['fixture'] = {
+        'id': game['id'],
+        'date': game['date'],
+        'status': game['status'],
+        'timestamp': game['timestamp'],
+        'timezone': game['timezone'],
+    }
+
+    game["goals"] = game["scores"]
+
+    game["league"]["country"] = game["country"]["name"]
+
+
+def restructure_games_fields(games):
+    for game in games:
+        restructure_game_fields(game)
+
+
 def group_fixtures_by_contestant(fixtures):
     leagues = set(map(lambda x: x['league']['id'], fixtures))
 
-    for game in fixtures:
-        game['fixture'] = {
-            'id': game['id'],
-            'date': game['date'],
-            'status': game['status'],
-            'timestamp': game['timestamp'],
-            'timezone': game['timezone'],
-        }
-
-        game["goals"] = game["scores"]
-
-        game["league"]["country"] = game["country"]["name"]
+    restructure_games_fields(fixtures)
 
     gamesGroups = [[game for game in fixtures if game['league']['id'] == league] for league in leagues]
     contests = []

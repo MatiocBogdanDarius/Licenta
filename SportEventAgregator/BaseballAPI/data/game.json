@@ -1,0 +1,75 @@
+[
+  {
+    "id": 140903,
+    "date": "2023-05-05T05:00:00+00:00",
+    "time": "05:00",
+    "timestamp": 1683262800,
+    "timezone": "UTC",
+    "week": null,
+    "status": {
+      "long": "Finished",
+      "short": "FT"
+    },
+    "country": {
+      "id": 2,
+      "name": "Japan",
+      "code": "JP",
+      "flag": "https://media-1.api-sports.io/flags/jp.svg"
+    },
+    "league": {
+      "id": 2,
+      "name": "NPB",
+      "type": "League",
+      "logo": "https://media-3.api-sports.io/baseball/leagues/2.png",
+      "season": 2023
+    },
+    "teams": {
+      "home": {
+        "id": 56,
+        "name": "Chunichi Dragons",
+        "logo": "https://media-3.api-sports.io/baseball/teams/56.png"
+      },
+      "away": {
+        "id": 66,
+        "name": "Yomiuri Giants",
+        "logo": "https://media-1.api-sports.io/baseball/teams/66.png"
+      }
+    },
+    "scores": {
+      "home": {
+        "hits": 11,
+        "errors": 0,
+        "innings": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 0,
+          "7": 0,
+          "8": 6,
+          "9": null,
+          "extra": null
+        },
+        "total": 8
+      },
+      "away": {
+        "hits": 10,
+        "errors": 0,
+        "innings": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "extra": null
+        },
+        "total": 3
+      }
+    }
+  }
+]

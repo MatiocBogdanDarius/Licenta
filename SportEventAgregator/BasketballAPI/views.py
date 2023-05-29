@@ -80,6 +80,10 @@ def get_standings(request):
 
 @api_view(['GET'])
 def get_game(request):
-    # todo: this method
-    URL = utils.create_request_url("/fixtures", request.GET)
-    return Response([])
+    URL = utils.create_request_url("/games", request.GET)
+
+    games = utils.get_data(URL, "BasketballAPI/data/game.json", LIVE, STORE)
+    utils.restructure_games_fields(games)
+    utils.format_evolution_score(games)
+
+    return Response(games)

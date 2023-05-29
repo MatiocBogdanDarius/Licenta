@@ -8,21 +8,152 @@ headers = {
 }
 
 
+def format_evolution_score(games):
+    games[0]['evolutionScore'] = {
+        'teams': {
+            'home': games[0]['teams']['home'],
+            'away': games[0]['teams']['away'],
+        },
+        'evolution': [
+            {
+                'short_name': "R",
+                'long_name': "Runs",
+                'values': {
+                    'home': games[0]['scores']['home']['total'],
+                    'away': games[0]['scores']['away']['total'],
+                },
+                'bold': True
+            },
+            {
+                'short_name': "I1",
+                'long_name': "1st Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['1'],
+                    'away': games[0]['scores']['away']['innings']['1'],
+                }
+            },
+            {
+                'short_name': "I2",
+                'long_name': "2nd Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['2'],
+                    'away': games[0]['scores']['away']['innings']['2'],
+                }
+            },
+            {
+                'short_name': "I3",
+                'long_name': "3rd Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['3'],
+                    'away': games[0]['scores']['away']['innings']['3'],
+                }
+            },
+            {
+                'short_name': "I4",
+                'long_name': "4th Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['4'],
+                    'away': games[0]['scores']['away']['innings']['4'],
+                }
+            },
+            {
+                'short_name': "I5",
+                'long_name': "5th Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['5'],
+                    'away': games[0]['scores']['away']['innings']['5'],
+                }
+            },
+            {
+                'short_name': "I6",
+                'long_name': "6th Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['6'],
+                    'away': games[0]['scores']['away']['innings']['6'],
+                }
+            },
+            {
+                'short_name': "I7",
+                'long_name': "7th Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['7'],
+                    'away': games[0]['scores']['away']['innings']['7'],
+                }
+            },
+            {
+                'short_name': "I8",
+                'long_name': "8th Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['8'],
+                    'away': games[0]['scores']['away']['innings']['8'],
+                }
+            },
+            {
+                'short_name': "I9",
+                'long_name': "9th Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['9'],
+                    'away': games[0]['scores']['away']['innings']['9'],
+                }
+            },
+            {
+                'short_name': "EI",
+                'long_name': "Extra Inning",
+                'values': {
+                    'home': games[0]['scores']['home']['innings']['extra'],
+                    'away': games[0]['scores']['away']['innings']['extra'],
+                }
+            },
+            {
+                'short_name': "H",
+                'long_name': "Hits",
+                'values': {
+                    'home': games[0]['scores']['home']['hits'],
+                    'away': games[0]['scores']['away']['hits'],
+                }
+            },
+            {
+                'short_name': "E",
+                'long_name': "Errors",
+                'values': {
+                    'home': games[0]['scores']['home']['errors'],
+                    'away': games[0]['scores']['away']['errors'],
+                }
+            },
+        ],
+    }
+
+    games[0]['goals'] = {
+        'away': games[0]['goals']['away']['total'],
+        'home': games[0]['goals']['home']['total'],
+    }
+
+    return games
+
+
+def restructure_game_fields(game):
+    game['fixture'] = {
+        'id': game['id'],
+        'date': game['date'],
+        'status': game['status'],
+        'timestamp': game['timestamp'],
+        'timezone': game['timezone'],
+    }
+
+    game["goals"] = game["scores"]
+
+    game["league"]["country"] = game["country"]["name"]
+
+
+def restructure_games_fields(games):
+    for game in games:
+        restructure_game_fields(game)
+
+
 def group_fixtures_by_contestant(fixtures):
     leagues = set(map(lambda x: x['league']['id'], fixtures))
 
-    for game in fixtures:
-        game['fixture'] = {
-            'id': game['id'],
-            'date': game['date'],
-            'status': game['status'],
-            'timestamp': game['timestamp'],
-            'timezone': game['timezone'],
-        }
-
-        game["goals"] = game["scores"]
-
-        game["league"]["country"] = game["country"]["name"]
+    restructure_games_fields(fixtures)
 
     gamesGroups = [[game for game in fixtures if game['league']['id'] == league] for league in leagues]
     contests = []
@@ -175,7 +306,7 @@ def get_stored_contests():
 
 
 def get_info_from_extern_api(url):
-    conn = http.client.HTTPSConnection("v1.handball.api-sports.io")
+    conn = http.client.HTTPSConnection("v1.baseball.api-sports.io")
     conn.request("GET", url, headers=headers)
 
     res = conn.getresponse()

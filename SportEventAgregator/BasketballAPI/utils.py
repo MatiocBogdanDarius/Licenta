@@ -8,21 +8,96 @@ headers = {
 }
 
 
+def format_evolution_score(games):
+    games[0]['evolutionScore'] = {
+        'teams': {
+            'home': games[0]['teams']['home'],
+            'away': games[0]['teams']['away'],
+        },
+        'evolution': [
+            {
+                'short_name': "F",
+                'long_name': "Final Score",
+                'values': {
+                    'home': games[0]['scores']['home']['total'],
+                    'away': games[0]['scores']['away']['total'],
+                },
+                'bold': True
+            },
+            {
+                'short_name': "Q1",
+                'long_name': "Quarter 1",
+                'values': {
+                    'home': games[0]['scores']['home']['quarter_1'],
+                    'away': games[0]['scores']['away']['quarter_1'],
+                }
+            },
+            {
+                'short_name': "Q2",
+                'long_name': "Quarter 2",
+                'values': {
+                    'home': games[0]['scores']['home']['quarter_2'],
+                    'away': games[0]['scores']['away']['quarter_2'],
+                }
+            },
+            {
+                'short_name': "Q3",
+                'long_name': "Quarter 3",
+                'values': {
+                    'home': games[0]['scores']['home']['quarter_3'],
+                    'away': games[0]['scores']['away']['quarter_3'],
+                }
+            },
+            {
+                'short_name': "Q4",
+                'long_name': "Quarter 4",
+                'values': {
+                    'home': games[0]['scores']['home']['quarter_4'],
+                    'away': games[0]['scores']['away']['quarter_4'],
+                }
+            },
+            {
+                'short_name': "OT",
+                'long_name': "Over Time",
+                'values': {
+                    'home': games[0]['scores']['home']['over_time'],
+                    'away': games[0]['scores']['away']['over_time'],
+                }
+            },
+        ],
+    }
+
+    games[0]['goals'] = {
+        'away': games[0]['goals']['away']['total'],
+        'home': games[0]['goals']['home']['total'],
+    }
+
+    return games
+
+
+def restructure_game_fields(game):
+    game['fixture'] = {
+        'id': game['id'],
+        'date': game['date'],
+        'status': game['status'],
+        'timestamp': game['timestamp'],
+        'timezone': game['timezone'],
+    }
+
+    game["goals"] = game["scores"]
+
+    game["league"]["country"] = game["country"]["name"]
+
+
+def restructure_games_fields(games):
+    for game in games:
+        restructure_game_fields(game)
+
+
 def group_fixtures_by_contestant(fixtures):
     leagues = set(map(lambda x: x['league']['id'], fixtures))
 
-    for game in fixtures:
-        game['fixture'] = {
-            'id': game['id'],
-            'date': game['date'],
-            'status': game['status'],
-            'timestamp': game['timestamp'],
-            'timezone': game['timezone'],
-        }
-
-        game["goals"] = game["scores"]
-
-        game["league"]["country"] = game["country"]["name"]
+    restructure_game_fields(fixtures)
 
     gamesGroups = [[game for game in fixtures if game['league']['id'] == league] for league in leagues]
     contests = []
