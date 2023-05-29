@@ -1,9 +1,9 @@
 import {useEffect, useState} from "react";
-import SockJsClient from "react-stomp";
 import * as USER_ACCOUNT_SERVICES from "services/api/user_account_service";
+import { Client } from '@stomp/stompjs';
+import SockJS from 'sockjs-client';
 
 const NotificationReceiver = (props) => {
-    const [socketTopics, setSocketTopics] = useState([]);
     const socketUrl =`http://localhost:8080/websocket`;
     const [userId, setUserId] = useState();
 
@@ -12,34 +12,30 @@ const NotificationReceiver = (props) => {
     }, [])
 
     useEffect(() => {
-        userId && setSocketTopics([`/topic/notification/${userId}`]);
-    }, [userId])
+        if (userId) {
+            const socket = new SockJS(socketUrl);
 
-    const socketHandler = (notification) => {
-       console.log(notification);
-       props.updateNotificationList(prevState => [...prevState, notification]);
-    }
+            const stompClient = new Client();
+            stompClient.webSocketFactory = () => socket;
 
-    const onConnectSocket = () => {
-        console.log("Notification Receiver: Connected!!");
-    }
+            const onNotificationReceived = (message) => {
+                console.log('Received notification:', message.body);
+                props.updateNotificationList(prevState => [...prevState, message.body]);
+            };
 
-    const onDisconnectSocket = () => {
-        console.log("Notification Receiver: Disconnected!");
-    }
+            stompClient.onConnect = () => {
+                stompClient.subscribe(`/topic/notification/${userId}`, onNotificationReceived);
+            };
 
-    return(
-        socketTopics.length > 0
-            ? <SockJsClient
-                url={socketUrl}
-                topics={socketTopics}
-                onConnect={onConnectSocket}
-                onDisconnect={onDisconnectSocket}
-                onMessage={socketHandler}
-                onError={console.error}
-            />
-            : <></>
-    );
+            stompClient.activate();
+
+            return () => {
+                stompClient.deactivate();
+            };
+        }
+    }, [userId]);
+
+    return <></>
 };
 
 export default NotificationReceiver;
