@@ -66,7 +66,7 @@ function HeaderView(props) {
                 </div>
             </div>
             <div className={style.menu_container}>
-                {Object.values(GAME_MENU).map(item => {
+                {Object.values(GAME_MENU[props.sport]).map(item => {
                     return (
                         <p
                             key={`item-${item}`}

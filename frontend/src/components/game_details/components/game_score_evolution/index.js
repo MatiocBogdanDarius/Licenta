@@ -1,0 +1,1 @@
+export {GameScoreEvolutionContainer as default} from "./GameScoreEvolutionContainer";

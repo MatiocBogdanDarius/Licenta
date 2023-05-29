@@ -95,11 +95,30 @@ export const TEAM_MENU = {
     },
 }
 
-export const GAME_MENU = {
+export const GAME_MENU_OPTIONS = {
     EVENTS: 'EVENTS',
     STATISTICS: 'STATISTICS',
     LINEUPS: 'LINEUPS',
     PLAYERS: 'PLAYERS',
+    SCORE_EVOLUTION: 'SCORE EVOLUTION',
+}
+
+export const GAME_MENU = {
+    FOOTBALL: {
+        EVENTS: GAME_MENU_OPTIONS.EVENTS,
+        STATISTICS: GAME_MENU_OPTIONS.STATISTICS,
+        LINEUPS: GAME_MENU_OPTIONS.LINEUPS,
+        PLAYERS: GAME_MENU_OPTIONS.PLAYERS,
+    },
+    HANDBALL: {
+        SCORE_EVOLUTION: GAME_MENU_OPTIONS.SCORE_EVOLUTION,
+    },
+    BASEBALL: {
+        SCORE_EVOLUTION: GAME_MENU_OPTIONS.SCORE_EVOLUTION,
+    },
+    BASKETBALL: {
+        SCORE_EVOLUTION: GAME_MENU_OPTIONS.SCORE_EVOLUTION,
+    }
 }
 
 export const NO_IMAGE = 'https://media.api-sports.io/handball/teams/2.png';
