@@ -1,0 +1,116 @@
+.container {
+    width: 95%;
+    margin: 20px auto;
+    background: #474B4F;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.header {
+    border-radius: 10px 10px 0 0;
+    background: rgba(160, 165, 168, 0.5);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid
+    rgba(134, 194, 50, 0.1);
+}
+
+.card_yellow {
+    margin: auto;
+    height: 20px;
+    width: 15px;
+    border-radius: 5px;
+    background: #ffcd00;
+    transform: rotate(-20deg);
+}
+
+.card_red {
+    margin: auto;
+    height: 20px;
+    width: 15px;
+    border-radius: 5px;
+    background: #dc0000;
+    transform: rotate(-20deg);
+}
+
+.player_name_header {
+    min-width: 150px;
+    margin: auto 10px auto 60px;
+    font-size: 18px;
+    font-weight: bold;
+    text-wrap: normal;
+}
+
+.row {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid
+    rgba(134, 194, 50, 0.1);
+}
+
+.player_container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.player_photo {
+    height: 30px;
+    margin: auto 10px;
+    border-radius: 90%;
+}
+
+.player_name {
+    max-width: 300px;
+    margin: auto 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-wrap: normal;
+}
+
+.statistics_container {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics_column {
+    min-width: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icon {
+    color: white;
+    width: 20px;
+}
+
+.nationality_column {
+    min-width: 150px;
+    font-weight: bold;
+    text-wrap: normal;
+    text-align: center;
+}
+
+.link {
+    margin: 10px auto;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.link:hover {
+    text-decoration: none;
+    cursor: pointer;
+}

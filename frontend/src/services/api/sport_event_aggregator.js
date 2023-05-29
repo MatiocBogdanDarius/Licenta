@@ -97,7 +97,7 @@ const getSquad = (league, season, team) => {
 const getGame = (sport,id) => {
     return sportEventAggregatorAxios.get(
         `${sport.toLowerCase()}/game/`,
-        {params: {id: id}}
+        {params: {id: 868259}}
     )
 }
 

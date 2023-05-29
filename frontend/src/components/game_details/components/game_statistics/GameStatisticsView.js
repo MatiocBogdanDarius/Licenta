@@ -17,9 +17,9 @@ function GameStatisticsView(props) {
                            className={style.statistic_container}
                     >
                         <div className={style.statistic_info}>
-                            <p>{props.statistics[0].statistics[statisticName].value}</p>
+                            <p>{props.statistics[0].statistics[statisticName].value ?? 0}</p>
                             <h2>{props.statistics[0].statistics[statisticName].type}</h2>
-                            <p>{props.statistics[1].statistics[statisticName].value}</p>
+                            <p>{props.statistics[1].statistics[statisticName].value ?? 0}</p>
                         </div>
                         <div className={style.bars}>
                             <div className={`${style.bar} ${style.display_reverse}`}>

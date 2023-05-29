@@ -1,0 +1,1 @@
+export {TeamPlayersStatisticsContainer as default} from "./TeamPlayersStatisticsContainer";

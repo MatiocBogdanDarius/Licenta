@@ -6,6 +6,7 @@ import GameStatistics from "./components/game_statistics";
 import Header from "./components/header";
 import LoadingSpinner from "components/loading_spinner";
 import GameLineups from "./components/game_lineups";
+import GamePlayers from "./components/game_players";
 
 function GameDetailsView(props) {
     return (
@@ -32,6 +33,9 @@ function GameDetailsView(props) {
                     }
                     {props.view === GAME_MENU.LINEUPS &&
                         <GameLineups lineups={props.game.lineups}/>
+                    }
+                    {props.view === GAME_MENU.PLAYERS &&
+                        <GamePlayers players={props.game.players}/>
                     }
                 </>
                 : <LoadingSpinner />
